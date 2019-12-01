@@ -1,0 +1,1976 @@
+<Gff Version="1" Type="GIT">
+    <Struct Name="AreaProperties" Id="100">
+        <Int Name="AmbientSndDay">63</Int>
+        <Int Name="AmbientSndDayVol">32</Int>
+        <Int Name="AmbientSndNight">63</Int>
+        <Int Name="AmbientSndNitVol">32</Int>
+        <Int Name="EnvAudio">0</Int>
+        <Int Name="MusicBattle">39</Int>
+        <Int Name="MusicDay">9</Int>
+        <Int Name="MusicDelay">90000</Int>
+        <Int Name="MusicNight">10</Int>
+    </Struct>
+    <List Name="Creature List"/>
+    <List Name="Door List">
+        <Struct Id="8">
+            <Byte Name="AnimationState">1</Byte>
+            <DWord Name="Appearance">53</DWord>
+            <Byte Name="AutoRemoveKey">0</Byte>
+            <Float Name="Bearing">-1.570794</Float>
+            <Byte Name="CloseLockDC">0</Byte>
+            <CExoString Name="Comment"></CExoString>
+            <ResRef Name="Conversation"></ResRef>
+            <Short Name="CurrentHP">80</Short>
+            <CExoLocString Name="Description">
+                <DWord Name="StringRef">4294967295</DWord>
+            </CExoLocString>
+            <Byte Name="DisarmDC">15</Byte>
+            <DWord Name="Faction">1</DWord>
+            <Byte Name="Fort">16</Byte>
+            <Byte Name="GenericType">0</Byte>
+            <Short Name="HP">80</Short>
+            <Byte Name="Hardness">5</Byte>
+            <Byte Name="Interruptable">1</Byte>
+            <CExoString Name="KeyName"></CExoString>
+            <Byte Name="KeyRequired">0</Byte>
+            <CExoString Name="LinkedTo">RustinRoadCaveDoorOuter</CExoString>
+            <Byte Name="LinkedToFlags">1</Byte>
+            <Word Name="LoadScreenID">0</Word>
+            <CExoLocString Name="LocName">
+                <DWord Name="StringRef">5349</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Door</CExoString>
+                </SubString>
+            </CExoLocString>
+            <Byte Name="Lockable">0</Byte>
+            <Byte Name="Locked">0</Byte>
+            <ResRef Name="OnClick"></ResRef>
+            <ResRef Name="OnClosed"></ResRef>
+            <ResRef Name="OnDamaged"></ResRef>
+            <ResRef Name="OnDeath"></ResRef>
+            <ResRef Name="OnDisarm"></ResRef>
+            <ResRef Name="OnFailToOpen"></ResRef>
+            <ResRef Name="OnHeartbeat"></ResRef>
+            <ResRef Name="OnLock"></ResRef>
+            <ResRef Name="OnMeleeAttacked"></ResRef>
+            <ResRef Name="OnOpen"></ResRef>
+            <ResRef Name="OnSpellCastAt"></ResRef>
+            <ResRef Name="OnTrapTriggered"></ResRef>
+            <ResRef Name="OnUnlock"></ResRef>
+            <ResRef Name="OnUserDefined"></ResRef>
+            <Byte Name="OpenLockDC">18</Byte>
+            <Byte Name="Plot">0</Byte>
+            <Word Name="PortraitId">0</Word>
+            <Byte Name="Ref">0</Byte>
+            <CExoString Name="Tag">RustinRoadCaveDoorInner</CExoString>
+            <ResRef Name="TemplateResRef">nw_door_ttr_13</ResRef>
+            <Byte Name="TrapDetectDC">0</Byte>
+            <Byte Name="TrapDetectable">1</Byte>
+            <Byte Name="TrapDisarmable">1</Byte>
+            <Byte Name="TrapFlag">0</Byte>
+            <Byte Name="TrapOneShot">1</Byte>
+            <Byte Name="TrapType">0</Byte>
+            <Byte Name="Will">0</Byte>
+            <Float Name="X">76.010002</Float>
+            <Float Name="Y">45.000000</Float>
+            <Float Name="Z">0.000000</Float>
+        </Struct>
+    </List>
+    <List Name="Encounter List">
+        <Struct Id="7">
+            <Byte Name="Active">1</Byte>
+            <CExoString Name="Comment"></CExoString>
+            <List Name="CreatureList">
+                <Struct Id="0">
+                    <Int Name="Appearance">10</Int>
+                    <Float Name="CR">0.333333</Float>
+                    <CExoString Name="Comment"></CExoString>
+                    <ResRef Name="ResRef">cnrabat</ResRef>
+                    <Byte Name="SingleSpawn">0</Byte>
+                </Struct>
+            </List>
+            <Int Name="Difficulty">0</Int>
+            <Int Name="DifficultyIndex">1</Int>
+            <DWord Name="Faction">1</DWord>
+            <List Name="Geometry">
+                <Struct Id="1">
+                    <CExoString Name="Comment"></CExoString>
+                    <Float Name="X">-5.665123</Float>
+                    <Float Name="Y">13.272556</Float>
+                    <Float Name="Z">0.025000</Float>
+                </Struct>
+                <Struct Id="1">
+                    <CExoString Name="Comment"></CExoString>
+                    <Float Name="X">-5.665115</Float>
+                    <Float Name="Y">-3.075348</Float>
+                    <Float Name="Z">0.025000</Float>
+                </Struct>
+                <Struct Id="1">
+                    <Float Name="X">0.000000</Float>
+                    <Float Name="Y">0.000000</Float>
+                    <Float Name="Z">0.025000</Float>
+                </Struct>
+                <Struct Id="1">
+                    <Float Name="X">-0.000008</Float>
+                    <Float Name="Y">13.272556</Float>
+                    <Float Name="Z">0.025000</Float>
+                </Struct>
+            </List>
+            <CExoLocString Name="LocalizedName">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">CNR Bats</CExoString>
+                </SubString>
+            </CExoLocString>
+            <Int Name="MaxCreatures">5</Int>
+            <ResRef Name="OnEntered"></ResRef>
+            <ResRef Name="OnExhausted"></ResRef>
+            <ResRef Name="OnExit"></ResRef>
+            <ResRef Name="OnHeartbeat"></ResRef>
+            <ResRef Name="OnUserDefined"></ResRef>
+            <Byte Name="PlayerOnly">1</Byte>
+            <Int Name="RecCreatures">2</Int>
+            <Byte Name="Reset">1</Byte>
+            <Int Name="ResetTime">900</Int>
+            <Int Name="Respawns">-1</Int>
+            <Int Name="SpawnOption">0</Int>
+            <List Name="SpawnPointList">
+                <Struct Id="2">
+                    <Float Name="Orientation">3.067950</Float>
+                    <Float Name="X">55.681702</Float>
+                    <Float Name="Y">55.942265</Float>
+                    <Float Name="Z">0.000010</Float>
+                </Struct>
+                <Struct Id="2">
+                    <Float Name="Orientation">-0.000000</Float>
+                    <Float Name="X">31.921251</Float>
+                    <Float Name="Y">54.664688</Float>
+                    <Float Name="Z">0.000000</Float>
+                </Struct>
+                <Struct Id="2">
+                    <Float Name="Orientation">-0.000000</Float>
+                    <Float Name="X">24.193754</Float>
+                    <Float Name="Y">63.972809</Float>
+                    <Float Name="Z">0.000001</Float>
+                </Struct>
+                <Struct Id="2">
+                    <Float Name="Orientation">-0.000000</Float>
+                    <Float Name="X">21.559380</Float>
+                    <Float Name="Y">37.629063</Float>
+                    <Float Name="Z">-0.000001</Float>
+                </Struct>
+                <Struct Id="2">
+                    <Float Name="Orientation">-0.000000</Float>
+                    <Float Name="X">41.229378</Float>
+                    <Float Name="Y">39.912186</Float>
+                    <Float Name="Z">-0.000004</Float>
+                </Struct>
+                <Struct Id="2">
+                    <Float Name="Orientation">-0.000000</Float>
+                    <Float Name="X">52.996250</Float>
+                    <Float Name="Y">42.546566</Float>
+                    <Float Name="Z">-0.000000</Float>
+                </Struct>
+                <Struct Id="2">
+                    <Float Name="Orientation">-0.000000</Float>
+                    <Float Name="X">41.053780</Float>
+                    <Float Name="Y">48.693691</Float>
+                    <Float Name="Z">-0.003802</Float>
+                </Struct>
+                <Struct Id="2">
+                    <Float Name="Orientation">-0.000000</Float>
+                    <Float Name="X">15.588133</Float>
+                    <Float Name="Y">70.470932</Float>
+                    <Float Name="Z">0.000000</Float>
+                </Struct>
+                <Struct Id="2">
+                    <Float Name="Orientation">-0.000000</Float>
+                    <Float Name="X">33.677502</Float>
+                    <Float Name="Y">74.334686</Float>
+                    <Float Name="Z">0.000000</Float>
+                </Struct>
+            </List>
+            <CExoString Name="Tag">CNRBats</CExoString>
+            <ResRef Name="TemplateResRef">cnrbats</ResRef>
+            <Float Name="XPosition">74.719063</Float>
+            <Float Name="YPosition">38.786045</Float>
+            <Float Name="ZPosition">0.000000</Float>
+        </Struct>
+        <Struct Id="7">
+            <Byte Name="Active">1</Byte>
+            <List Name="CreatureList">
+                <Struct Id="0">
+                    <Int Name="Appearance">29</Int>
+                    <Float Name="CR">2.000000</Float>
+                    <ResRef Name="ResRef">nw_bugbeara</ResRef>
+                    <Byte Name="SingleSpawn">0</Byte>
+                </Struct>
+                <Struct Id="0">
+                    <Int Name="Appearance">30</Int>
+                    <Float Name="CR">2.000000</Float>
+                    <ResRef Name="ResRef">nw_bugbearb</ResRef>
+                    <Byte Name="SingleSpawn">0</Byte>
+                </Struct>
+                <Struct Id="0">
+                    <Int Name="Appearance">27</Int>
+                    <Float Name="CR">4.000000</Float>
+                    <ResRef Name="ResRef">nw_bugwiza</ResRef>
+                    <Byte Name="SingleSpawn">1</Byte>
+                </Struct>
+                <Struct Id="0">
+                    <Int Name="Appearance">28</Int>
+                    <Float Name="CR">4.000000</Float>
+                    <ResRef Name="ResRef">nw_bugwizb</ResRef>
+                    <Byte Name="SingleSpawn">1</Byte>
+                </Struct>
+                <Struct Id="0">
+                    <Int Name="Appearance">26</Int>
+                    <Float Name="CR">5.000000</Float>
+                    <ResRef Name="ResRef">bugchiefb001</ResRef>
+                    <Byte Name="SingleSpawn">0</Byte>
+                </Struct>
+            </List>
+            <Int Name="Difficulty">0</Int>
+            <Int Name="DifficultyIndex">1</Int>
+            <DWord Name="Faction">1</DWord>
+            <List Name="Geometry">
+                <Struct Id="1">
+                    <Float Name="X">-0.153847</Float>
+                    <Float Name="Y">19.665932</Float>
+                    <Float Name="Z">0.025000</Float>
+                </Struct>
+                <Struct Id="1">
+                    <Float Name="X">0.000000</Float>
+                    <Float Name="Y">0.000000</Float>
+                    <Float Name="Z">0.127833</Float>
+                </Struct>
+                <Struct Id="1">
+                    <Float Name="X">0.144119</Float>
+                    <Float Name="Y">-0.870628</Float>
+                    <Float Name="Z">0.275000</Float>
+                </Struct>
+                <Struct Id="1">
+                    <Float Name="X">6.629845</Float>
+                    <Float Name="Y">-1.045918</Float>
+                    <Float Name="Z">0.275000</Float>
+                </Struct>
+                <Struct Id="1">
+                    <Float Name="X">7.331017</Float>
+                    <Float Name="Y">19.813576</Float>
+                    <Float Name="Z">0.275000</Float>
+                </Struct>
+            </List>
+            <CExoLocString Name="LocalizedName">
+                <DWord Name="StringRef">14468</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Bugbear Group</CExoString>
+                </SubString>
+            </CExoLocString>
+            <Int Name="MaxCreatures">3</Int>
+            <ResRef Name="OnEntered"></ResRef>
+            <ResRef Name="OnExhausted"></ResRef>
+            <ResRef Name="OnExit"></ResRef>
+            <ResRef Name="OnHeartbeat"></ResRef>
+            <ResRef Name="OnUserDefined"></ResRef>
+            <Byte Name="PlayerOnly">1</Byte>
+            <Int Name="RecCreatures">2</Int>
+            <Byte Name="Reset">1</Byte>
+            <Int Name="ResetTime">1200</Int>
+            <Int Name="Respawns">-1</Int>
+            <Int Name="SpawnOption">0</Int>
+            <List Name="SpawnPointList">
+                <Struct Id="2">
+                    <Float Name="Orientation">-0.000000</Float>
+                    <Float Name="X">38.458447</Float>
+                    <Float Name="Y">36.831257</Float>
+                    <Float Name="Z">-0.000003</Float>
+                </Struct>
+                <Struct Id="2">
+                    <Float Name="Orientation">-0.000000</Float>
+                    <Float Name="X">52.674980</Float>
+                    <Float Name="Y">38.886658</Float>
+                    <Float Name="Z">-0.000000</Float>
+                </Struct>
+                <Struct Id="2">
+                    <Float Name="Orientation">-0.000000</Float>
+                    <Float Name="X">55.586796</Float>
+                    <Float Name="Y">55.672432</Float>
+                    <Float Name="Z">0.000000</Float>
+                </Struct>
+                <Struct Id="2">
+                    <Float Name="Orientation">-0.000000</Float>
+                    <Float Name="X">36.574333</Float>
+                    <Float Name="Y">53.274467</Float>
+                    <Float Name="Z">0.000001</Float>
+                </Struct>
+                <Struct Id="2">
+                    <Float Name="Orientation">-0.000000</Float>
+                    <Float Name="X">30.579414</Float>
+                    <Float Name="Y">73.314629</Float>
+                    <Float Name="Z">0.000000</Float>
+                </Struct>
+                <Struct Id="2">
+                    <Float Name="Orientation">-0.000000</Float>
+                    <Float Name="X">36.745617</Float>
+                    <Float Name="Y">74.684906</Float>
+                    <Float Name="Z">-0.000000</Float>
+                </Struct>
+                <Struct Id="2">
+                    <Float Name="Orientation">-0.000000</Float>
+                    <Float Name="X">17.904434</Float>
+                    <Float Name="Y">68.518700</Float>
+                    <Float Name="Z">0.000000</Float>
+                </Struct>
+                <Struct Id="2">
+                    <Float Name="Orientation">-0.000000</Float>
+                    <Float Name="X">9.168983</Float>
+                    <Float Name="Y">44.710297</Float>
+                    <Float Name="Z">0.000000</Float>
+                </Struct>
+                <Struct Id="2">
+                    <Float Name="Orientation">-0.000000</Float>
+                    <Float Name="X">24.584488</Float>
+                    <Float Name="Y">46.765697</Float>
+                    <Float Name="Z">0.000000</Float>
+                </Struct>
+                <Struct Id="2">
+                    <Float Name="Orientation">-0.000000</Float>
+                    <Float Name="X">25.269621</Float>
+                    <Float Name="Y">11.481300</Float>
+                    <Float Name="Z">0.000000</Float>
+                </Struct>
+                <Struct Id="2">
+                    <Float Name="Orientation">-0.000000</Float>
+                    <Float Name="X">39.657433</Float>
+                    <Float Name="Y">15.763393</Float>
+                    <Float Name="Z">0.000000</Float>
+                </Struct>
+            </List>
+            <CExoString Name="Tag">NW_BUGBEARGRP</CExoString>
+            <ResRef Name="TemplateResRef">nw_bugbeargrp</ResRef>
+            <Float Name="XPosition">67.726967</Float>
+            <Float Name="YPosition">34.823128</Float>
+            <Float Name="ZPosition">0.000000</Float>
+        </Struct>
+        <Struct Id="7">
+            <Byte Name="Active">1</Byte>
+            <List Name="CreatureList">
+                <Struct Id="0">
+                    <Int Name="Appearance">29</Int>
+                    <Float Name="CR">2.000000</Float>
+                    <ResRef Name="ResRef">nw_bugbeara</ResRef>
+                    <Byte Name="SingleSpawn">0</Byte>
+                </Struct>
+                <Struct Id="0">
+                    <Int Name="Appearance">30</Int>
+                    <Float Name="CR">2.000000</Float>
+                    <ResRef Name="ResRef">nw_bugbearb</ResRef>
+                    <Byte Name="SingleSpawn">0</Byte>
+                </Struct>
+                <Struct Id="0">
+                    <Int Name="Appearance">27</Int>
+                    <Float Name="CR">4.000000</Float>
+                    <ResRef Name="ResRef">nw_bugwiza</ResRef>
+                    <Byte Name="SingleSpawn">0</Byte>
+                </Struct>
+                <Struct Id="0">
+                    <Int Name="Appearance">28</Int>
+                    <Float Name="CR">4.000000</Float>
+                    <ResRef Name="ResRef">nw_bugwizb</ResRef>
+                    <Byte Name="SingleSpawn">0</Byte>
+                </Struct>
+                <Struct Id="0">
+                    <Int Name="Appearance">26</Int>
+                    <Float Name="CR">5.000000</Float>
+                    <ResRef Name="ResRef">bugchiefb001</ResRef>
+                    <Byte Name="SingleSpawn">1</Byte>
+                </Struct>
+            </List>
+            <Int Name="Difficulty">0</Int>
+            <Int Name="DifficultyIndex">3</Int>
+            <DWord Name="Faction">1</DWord>
+            <List Name="Geometry">
+                <Struct Id="1">
+                    <Float Name="X">-0.479614</Float>
+                    <Float Name="Y">20.187271</Float>
+                    <Float Name="Z">0.025000</Float>
+                </Struct>
+                <Struct Id="1">
+                    <Float Name="X">0.000000</Float>
+                    <Float Name="Y">0.000000</Float>
+                    <Float Name="Z">0.252413</Float>
+                </Struct>
+                <Struct Id="1">
+                    <Float Name="X">7.012169</Float>
+                    <Float Name="Y">0.526054</Float>
+                    <Float Name="Z">0.254847</Float>
+                </Struct>
+                <Struct Id="1">
+                    <Float Name="X">7.804100</Float>
+                    <Float Name="Y">21.078445</Float>
+                    <Float Name="Z">-0.085000</Float>
+                </Struct>
+            </List>
+            <CExoLocString Name="LocalizedName">
+                <DWord Name="StringRef">14468</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Bugbear Group</CExoString>
+                </SubString>
+            </CExoLocString>
+            <Int Name="MaxCreatures">5</Int>
+            <ResRef Name="OnEntered"></ResRef>
+            <ResRef Name="OnExhausted"></ResRef>
+            <ResRef Name="OnExit"></ResRef>
+            <ResRef Name="OnHeartbeat"></ResRef>
+            <ResRef Name="OnUserDefined"></ResRef>
+            <Byte Name="PlayerOnly">1</Byte>
+            <Int Name="RecCreatures">3</Int>
+            <Byte Name="Reset">1</Byte>
+            <Int Name="ResetTime">1200</Int>
+            <Int Name="Respawns">-1</Int>
+            <Int Name="SpawnOption">0</Int>
+            <List Name="SpawnPointList">
+                <Struct Id="2">
+                    <Float Name="Orientation">-0.000000</Float>
+                    <Float Name="X">34.518932</Float>
+                    <Float Name="Y">39.743076</Float>
+                    <Float Name="Z">0.000002</Float>
+                </Struct>
+                <Struct Id="2">
+                    <Float Name="Orientation">-0.000000</Float>
+                    <Float Name="X">42.055405</Float>
+                    <Float Name="Y">50.533932</Float>
+                    <Float Name="Z">-0.000000</Float>
+                </Struct>
+                <Struct Id="2">
+                    <Float Name="Orientation">-0.000000</Float>
+                    <Float Name="X">29.209145</Float>
+                    <Float Name="Y">58.584255</Float>
+                    <Float Name="Z">-0.000000</Float>
+                </Struct>
+                <Struct Id="2">
+                    <Float Name="Orientation">-0.000000</Float>
+                    <Float Name="X">36.574333</Float>
+                    <Float Name="Y">75.198753</Float>
+                    <Float Name="Z">0.000000</Float>
+                </Struct>
+                <Struct Id="2">
+                    <Float Name="Orientation">-0.000000</Float>
+                    <Float Name="X">17.904438</Float>
+                    <Float Name="Y">70.745384</Float>
+                    <Float Name="Z">0.000000</Float>
+                </Struct>
+                <Struct Id="2">
+                    <Float Name="Orientation">-0.000000</Float>
+                    <Float Name="X">18.589569</Float>
+                    <Float Name="Y">47.108265</Float>
+                    <Float Name="Z">0.000000</Float>
+                </Struct>
+                <Struct Id="2">
+                    <Float Name="Orientation">-0.000000</Float>
+                    <Float Name="X">16.020317</Float>
+                    <Float Name="Y">10.624891</Float>
+                    <Float Name="Z">-0.000000</Float>
+                </Struct>
+                <Struct Id="2">
+                    <Float Name="Orientation">-0.000000</Float>
+                    <Float Name="X">34.690212</Float>
+                    <Float Name="Y">11.310022</Float>
+                    <Float Name="Z">-0.000000</Float>
+                </Struct>
+            </List>
+            <CExoString Name="Tag">NW_BUGBEARGRP</CExoString>
+            <ResRef Name="TemplateResRef">nw_bugbeargrp</ResRef>
+            <Float Name="XPosition">67.174622</Float>
+            <Float Name="YPosition">34.477413</Float>
+            <Float Name="ZPosition">0.000000</Float>
+        </Struct>
+        <Struct Id="7">
+            <Byte Name="Active">1</Byte>
+            <List Name="CreatureList">
+                <Struct Id="0">
+                    <Int Name="Appearance">29</Int>
+                    <Float Name="CR">2.000000</Float>
+                    <ResRef Name="ResRef">nw_bugbeara</ResRef>
+                    <Byte Name="SingleSpawn">0</Byte>
+                </Struct>
+                <Struct Id="0">
+                    <Int Name="Appearance">30</Int>
+                    <Float Name="CR">2.000000</Float>
+                    <ResRef Name="ResRef">nw_bugbearb</ResRef>
+                    <Byte Name="SingleSpawn">0</Byte>
+                </Struct>
+                <Struct Id="0">
+                    <Int Name="Appearance">27</Int>
+                    <Float Name="CR">4.000000</Float>
+                    <ResRef Name="ResRef">nw_bugwiza</ResRef>
+                    <Byte Name="SingleSpawn">1</Byte>
+                </Struct>
+                <Struct Id="0">
+                    <Int Name="Appearance">28</Int>
+                    <Float Name="CR">4.000000</Float>
+                    <ResRef Name="ResRef">nw_bugwizb</ResRef>
+                    <Byte Name="SingleSpawn">1</Byte>
+                </Struct>
+                <Struct Id="0">
+                    <Int Name="Appearance">26</Int>
+                    <Float Name="CR">5.000000</Float>
+                    <ResRef Name="ResRef">bugchiefb001</ResRef>
+                    <Byte Name="SingleSpawn">1</Byte>
+                </Struct>
+            </List>
+            <Int Name="Difficulty">0</Int>
+            <Int Name="DifficultyIndex">4</Int>
+            <DWord Name="Faction">1</DWord>
+            <List Name="Geometry">
+                <Struct Id="1">
+                    <Float Name="X">0.000000</Float>
+                    <Float Name="Y">0.000000</Float>
+                    <Float Name="Z">0.025000</Float>
+                </Struct>
+                <Struct Id="1">
+                    <Float Name="X">7.200630</Float>
+                    <Float Name="Y">0.351250</Float>
+                    <Float Name="Z">0.025000</Float>
+                </Struct>
+                <Struct Id="1">
+                    <Float Name="X">7.727509</Float>
+                    <Float Name="Y">20.372498</Float>
+                    <Float Name="Z">0.025000</Float>
+                </Struct>
+                <Struct Id="1">
+                    <Float Name="X">2.458755</Float>
+                    <Float Name="Y">20.021248</Float>
+                    <Float Name="Z">0.025000</Float>
+                </Struct>
+            </List>
+            <CExoLocString Name="LocalizedName">
+                <DWord Name="StringRef">14468</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Bugbear Group</CExoString>
+                </SubString>
+            </CExoLocString>
+            <Int Name="MaxCreatures">3</Int>
+            <ResRef Name="OnEntered"></ResRef>
+            <ResRef Name="OnExhausted"></ResRef>
+            <ResRef Name="OnExit"></ResRef>
+            <ResRef Name="OnHeartbeat"></ResRef>
+            <ResRef Name="OnUserDefined"></ResRef>
+            <Byte Name="PlayerOnly">1</Byte>
+            <Int Name="RecCreatures">1</Int>
+            <Byte Name="Reset">1</Byte>
+            <Int Name="ResetTime">1200</Int>
+            <Int Name="Respawns">-1</Int>
+            <Int Name="SpawnOption">0</Int>
+            <List Name="SpawnPointList">
+                <Struct Id="2">
+                    <Float Name="Orientation">-0.000000</Float>
+                    <Float Name="X">38.422699</Float>
+                    <Float Name="Y">15.972503</Float>
+                    <Float Name="Z">0.000000</Float>
+                </Struct>
+                <Struct Id="2">
+                    <Float Name="Orientation">-0.000000</Float>
+                    <Float Name="X">41.892754</Float>
+                    <Float Name="Y">18.075569</Float>
+                    <Float Name="Z">0.000000</Float>
+                </Struct>
+                <Struct Id="2">
+                    <Float Name="Orientation">-0.000000</Float>
+                    <Float Name="X">38.115883</Float>
+                    <Float Name="Y">9.083337</Float>
+                    <Float Name="Z">-0.000000</Float>
+                </Struct>
+                <Struct Id="2">
+                    <Float Name="Orientation">-0.000000</Float>
+                    <Float Name="X">31.093262</Float>
+                    <Float Name="Y">11.823874</Float>
+                    <Float Name="Z">-0.000000</Float>
+                </Struct>
+                <Struct Id="2">
+                    <Float Name="Orientation">-0.000000</Float>
+                    <Float Name="X">40.171284</Float>
+                    <Float Name="Y">22.443445</Float>
+                    <Float Name="Z">0.000000</Float>
+                </Struct>
+                <Struct Id="2">
+                    <Float Name="Orientation">-0.000000</Float>
+                    <Float Name="X">18.760853</Float>
+                    <Float Name="Y">43.511311</Float>
+                    <Float Name="Z">0.000000</Float>
+                </Struct>
+                <Struct Id="2">
+                    <Float Name="Orientation">-0.000000</Float>
+                    <Float Name="X">30.921976</Float>
+                    <Float Name="Y">39.057941</Float>
+                    <Float Name="Z">-0.000004</Float>
+                </Struct>
+                <Struct Id="2">
+                    <Float Name="Orientation">-0.000000</Float>
+                    <Float Name="X">26.811178</Float>
+                    <Float Name="Y">60.125805</Float>
+                    <Float Name="Z">0.000000</Float>
+                </Struct>
+                <Struct Id="2">
+                    <Float Name="Orientation">-0.000000</Float>
+                    <Float Name="X">24.584488</Float>
+                    <Float Name="Y">20.045483</Float>
+                    <Float Name="Z">0.000000</Float>
+                </Struct>
+                <Struct Id="2">
+                    <Float Name="Orientation">-0.000000</Float>
+                    <Float Name="X">16.876734</Float>
+                    <Float Name="Y">9.597192</Float>
+                    <Float Name="Z">0.000000</Float>
+                </Struct>
+                <Struct Id="2">
+                    <Float Name="Orientation">-0.000000</Float>
+                    <Float Name="X">14.992618</Float>
+                    <Float Name="Y">29.123505</Float>
+                    <Float Name="Z">-0.000000</Float>
+                </Struct>
+            </List>
+            <CExoString Name="Tag">NW_BUGBEARGRP</CExoString>
+            <ResRef Name="TemplateResRef">nw_bugbeargrp</ResRef>
+            <Float Name="XPosition">65.465622</Float>
+            <Float Name="YPosition">34.467812</Float>
+            <Float Name="ZPosition">0.000000</Float>
+        </Struct>
+        <Struct Id="7">
+            <Byte Name="Active">1</Byte>
+            <List Name="CreatureList">
+                <Struct Id="0">
+                    <Int Name="Appearance">87</Int>
+                    <Float Name="CR">1.000000</Float>
+                    <ResRef Name="ResRef">gob_archer</ResRef>
+                    <Byte Name="SingleSpawn">0</Byte>
+                </Struct>
+                <Struct Id="0">
+                    <Int Name="Appearance">86</Int>
+                    <Float Name="CR">1.000000</Float>
+                    <ResRef Name="ResRef">gob_fighter</ResRef>
+                    <Byte Name="SingleSpawn">0</Byte>
+                </Struct>
+                <Struct Id="0">
+                    <Int Name="Appearance">83</Int>
+                    <Float Name="CR">2.000000</Float>
+                    <ResRef Name="ResRef">gob_cheiftan</ResRef>
+                    <Byte Name="SingleSpawn">0</Byte>
+                </Struct>
+                <Struct Id="0">
+                    <Int Name="Appearance">83</Int>
+                    <Float Name="CR">3.000000</Float>
+                    <ResRef Name="ResRef">nw_gobchiefb</ResRef>
+                    <Byte Name="SingleSpawn">0</Byte>
+                </Struct>
+                <Struct Id="0">
+                    <Int Name="Appearance">84</Int>
+                    <Float Name="CR">3.000000</Float>
+                    <ResRef Name="ResRef">nw_gobwiza</ResRef>
+                    <Byte Name="SingleSpawn">0</Byte>
+                </Struct>
+                <Struct Id="0">
+                    <Int Name="Appearance">85</Int>
+                    <Float Name="CR">3.000000</Float>
+                    <ResRef Name="ResRef">nw_gobwizb</ResRef>
+                    <Byte Name="SingleSpawn">0</Byte>
+                </Struct>
+                <Struct Id="0">
+                    <Int Name="Appearance">82</Int>
+                    <Float Name="CR">4.000000</Float>
+                    <ResRef Name="ResRef">nw_gobchiefa</ResRef>
+                    <Byte Name="SingleSpawn">0</Byte>
+                </Struct>
+                <Struct Id="0">
+                    <Int Name="Appearance">83</Int>
+                    <Float Name="CR">14.000000</Float>
+                    <ResRef Name="ResRef">goblinboss001</ResRef>
+                    <Byte Name="SingleSpawn">1</Byte>
+                </Struct>
+            </List>
+            <Int Name="Difficulty">0</Int>
+            <Int Name="DifficultyIndex">4</Int>
+            <DWord Name="Faction">1</DWord>
+            <List Name="Geometry">
+                <Struct Id="1">
+                    <Float Name="X">-17.242168</Float>
+                    <Float Name="Y">-19.352413</Float>
+                    <Float Name="Z">0.025000</Float>
+                </Struct>
+                <Struct Id="1">
+                    <Float Name="X">41.047573</Float>
+                    <Float Name="Y">-20.039791</Float>
+                    <Float Name="Z">0.025000</Float>
+                </Struct>
+                <Struct Id="1">
+                    <Float Name="X">41.299793</Float>
+                    <Float Name="Y">-31.421965</Float>
+                    <Float Name="Z">0.275000</Float>
+                </Struct>
+                <Struct Id="1">
+                    <Float Name="X">44.072041</Float>
+                    <Float Name="Y">-31.587759</Float>
+                    <Float Name="Z">0.025000</Float>
+                </Struct>
+                <Struct Id="1">
+                    <Float Name="X">43.934566</Float>
+                    <Float Name="Y">-17.152800</Float>
+                    <Float Name="Z">0.025000</Float>
+                </Struct>
+                <Struct Id="1">
+                    <Float Name="X">-12.567991</Float>
+                    <Float Name="Y">-16.327944</Float>
+                    <Float Name="Z">0.025000</Float>
+                </Struct>
+                <Struct Id="1">
+                    <Float Name="X">-12.155567</Float>
+                    <Float Name="Y">-0.380753</Float>
+                    <Float Name="Z">0.025000</Float>
+                </Struct>
+                <Struct Id="1">
+                    <Float Name="X">0.000000</Float>
+                    <Float Name="Y">0.000000</Float>
+                    <Float Name="Z">0.275000</Float>
+                </Struct>
+                <Struct Id="1">
+                    <Float Name="X">-0.195168</Float>
+                    <Float Name="Y">3.880997</Float>
+                    <Float Name="Z">0.025000</Float>
+                </Struct>
+                <Struct Id="1">
+                    <Float Name="X">-16.417316</Float>
+                    <Float Name="Y">3.743519</Float>
+                    <Float Name="Z">0.025000</Float>
+                </Struct>
+            </List>
+            <CExoLocString Name="LocalizedName">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Goblin Encounter with Cheifs</CExoString>
+                </SubString>
+            </CExoLocString>
+            <Int Name="MaxCreatures">3</Int>
+            <ResRef Name="OnEntered"></ResRef>
+            <ResRef Name="OnExhausted"></ResRef>
+            <ResRef Name="OnExit"></ResRef>
+            <ResRef Name="OnHeartbeat"></ResRef>
+            <ResRef Name="OnUserDefined"></ResRef>
+            <Byte Name="PlayerOnly">1</Byte>
+            <Int Name="RecCreatures">1</Int>
+            <Byte Name="Reset">1</Byte>
+            <Int Name="ResetTime">2400</Int>
+            <Int Name="Respawns">-1</Int>
+            <Int Name="SpawnOption">0</Int>
+            <List Name="SpawnPointList">
+                <Struct Id="2">
+                    <Float Name="Orientation">-0.000000</Float>
+                    <Float Name="X">40.103043</Float>
+                    <Float Name="Y">14.703645</Float>
+                    <Float Name="Z">0.000010</Float>
+                </Struct>
+                <Struct Id="2">
+                    <Float Name="Orientation">-0.000000</Float>
+                    <Float Name="X">34.198536</Float>
+                    <Float Name="Y">17.548765</Float>
+                    <Float Name="Z">0.129183</Float>
+                </Struct>
+                <Struct Id="2">
+                    <Float Name="Orientation">-0.000000</Float>
+                    <Float Name="X">37.259460</Float>
+                    <Float Name="Y">23.642433</Float>
+                    <Float Name="Z">0.000002</Float>
+                </Struct>
+                <Struct Id="2">
+                    <Float Name="Orientation">-0.000000</Float>
+                    <Float Name="X">26.658154</Float>
+                    <Float Name="Y">12.253682</Float>
+                    <Float Name="Z">0.000010</Float>
+                </Struct>
+                <Struct Id="2">
+                    <Float Name="Orientation">-0.000000</Float>
+                    <Float Name="X">33.892166</Float>
+                    <Float Name="Y">9.833902</Float>
+                    <Float Name="Z">0.000010</Float>
+                </Struct>
+                <Struct Id="2">
+                    <Float Name="Orientation">-0.000000</Float>
+                    <Float Name="X">24.755772</Float>
+                    <Float Name="Y">19.874193</Float>
+                    <Float Name="Z">0.000000</Float>
+                </Struct>
+            </List>
+            <CExoString Name="Tag">GoblinEncounterwithCheifs</CExoString>
+            <ResRef Name="TemplateResRef">goblinencounterw</ResRef>
+            <Float Name="XPosition">28.963446</Float>
+            <Float Name="YPosition">33.490635</Float>
+            <Float Name="ZPosition">0.000000</Float>
+        </Struct>
+    </List>
+    <List Name="List"/>
+    <List Name="Placeable List">
+        <Struct Id="9">
+            <Byte Name="AnimationState">0</Byte>
+            <DWord Name="Appearance">8</DWord>
+            <Byte Name="AutoRemoveKey">0</Byte>
+            <Float Name="Bearing">-0.000000</Float>
+            <Byte Name="BodyBag">0</Byte>
+            <Byte Name="CloseLockDC">28</Byte>
+            <ResRef Name="Conversation"></ResRef>
+            <Short Name="CurrentHP">100</Short>
+            <CExoLocString Name="Description">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Strange runes and pictographs, likely arcane in nature, have been scorched into the sides of this hide-covered strongbox.</CExoString>
+                </SubString>
+            </CExoLocString>
+            <Byte Name="DisarmDC">0</Byte>
+            <DWord Name="Faction">1</DWord>
+            <Byte Name="Fort">5</Byte>
+            <Short Name="HP">100</Short>
+            <Byte Name="Hardness">10</Byte>
+            <Byte Name="HasInventory">1</Byte>
+            <Byte Name="Interruptable">1</Byte>
+            <CExoString Name="KeyName"></CExoString>
+            <Byte Name="KeyRequired">0</Byte>
+            <CExoLocString Name="LocName">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">A Large Chest</CExoString>
+                </SubString>
+            </CExoLocString>
+            <Byte Name="Lockable">1</Byte>
+            <Byte Name="Locked">1</Byte>
+            <ResRef Name="OnClosed"></ResRef>
+            <ResRef Name="OnDamaged"></ResRef>
+            <ResRef Name="OnDeath"></ResRef>
+            <ResRef Name="OnDisarm"></ResRef>
+            <ResRef Name="OnHeartbeat"></ResRef>
+            <ResRef Name="OnInvDisturbed"></ResRef>
+            <ResRef Name="OnLock"></ResRef>
+            <ResRef Name="OnMeleeAttacked"></ResRef>
+            <ResRef Name="OnOpen"></ResRef>
+            <ResRef Name="OnSpellCastAt"></ResRef>
+            <ResRef Name="OnTrapTriggered"></ResRef>
+            <ResRef Name="OnUnlock"></ResRef>
+            <ResRef Name="OnUsed"></ResRef>
+            <ResRef Name="OnUserDefined"></ResRef>
+            <Byte Name="OpenLockDC">28</Byte>
+            <Byte Name="Plot">1</Byte>
+            <Word Name="PortraitId">366</Word>
+            <Byte Name="Ref">0</Byte>
+            <Byte Name="Static">0</Byte>
+            <CExoString Name="Tag">SYR_NPC_VIC</CExoString>
+            <ResRef Name="TemplateResRef">npcitemvirtualco</ResRef>
+            <Byte Name="TrapDetectDC">0</Byte>
+            <Byte Name="TrapDetectable">1</Byte>
+            <Byte Name="TrapDisarmable">1</Byte>
+            <Byte Name="TrapFlag">0</Byte>
+            <Byte Name="TrapOneShot">1</Byte>
+            <Byte Name="TrapType">0</Byte>
+            <Byte Name="Type">0</Byte>
+            <Byte Name="Useable">1</Byte>
+            <Byte Name="Will">0</Byte>
+            <Float Name="X">38.438892</Float>
+            <Float Name="Y">21.624205</Float>
+            <Float Name="Z">0.000010</Float>
+        </Struct>
+        <Struct Id="9">
+            <Byte Name="AnimationState">0</Byte>
+            <DWord Name="Appearance">84</DWord>
+            <Byte Name="AutoRemoveKey">0</Byte>
+            <Float Name="Bearing">-0.000000</Float>
+            <Byte Name="BodyBag">0</Byte>
+            <Byte Name="CloseLockDC">0</Byte>
+            <ResRef Name="Conversation"></ResRef>
+            <Short Name="CurrentHP">100</Short>
+            <CExoLocString Name="Description">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">A naturally occuring deposit of clay.  This material is highly prized by mold makers.</CExoString>
+                </SubString>
+            </CExoLocString>
+            <Byte Name="DisarmDC">0</Byte>
+            <DWord Name="Faction">1</DWord>
+            <Byte Name="Fort">5</Byte>
+            <Short Name="HP">100</Short>
+            <Byte Name="Hardness">5</Byte>
+            <Byte Name="HasInventory">0</Byte>
+            <Byte Name="Interruptable">1</Byte>
+            <CExoString Name="KeyName"></CExoString>
+            <Byte Name="KeyRequired">0</Byte>
+            <CExoLocString Name="LocName">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Deposit of Clay</CExoString>
+                </SubString>
+            </CExoLocString>
+            <Byte Name="Lockable">0</Byte>
+            <Byte Name="Locked">0</Byte>
+            <ResRef Name="OnClosed"></ResRef>
+            <ResRef Name="OnDamaged"></ResRef>
+            <ResRef Name="OnDeath"></ResRef>
+            <ResRef Name="OnDisarm"></ResRef>
+            <ResRef Name="OnHeartbeat"></ResRef>
+            <ResRef Name="OnInvDisturbed"></ResRef>
+            <ResRef Name="OnLock"></ResRef>
+            <ResRef Name="OnMeleeAttacked"></ResRef>
+            <ResRef Name="OnOpen"></ResRef>
+            <ResRef Name="OnSpellCastAt"></ResRef>
+            <ResRef Name="OnTrapTriggered"></ResRef>
+            <ResRef Name="OnUnlock"></ResRef>
+            <ResRef Name="OnUsed">cnr_deposit_ou</ResRef>
+            <ResRef Name="OnUserDefined"></ResRef>
+            <Byte Name="OpenLockDC">0</Byte>
+            <Byte Name="Plot">1</Byte>
+            <Word Name="PortraitId">442</Word>
+            <Byte Name="Ref">0</Byte>
+            <Byte Name="Static">0</Byte>
+            <CExoString Name="Tag">cnrDepositClay</CExoString>
+            <ResRef Name="TemplateResRef">cnrdepositclay</ResRef>
+            <Byte Name="TrapDetectDC">0</Byte>
+            <Byte Name="TrapDetectable">1</Byte>
+            <Byte Name="TrapDisarmable">1</Byte>
+            <Byte Name="TrapFlag">0</Byte>
+            <Byte Name="TrapOneShot">1</Byte>
+            <Byte Name="TrapType">0</Byte>
+            <Byte Name="Type">0</Byte>
+            <Byte Name="Useable">1</Byte>
+            <Byte Name="Will">0</Byte>
+            <Float Name="X">69.940880</Float>
+            <Float Name="Y">23.115131</Float>
+            <Float Name="Z">0.000010</Float>
+        </Struct>
+        <Struct Id="9">
+            <Byte Name="AnimationState">0</Byte>
+            <DWord Name="Appearance">84</DWord>
+            <Byte Name="AutoRemoveKey">0</Byte>
+            <Float Name="Bearing">-0.000000</Float>
+            <Byte Name="BodyBag">0</Byte>
+            <Byte Name="CloseLockDC">0</Byte>
+            <ResRef Name="Conversation"></ResRef>
+            <Short Name="CurrentHP">100</Short>
+            <CExoLocString Name="Description">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">A naturally occuring deposit of clay.  This material is highly prized by mold makers.</CExoString>
+                </SubString>
+            </CExoLocString>
+            <Byte Name="DisarmDC">0</Byte>
+            <DWord Name="Faction">1</DWord>
+            <Byte Name="Fort">5</Byte>
+            <Short Name="HP">100</Short>
+            <Byte Name="Hardness">5</Byte>
+            <Byte Name="HasInventory">0</Byte>
+            <Byte Name="Interruptable">1</Byte>
+            <CExoString Name="KeyName"></CExoString>
+            <Byte Name="KeyRequired">0</Byte>
+            <CExoLocString Name="LocName">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Deposit of Clay</CExoString>
+                </SubString>
+            </CExoLocString>
+            <Byte Name="Lockable">0</Byte>
+            <Byte Name="Locked">0</Byte>
+            <ResRef Name="OnClosed"></ResRef>
+            <ResRef Name="OnDamaged"></ResRef>
+            <ResRef Name="OnDeath"></ResRef>
+            <ResRef Name="OnDisarm"></ResRef>
+            <ResRef Name="OnHeartbeat"></ResRef>
+            <ResRef Name="OnInvDisturbed"></ResRef>
+            <ResRef Name="OnLock"></ResRef>
+            <ResRef Name="OnMeleeAttacked"></ResRef>
+            <ResRef Name="OnOpen"></ResRef>
+            <ResRef Name="OnSpellCastAt"></ResRef>
+            <ResRef Name="OnTrapTriggered"></ResRef>
+            <ResRef Name="OnUnlock"></ResRef>
+            <ResRef Name="OnUsed">cnr_deposit_ou</ResRef>
+            <ResRef Name="OnUserDefined"></ResRef>
+            <Byte Name="OpenLockDC">0</Byte>
+            <Byte Name="Plot">1</Byte>
+            <Word Name="PortraitId">442</Word>
+            <Byte Name="Ref">0</Byte>
+            <Byte Name="Static">0</Byte>
+            <CExoString Name="Tag">cnrDepositClay</CExoString>
+            <ResRef Name="TemplateResRef">cnrdepositclay</ResRef>
+            <Byte Name="TrapDetectDC">0</Byte>
+            <Byte Name="TrapDetectable">1</Byte>
+            <Byte Name="TrapDisarmable">1</Byte>
+            <Byte Name="TrapFlag">0</Byte>
+            <Byte Name="TrapOneShot">1</Byte>
+            <Byte Name="TrapType">0</Byte>
+            <Byte Name="Type">0</Byte>
+            <Byte Name="Useable">1</Byte>
+            <Byte Name="Will">0</Byte>
+            <Float Name="X">69.594551</Float>
+            <Float Name="Y">8.467302</Float>
+            <Float Name="Z">0.000010</Float>
+        </Struct>
+        <Struct Id="9">
+            <Byte Name="AnimationState">0</Byte>
+            <DWord Name="Appearance">84</DWord>
+            <Byte Name="AutoRemoveKey">0</Byte>
+            <Float Name="Bearing">-0.000000</Float>
+            <Byte Name="BodyBag">0</Byte>
+            <Byte Name="CloseLockDC">0</Byte>
+            <ResRef Name="Conversation"></ResRef>
+            <Short Name="CurrentHP">100</Short>
+            <CExoLocString Name="Description">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">A naturally occuring deposit of clay.  This material is highly prized by mold makers.</CExoString>
+                </SubString>
+            </CExoLocString>
+            <Byte Name="DisarmDC">0</Byte>
+            <DWord Name="Faction">1</DWord>
+            <Byte Name="Fort">5</Byte>
+            <Short Name="HP">100</Short>
+            <Byte Name="Hardness">5</Byte>
+            <Byte Name="HasInventory">0</Byte>
+            <Byte Name="Interruptable">1</Byte>
+            <CExoString Name="KeyName"></CExoString>
+            <Byte Name="KeyRequired">0</Byte>
+            <CExoLocString Name="LocName">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Deposit of Clay</CExoString>
+                </SubString>
+            </CExoLocString>
+            <Byte Name="Lockable">0</Byte>
+            <Byte Name="Locked">0</Byte>
+            <ResRef Name="OnClosed"></ResRef>
+            <ResRef Name="OnDamaged"></ResRef>
+            <ResRef Name="OnDeath"></ResRef>
+            <ResRef Name="OnDisarm"></ResRef>
+            <ResRef Name="OnHeartbeat"></ResRef>
+            <ResRef Name="OnInvDisturbed"></ResRef>
+            <ResRef Name="OnLock"></ResRef>
+            <ResRef Name="OnMeleeAttacked"></ResRef>
+            <ResRef Name="OnOpen"></ResRef>
+            <ResRef Name="OnSpellCastAt"></ResRef>
+            <ResRef Name="OnTrapTriggered"></ResRef>
+            <ResRef Name="OnUnlock"></ResRef>
+            <ResRef Name="OnUsed">cnr_deposit_ou</ResRef>
+            <ResRef Name="OnUserDefined"></ResRef>
+            <Byte Name="OpenLockDC">0</Byte>
+            <Byte Name="Plot">1</Byte>
+            <Word Name="PortraitId">442</Word>
+            <Byte Name="Ref">0</Byte>
+            <Byte Name="Static">0</Byte>
+            <CExoString Name="Tag">cnrDepositClay</CExoString>
+            <ResRef Name="TemplateResRef">cnrdepositclay</ResRef>
+            <Byte Name="TrapDetectDC">0</Byte>
+            <Byte Name="TrapDetectable">1</Byte>
+            <Byte Name="TrapDisarmable">1</Byte>
+            <Byte Name="TrapFlag">0</Byte>
+            <Byte Name="TrapOneShot">1</Byte>
+            <Byte Name="TrapType">0</Byte>
+            <Byte Name="Type">0</Byte>
+            <Byte Name="Useable">1</Byte>
+            <Byte Name="Will">0</Byte>
+            <Float Name="X">69.154968</Float>
+            <Float Name="Y">18.227468</Float>
+            <Float Name="Z">0.000010</Float>
+        </Struct>
+        <Struct Id="9">
+            <Byte Name="AnimationState">0</Byte>
+            <DWord Name="Appearance">84</DWord>
+            <Byte Name="AutoRemoveKey">0</Byte>
+            <Float Name="Bearing">-0.000000</Float>
+            <Byte Name="BodyBag">0</Byte>
+            <Byte Name="CloseLockDC">0</Byte>
+            <ResRef Name="Conversation"></ResRef>
+            <Short Name="CurrentHP">100</Short>
+            <CExoLocString Name="Description">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">A naturally occuring deposit of clay.  This material is highly prized by mold makers.</CExoString>
+                </SubString>
+            </CExoLocString>
+            <Byte Name="DisarmDC">0</Byte>
+            <DWord Name="Faction">1</DWord>
+            <Byte Name="Fort">5</Byte>
+            <Short Name="HP">100</Short>
+            <Byte Name="Hardness">5</Byte>
+            <Byte Name="HasInventory">0</Byte>
+            <Byte Name="Interruptable">1</Byte>
+            <CExoString Name="KeyName"></CExoString>
+            <Byte Name="KeyRequired">0</Byte>
+            <CExoLocString Name="LocName">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Deposit of Clay</CExoString>
+                </SubString>
+            </CExoLocString>
+            <Byte Name="Lockable">0</Byte>
+            <Byte Name="Locked">0</Byte>
+            <ResRef Name="OnClosed"></ResRef>
+            <ResRef Name="OnDamaged"></ResRef>
+            <ResRef Name="OnDeath"></ResRef>
+            <ResRef Name="OnDisarm"></ResRef>
+            <ResRef Name="OnHeartbeat"></ResRef>
+            <ResRef Name="OnInvDisturbed"></ResRef>
+            <ResRef Name="OnLock"></ResRef>
+            <ResRef Name="OnMeleeAttacked"></ResRef>
+            <ResRef Name="OnOpen"></ResRef>
+            <ResRef Name="OnSpellCastAt"></ResRef>
+            <ResRef Name="OnTrapTriggered"></ResRef>
+            <ResRef Name="OnUnlock"></ResRef>
+            <ResRef Name="OnUsed">cnr_deposit_ou</ResRef>
+            <ResRef Name="OnUserDefined"></ResRef>
+            <Byte Name="OpenLockDC">0</Byte>
+            <Byte Name="Plot">1</Byte>
+            <Word Name="PortraitId">442</Word>
+            <Byte Name="Ref">0</Byte>
+            <Byte Name="Static">0</Byte>
+            <CExoString Name="Tag">cnrDepositClay</CExoString>
+            <ResRef Name="TemplateResRef">cnrdepositclay</ResRef>
+            <Byte Name="TrapDetectDC">0</Byte>
+            <Byte Name="TrapDetectable">1</Byte>
+            <Byte Name="TrapDisarmable">1</Byte>
+            <Byte Name="TrapFlag">0</Byte>
+            <Byte Name="TrapOneShot">1</Byte>
+            <Byte Name="TrapType">0</Byte>
+            <Byte Name="Type">0</Byte>
+            <Byte Name="Useable">1</Byte>
+            <Byte Name="Will">0</Byte>
+            <Float Name="X">40.309216</Float>
+            <Float Name="Y">6.295358</Float>
+            <Float Name="Z">0.000010</Float>
+        </Struct>
+        <Struct Id="9">
+            <Byte Name="AnimationState">0</Byte>
+            <DWord Name="Appearance">84</DWord>
+            <Byte Name="AutoRemoveKey">0</Byte>
+            <Float Name="Bearing">-0.000000</Float>
+            <Byte Name="BodyBag">0</Byte>
+            <Byte Name="CloseLockDC">0</Byte>
+            <ResRef Name="Conversation"></ResRef>
+            <Short Name="CurrentHP">100</Short>
+            <CExoLocString Name="Description">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">A naturally occuring deposit of clay.  This material is highly prized by mold makers.</CExoString>
+                </SubString>
+            </CExoLocString>
+            <Byte Name="DisarmDC">0</Byte>
+            <DWord Name="Faction">1</DWord>
+            <Byte Name="Fort">5</Byte>
+            <Short Name="HP">100</Short>
+            <Byte Name="Hardness">5</Byte>
+            <Byte Name="HasInventory">0</Byte>
+            <Byte Name="Interruptable">1</Byte>
+            <CExoString Name="KeyName"></CExoString>
+            <Byte Name="KeyRequired">0</Byte>
+            <CExoLocString Name="LocName">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Deposit of Clay</CExoString>
+                </SubString>
+            </CExoLocString>
+            <Byte Name="Lockable">0</Byte>
+            <Byte Name="Locked">0</Byte>
+            <ResRef Name="OnClosed"></ResRef>
+            <ResRef Name="OnDamaged"></ResRef>
+            <ResRef Name="OnDeath"></ResRef>
+            <ResRef Name="OnDisarm"></ResRef>
+            <ResRef Name="OnHeartbeat"></ResRef>
+            <ResRef Name="OnInvDisturbed"></ResRef>
+            <ResRef Name="OnLock"></ResRef>
+            <ResRef Name="OnMeleeAttacked"></ResRef>
+            <ResRef Name="OnOpen"></ResRef>
+            <ResRef Name="OnSpellCastAt"></ResRef>
+            <ResRef Name="OnTrapTriggered"></ResRef>
+            <ResRef Name="OnUnlock"></ResRef>
+            <ResRef Name="OnUsed">cnr_deposit_ou</ResRef>
+            <ResRef Name="OnUserDefined"></ResRef>
+            <Byte Name="OpenLockDC">0</Byte>
+            <Byte Name="Plot">1</Byte>
+            <Word Name="PortraitId">442</Word>
+            <Byte Name="Ref">0</Byte>
+            <Byte Name="Static">0</Byte>
+            <CExoString Name="Tag">cnrDepositClay</CExoString>
+            <ResRef Name="TemplateResRef">cnrdepositclay</ResRef>
+            <Byte Name="TrapDetectDC">0</Byte>
+            <Byte Name="TrapDetectable">1</Byte>
+            <Byte Name="TrapDisarmable">1</Byte>
+            <Byte Name="TrapFlag">0</Byte>
+            <Byte Name="TrapOneShot">1</Byte>
+            <Byte Name="TrapType">0</Byte>
+            <Byte Name="Type">0</Byte>
+            <Byte Name="Useable">1</Byte>
+            <Byte Name="Will">0</Byte>
+            <Float Name="X">41.151035</Float>
+            <Float Name="Y">12.101771</Float>
+            <Float Name="Z">0.000010</Float>
+        </Struct>
+        <Struct Id="9">
+            <Byte Name="AnimationState">0</Byte>
+            <DWord Name="Appearance">176</DWord>
+            <Byte Name="AutoRemoveKey">0</Byte>
+            <Float Name="Bearing">-0.000000</Float>
+            <Byte Name="BodyBag">0</Byte>
+            <Byte Name="CloseLockDC">0</Byte>
+            <ResRef Name="Conversation"></ResRef>
+            <Short Name="CurrentHP">15</Short>
+            <CExoLocString Name="Description">
+                <DWord Name="StringRef">14750</DWord>
+            </CExoLocString>
+            <Byte Name="DisarmDC">15</Byte>
+            <DWord Name="Faction">1</DWord>
+            <Byte Name="Fort">16</Byte>
+            <Short Name="HP">15</Short>
+            <Byte Name="Hardness">5</Byte>
+            <Byte Name="HasInventory">0</Byte>
+            <Byte Name="Interruptable">1</Byte>
+            <CExoString Name="KeyName"></CExoString>
+            <Byte Name="KeyRequired">0</Byte>
+            <CExoLocString Name="LocName">
+                <DWord Name="StringRef">5819</DWord>
+            </CExoLocString>
+            <Byte Name="Lockable">0</Byte>
+            <Byte Name="Locked">0</Byte>
+            <ResRef Name="OnClosed"></ResRef>
+            <ResRef Name="OnDamaged"></ResRef>
+            <ResRef Name="OnDeath"></ResRef>
+            <ResRef Name="OnDisarm"></ResRef>
+            <ResRef Name="OnHeartbeat"></ResRef>
+            <ResRef Name="OnInvDisturbed"></ResRef>
+            <ResRef Name="OnLock"></ResRef>
+            <ResRef Name="OnMeleeAttacked"></ResRef>
+            <ResRef Name="OnOpen"></ResRef>
+            <ResRef Name="OnSpellCastAt"></ResRef>
+            <ResRef Name="OnTrapTriggered"></ResRef>
+            <ResRef Name="OnUnlock"></ResRef>
+            <ResRef Name="OnUsed"></ResRef>
+            <ResRef Name="OnUserDefined"></ResRef>
+            <Byte Name="OpenLockDC">18</Byte>
+            <Byte Name="Plot">0</Byte>
+            <Word Name="PortraitId">534</Word>
+            <Byte Name="Ref">0</Byte>
+            <Byte Name="Static">1</Byte>
+            <CExoString Name="Tag">Water Drip</CExoString>
+            <ResRef Name="TemplateResRef">plc_waterdrip</ResRef>
+            <Byte Name="TrapDetectDC">0</Byte>
+            <Byte Name="TrapDetectable">1</Byte>
+            <Byte Name="TrapDisarmable">1</Byte>
+            <Byte Name="TrapFlag">0</Byte>
+            <Byte Name="TrapOneShot">1</Byte>
+            <Byte Name="TrapType">0</Byte>
+            <Byte Name="Type">0</Byte>
+            <Byte Name="Useable">0</Byte>
+            <Byte Name="Will">0</Byte>
+            <Float Name="X">44.107491</Float>
+            <Float Name="Y">16.716366</Float>
+            <Float Name="Z">0.000010</Float>
+        </Struct>
+        <Struct Id="9">
+            <Byte Name="AnimationState">0</Byte>
+            <DWord Name="Appearance">176</DWord>
+            <Byte Name="AutoRemoveKey">0</Byte>
+            <Float Name="Bearing">-0.000000</Float>
+            <Byte Name="BodyBag">0</Byte>
+            <Byte Name="CloseLockDC">0</Byte>
+            <ResRef Name="Conversation"></ResRef>
+            <Short Name="CurrentHP">15</Short>
+            <CExoLocString Name="Description">
+                <DWord Name="StringRef">14750</DWord>
+            </CExoLocString>
+            <Byte Name="DisarmDC">15</Byte>
+            <DWord Name="Faction">1</DWord>
+            <Byte Name="Fort">16</Byte>
+            <Short Name="HP">15</Short>
+            <Byte Name="Hardness">5</Byte>
+            <Byte Name="HasInventory">0</Byte>
+            <Byte Name="Interruptable">1</Byte>
+            <CExoString Name="KeyName"></CExoString>
+            <Byte Name="KeyRequired">0</Byte>
+            <CExoLocString Name="LocName">
+                <DWord Name="StringRef">5819</DWord>
+            </CExoLocString>
+            <Byte Name="Lockable">0</Byte>
+            <Byte Name="Locked">0</Byte>
+            <ResRef Name="OnClosed"></ResRef>
+            <ResRef Name="OnDamaged"></ResRef>
+            <ResRef Name="OnDeath"></ResRef>
+            <ResRef Name="OnDisarm"></ResRef>
+            <ResRef Name="OnHeartbeat"></ResRef>
+            <ResRef Name="OnInvDisturbed"></ResRef>
+            <ResRef Name="OnLock"></ResRef>
+            <ResRef Name="OnMeleeAttacked"></ResRef>
+            <ResRef Name="OnOpen"></ResRef>
+            <ResRef Name="OnSpellCastAt"></ResRef>
+            <ResRef Name="OnTrapTriggered"></ResRef>
+            <ResRef Name="OnUnlock"></ResRef>
+            <ResRef Name="OnUsed"></ResRef>
+            <ResRef Name="OnUserDefined"></ResRef>
+            <Byte Name="OpenLockDC">18</Byte>
+            <Byte Name="Plot">0</Byte>
+            <Word Name="PortraitId">534</Word>
+            <Byte Name="Ref">0</Byte>
+            <Byte Name="Static">1</Byte>
+            <CExoString Name="Tag">Water Drip</CExoString>
+            <ResRef Name="TemplateResRef">plc_waterdrip</ResRef>
+            <Byte Name="TrapDetectDC">0</Byte>
+            <Byte Name="TrapDetectable">1</Byte>
+            <Byte Name="TrapDisarmable">1</Byte>
+            <Byte Name="TrapFlag">0</Byte>
+            <Byte Name="TrapOneShot">1</Byte>
+            <Byte Name="TrapType">0</Byte>
+            <Byte Name="Type">0</Byte>
+            <Byte Name="Useable">0</Byte>
+            <Byte Name="Will">0</Byte>
+            <Float Name="X">52.299561</Float>
+            <Float Name="Y">24.111435</Float>
+            <Float Name="Z">0.000000</Float>
+        </Struct>
+    </List>
+    <List Name="SoundList">
+        <Struct Id="6">
+            <Byte Name="Active">1</Byte>
+            <Byte Name="Continuous">0</Byte>
+            <Float Name="Elevation">1.500000</Float>
+            <DWord Name="GeneratedType">0</DWord>
+            <DWord Name="Hours">0</DWord>
+            <DWord Name="Interval">0</DWord>
+            <DWord Name="IntervalVrtn">0</DWord>
+            <CExoLocString Name="LocName">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Waterfall Small</CExoString>
+                </SubString>
+            </CExoLocString>
+            <Byte Name="Looping">1</Byte>
+            <Float Name="MaxDistance">16.000000</Float>
+            <Float Name="MinDistance">1.600000</Float>
+            <Float Name="PitchVariation">0.000000</Float>
+            <Byte Name="Positional">1</Byte>
+            <Byte Name="Priority">3</Byte>
+            <Byte Name="Random">0</Byte>
+            <Byte Name="RandomPosition">0</Byte>
+            <Float Name="RandomRangeX">0.000000</Float>
+            <Float Name="RandomRangeY">0.000000</Float>
+            <List Name="Sounds">
+                <Struct Id="0">
+                    <ResRef Name="Sound">al_na_waterfall1</ResRef>
+                </Struct>
+            </List>
+            <CExoString Name="Tag">WaterfallSmall</CExoString>
+            <ResRef Name="TemplateResRef">waterfallsmal</ResRef>
+            <Byte Name="Times">3</Byte>
+            <Byte Name="Volume">127</Byte>
+            <Byte Name="VolumeVrtn">0</Byte>
+            <Float Name="XPosition">44.832394</Float>
+            <Float Name="YPosition">4.706351</Float>
+            <Float Name="ZPosition">0.929539</Float>
+        </Struct>
+        <Struct Id="6">
+            <Byte Name="Active">1</Byte>
+            <Byte Name="Continuous">0</Byte>
+            <Float Name="Elevation">1.500000</Float>
+            <DWord Name="GeneratedType">0</DWord>
+            <DWord Name="Hours">0</DWord>
+            <DWord Name="Interval">0</DWord>
+            <DWord Name="IntervalVrtn">0</DWord>
+            <CExoLocString Name="LocName">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Entrance Scary</CExoString>
+                </SubString>
+            </CExoLocString>
+            <Byte Name="Looping">1</Byte>
+            <Float Name="MaxDistance">20.000000</Float>
+            <Float Name="MinDistance">2.000000</Float>
+            <Float Name="PitchVariation">0.000000</Float>
+            <Byte Name="Positional">1</Byte>
+            <Byte Name="Priority">3</Byte>
+            <Byte Name="Random">0</Byte>
+            <Byte Name="RandomPosition">0</Byte>
+            <Float Name="RandomRangeX">0.000000</Float>
+            <Float Name="RandomRangeY">0.000000</Float>
+            <List Name="Sounds">
+                <Struct Id="0">
+                    <ResRef Name="Sound">al_mg_entrscry1</ResRef>
+                </Struct>
+            </List>
+            <CExoString Name="Tag">EntranceScary</CExoString>
+            <ResRef Name="TemplateResRef">entrancescary</ResRef>
+            <Byte Name="Times">3</Byte>
+            <Byte Name="Volume">127</Byte>
+            <Byte Name="VolumeVrtn">0</Byte>
+            <Float Name="XPosition">34.902439</Float>
+            <Float Name="YPosition">45.864132</Float>
+            <Float Name="ZPosition">-0.389998</Float>
+        </Struct>
+        <Struct Id="6">
+            <Byte Name="Active">1</Byte>
+            <Byte Name="Continuous">1</Byte>
+            <Float Name="Elevation">1.500000</Float>
+            <DWord Name="GeneratedType">0</DWord>
+            <DWord Name="Hours">0</DWord>
+            <DWord Name="Interval">25000</DWord>
+            <DWord Name="IntervalVrtn">5000</DWord>
+            <CExoLocString Name="LocName">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Water Drips</CExoString>
+                </SubString>
+            </CExoLocString>
+            <Byte Name="Looping">0</Byte>
+            <Float Name="MaxDistance">13.000000</Float>
+            <Float Name="MinDistance">1.300000</Float>
+            <Float Name="PitchVariation">0.200000</Float>
+            <Byte Name="Positional">1</Byte>
+            <Byte Name="Priority">20</Byte>
+            <Byte Name="Random">1</Byte>
+            <Byte Name="RandomPosition">1</Byte>
+            <Float Name="RandomRangeX">10.000000</Float>
+            <Float Name="RandomRangeY">10.000000</Float>
+            <List Name="Sounds">
+                <Struct Id="0">
+                    <ResRef Name="Sound">as_na_drip1</ResRef>
+                </Struct>
+                <Struct Id="0">
+                    <ResRef Name="Sound">as_na_drip2</ResRef>
+                </Struct>
+                <Struct Id="0">
+                    <ResRef Name="Sound">as_na_drip3</ResRef>
+                </Struct>
+                <Struct Id="0">
+                    <ResRef Name="Sound">as_na_drip4</ResRef>
+                </Struct>
+                <Struct Id="0">
+                    <ResRef Name="Sound">as_na_drip5</ResRef>
+                </Struct>
+                <Struct Id="0">
+                    <ResRef Name="Sound">as_na_drip6</ResRef>
+                </Struct>
+                <Struct Id="0">
+                    <ResRef Name="Sound">as_na_drip7</ResRef>
+                </Struct>
+                <Struct Id="0">
+                    <ResRef Name="Sound">as_na_dripstone1</ResRef>
+                </Struct>
+                <Struct Id="0">
+                    <ResRef Name="Sound">as_na_dripstone2</ResRef>
+                </Struct>
+            </List>
+            <CExoString Name="Tag">WaterDrips</CExoString>
+            <ResRef Name="TemplateResRef">waterdrips</ResRef>
+            <Byte Name="Times">3</Byte>
+            <Byte Name="Volume">127</Byte>
+            <Byte Name="VolumeVrtn">0</Byte>
+            <Float Name="XPosition">76.068367</Float>
+            <Float Name="YPosition">35.218380</Float>
+            <Float Name="ZPosition">1.549995</Float>
+        </Struct>
+        <Struct Id="6">
+            <Byte Name="Active">1</Byte>
+            <Byte Name="Continuous">1</Byte>
+            <Float Name="Elevation">1.500000</Float>
+            <DWord Name="GeneratedType">0</DWord>
+            <DWord Name="Hours">0</DWord>
+            <DWord Name="Interval">25000</DWord>
+            <DWord Name="IntervalVrtn">5000</DWord>
+            <CExoLocString Name="LocName">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Water Drips</CExoString>
+                </SubString>
+            </CExoLocString>
+            <Byte Name="Looping">0</Byte>
+            <Float Name="MaxDistance">10.000000</Float>
+            <Float Name="MinDistance">1.000000</Float>
+            <Float Name="PitchVariation">0.200000</Float>
+            <Byte Name="Positional">1</Byte>
+            <Byte Name="Priority">20</Byte>
+            <Byte Name="Random">1</Byte>
+            <Byte Name="RandomPosition">1</Byte>
+            <Float Name="RandomRangeX">10.000000</Float>
+            <Float Name="RandomRangeY">10.000000</Float>
+            <List Name="Sounds">
+                <Struct Id="0">
+                    <ResRef Name="Sound">as_na_drip1</ResRef>
+                </Struct>
+                <Struct Id="0">
+                    <ResRef Name="Sound">as_na_drip2</ResRef>
+                </Struct>
+                <Struct Id="0">
+                    <ResRef Name="Sound">as_na_drip3</ResRef>
+                </Struct>
+                <Struct Id="0">
+                    <ResRef Name="Sound">as_na_drip4</ResRef>
+                </Struct>
+                <Struct Id="0">
+                    <ResRef Name="Sound">as_na_drip5</ResRef>
+                </Struct>
+                <Struct Id="0">
+                    <ResRef Name="Sound">as_na_drip6</ResRef>
+                </Struct>
+                <Struct Id="0">
+                    <ResRef Name="Sound">as_na_drip7</ResRef>
+                </Struct>
+                <Struct Id="0">
+                    <ResRef Name="Sound">as_na_dripstone1</ResRef>
+                </Struct>
+                <Struct Id="0">
+                    <ResRef Name="Sound">as_na_dripstone2</ResRef>
+                </Struct>
+            </List>
+            <CExoString Name="Tag">WaterDrips</CExoString>
+            <ResRef Name="TemplateResRef">waterdrips</ResRef>
+            <Byte Name="Times">3</Byte>
+            <Byte Name="Volume">127</Byte>
+            <Byte Name="VolumeVrtn">0</Byte>
+            <Float Name="XPosition">52.879349</Float>
+            <Float Name="YPosition">22.611853</Float>
+            <Float Name="ZPosition">1.352780</Float>
+        </Struct>
+        <Struct Id="6">
+            <Byte Name="Active">1</Byte>
+            <Byte Name="Continuous">1</Byte>
+            <Float Name="Elevation">1.500000</Float>
+            <DWord Name="GeneratedType">0</DWord>
+            <DWord Name="Hours">0</DWord>
+            <DWord Name="Interval">25000</DWord>
+            <DWord Name="IntervalVrtn">5000</DWord>
+            <CExoLocString Name="LocName">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Water Drips</CExoString>
+                </SubString>
+            </CExoLocString>
+            <Byte Name="Looping">0</Byte>
+            <Float Name="MaxDistance">10.000000</Float>
+            <Float Name="MinDistance">1.000000</Float>
+            <Float Name="PitchVariation">0.200000</Float>
+            <Byte Name="Positional">1</Byte>
+            <Byte Name="Priority">20</Byte>
+            <Byte Name="Random">1</Byte>
+            <Byte Name="RandomPosition">1</Byte>
+            <Float Name="RandomRangeX">10.000000</Float>
+            <Float Name="RandomRangeY">10.000000</Float>
+            <List Name="Sounds">
+                <Struct Id="0">
+                    <ResRef Name="Sound">as_na_drip1</ResRef>
+                </Struct>
+                <Struct Id="0">
+                    <ResRef Name="Sound">as_na_drip2</ResRef>
+                </Struct>
+                <Struct Id="0">
+                    <ResRef Name="Sound">as_na_drip3</ResRef>
+                </Struct>
+                <Struct Id="0">
+                    <ResRef Name="Sound">as_na_drip4</ResRef>
+                </Struct>
+                <Struct Id="0">
+                    <ResRef Name="Sound">as_na_drip5</ResRef>
+                </Struct>
+                <Struct Id="0">
+                    <ResRef Name="Sound">as_na_drip6</ResRef>
+                </Struct>
+                <Struct Id="0">
+                    <ResRef Name="Sound">as_na_drip7</ResRef>
+                </Struct>
+                <Struct Id="0">
+                    <ResRef Name="Sound">as_na_dripstone1</ResRef>
+                </Struct>
+                <Struct Id="0">
+                    <ResRef Name="Sound">as_na_dripstone2</ResRef>
+                </Struct>
+            </List>
+            <CExoString Name="Tag">WaterDrips</CExoString>
+            <ResRef Name="TemplateResRef">waterdrips</ResRef>
+            <Byte Name="Times">3</Byte>
+            <Byte Name="Volume">127</Byte>
+            <Byte Name="VolumeVrtn">0</Byte>
+            <Float Name="XPosition">73.668304</Float>
+            <Float Name="YPosition">55.204880</Float>
+            <Float Name="ZPosition">1.634411</Float>
+        </Struct>
+        <Struct Id="6">
+            <Byte Name="Active">1</Byte>
+            <Byte Name="Continuous">1</Byte>
+            <Float Name="Elevation">1.500000</Float>
+            <DWord Name="GeneratedType">0</DWord>
+            <DWord Name="Hours">0</DWord>
+            <DWord Name="Interval">25000</DWord>
+            <DWord Name="IntervalVrtn">5000</DWord>
+            <CExoLocString Name="LocName">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Water Drips</CExoString>
+                </SubString>
+            </CExoLocString>
+            <Byte Name="Looping">0</Byte>
+            <Float Name="MaxDistance">10.000000</Float>
+            <Float Name="MinDistance">1.000000</Float>
+            <Float Name="PitchVariation">0.200000</Float>
+            <Byte Name="Positional">1</Byte>
+            <Byte Name="Priority">20</Byte>
+            <Byte Name="Random">1</Byte>
+            <Byte Name="RandomPosition">1</Byte>
+            <Float Name="RandomRangeX">10.000000</Float>
+            <Float Name="RandomRangeY">10.000000</Float>
+            <List Name="Sounds">
+                <Struct Id="0">
+                    <ResRef Name="Sound">as_na_drip1</ResRef>
+                </Struct>
+                <Struct Id="0">
+                    <ResRef Name="Sound">as_na_drip2</ResRef>
+                </Struct>
+                <Struct Id="0">
+                    <ResRef Name="Sound">as_na_drip3</ResRef>
+                </Struct>
+                <Struct Id="0">
+                    <ResRef Name="Sound">as_na_drip4</ResRef>
+                </Struct>
+                <Struct Id="0">
+                    <ResRef Name="Sound">as_na_drip5</ResRef>
+                </Struct>
+                <Struct Id="0">
+                    <ResRef Name="Sound">as_na_drip6</ResRef>
+                </Struct>
+                <Struct Id="0">
+                    <ResRef Name="Sound">as_na_drip7</ResRef>
+                </Struct>
+                <Struct Id="0">
+                    <ResRef Name="Sound">as_na_dripstone1</ResRef>
+                </Struct>
+                <Struct Id="0">
+                    <ResRef Name="Sound">as_na_dripstone2</ResRef>
+                </Struct>
+            </List>
+            <CExoString Name="Tag">WaterDrips</CExoString>
+            <ResRef Name="TemplateResRef">waterdrips</ResRef>
+            <Byte Name="Times">3</Byte>
+            <Byte Name="Volume">127</Byte>
+            <Byte Name="VolumeVrtn">0</Byte>
+            <Float Name="XPosition">14.954802</Float>
+            <Float Name="YPosition">74.383522</Float>
+            <Float Name="ZPosition">1.941011</Float>
+        </Struct>
+        <Struct Id="6">
+            <Byte Name="Active">1</Byte>
+            <Byte Name="Continuous">0</Byte>
+            <Float Name="Elevation">1.500000</Float>
+            <DWord Name="GeneratedType">0</DWord>
+            <DWord Name="Hours">0</DWord>
+            <DWord Name="Interval">0</DWord>
+            <DWord Name="IntervalVrtn">0</DWord>
+            <CExoLocString Name="LocName">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Torch Fire Small</CExoString>
+                </SubString>
+            </CExoLocString>
+            <Byte Name="Looping">1</Byte>
+            <Float Name="MaxDistance">8.000000</Float>
+            <Float Name="MinDistance">0.800000</Float>
+            <Float Name="PitchVariation">0.000000</Float>
+            <Byte Name="Positional">1</Byte>
+            <Byte Name="Priority">3</Byte>
+            <Byte Name="Random">0</Byte>
+            <Byte Name="RandomPosition">0</Byte>
+            <Float Name="RandomRangeX">0.000000</Float>
+            <Float Name="RandomRangeY">0.000000</Float>
+            <List Name="Sounds">
+                <Struct Id="0">
+                    <ResRef Name="Sound">al_cv_firetorch1</ResRef>
+                </Struct>
+            </List>
+            <CExoString Name="Tag">TorchFireSmall</CExoString>
+            <ResRef Name="TemplateResRef">torchfiresmall</ResRef>
+            <Byte Name="Times">3</Byte>
+            <Byte Name="Volume">127</Byte>
+            <Byte Name="VolumeVrtn">0</Byte>
+            <Float Name="XPosition">7.094018</Float>
+            <Float Name="YPosition">46.257751</Float>
+            <Float Name="ZPosition">1.766352</Float>
+        </Struct>
+        <Struct Id="6">
+            <Byte Name="Active">1</Byte>
+            <Byte Name="Continuous">0</Byte>
+            <Float Name="Elevation">1.500000</Float>
+            <DWord Name="GeneratedType">0</DWord>
+            <DWord Name="Hours">0</DWord>
+            <DWord Name="Interval">0</DWord>
+            <DWord Name="IntervalVrtn">0</DWord>
+            <CExoLocString Name="LocName">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Torch Fire Small</CExoString>
+                </SubString>
+            </CExoLocString>
+            <Byte Name="Looping">1</Byte>
+            <Float Name="MaxDistance">6.000000</Float>
+            <Float Name="MinDistance">0.600000</Float>
+            <Float Name="PitchVariation">0.000000</Float>
+            <Byte Name="Positional">1</Byte>
+            <Byte Name="Priority">3</Byte>
+            <Byte Name="Random">0</Byte>
+            <Byte Name="RandomPosition">0</Byte>
+            <Float Name="RandomRangeX">0.000000</Float>
+            <Float Name="RandomRangeY">0.000000</Float>
+            <List Name="Sounds">
+                <Struct Id="0">
+                    <ResRef Name="Sound">al_cv_firetorch1</ResRef>
+                </Struct>
+            </List>
+            <CExoString Name="Tag">TorchFireSmall</CExoString>
+            <ResRef Name="TemplateResRef">torchfiresmall</ResRef>
+            <Byte Name="Times">3</Byte>
+            <Byte Name="Volume">127</Byte>
+            <Byte Name="VolumeVrtn">0</Byte>
+            <Float Name="XPosition">26.265043</Float>
+            <Float Name="YPosition">23.000610</Float>
+            <Float Name="ZPosition">1.727993</Float>
+        </Struct>
+    </List>
+    <List Name="StoreList"/>
+    <List Name="TriggerList">
+        <Struct Id="1">
+            <Byte Name="AutoRemoveKey">0</Byte>
+            <Byte Name="Cursor">1</Byte>
+            <Byte Name="DisarmDC">0</Byte>
+            <DWord Name="Faction">1</DWord>
+            <List Name="Geometry">
+                <Struct Id="3">
+                    <Float Name="PointX">-1.692062</Float>
+                    <Float Name="PointY">4.950857</Float>
+                    <Float Name="PointZ">0.025000</Float>
+                </Struct>
+                <Struct Id="3">
+                    <Float Name="PointX">-1.692062</Float>
+                    <Float Name="PointY">-0.000001</Float>
+                    <Float Name="PointZ">0.025000</Float>
+                </Struct>
+                <Struct Id="3">
+                    <Float Name="PointX">0.000000</Float>
+                    <Float Name="PointY">0.000000</Float>
+                    <Float Name="PointZ">0.025000</Float>
+                </Struct>
+                <Struct Id="3">
+                    <Float Name="PointX">0.000000</Float>
+                    <Float Name="PointY">4.950856</Float>
+                    <Float Name="PointZ">0.025000</Float>
+                </Struct>
+            </List>
+            <Float Name="HighlightHeight">0.000000</Float>
+            <CExoString Name="KeyName"></CExoString>
+            <CExoString Name="LinkedTo">WP_UDToRustinCave</CExoString>
+            <Byte Name="LinkedToFlags">2</Byte>
+            <Word Name="LoadScreenID">0</Word>
+            <CExoLocString Name="LocalizedName">
+                <DWord Name="StringRef">14760</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">New Area Transition</CExoString>
+                </SubString>
+            </CExoLocString>
+            <ResRef Name="OnClick"></ResRef>
+            <ResRef Name="OnDisarm"></ResRef>
+            <ResRef Name="OnTrapTriggered"></ResRef>
+            <Word Name="PortraitId">0</Word>
+            <ResRef Name="ScriptHeartbeat"></ResRef>
+            <ResRef Name="ScriptOnEnter"></ResRef>
+            <ResRef Name="ScriptOnExit"></ResRef>
+            <ResRef Name="ScriptUserDefine"></ResRef>
+            <CExoString Name="Tag">RustinCaveToUD</CExoString>
+            <ResRef Name="TemplateResRef">newtransition</ResRef>
+            <Byte Name="TrapDetectDC">0</Byte>
+            <Byte Name="TrapDetectable">1</Byte>
+            <Byte Name="TrapDisarmable">1</Byte>
+            <Byte Name="TrapFlag">0</Byte>
+            <Byte Name="TrapOneShot">1</Byte>
+            <Byte Name="TrapType">0</Byte>
+            <Int Name="Type">1</Int>
+            <Float Name="XOrientation">0.000000</Float>
+            <Float Name="XPosition">79.511574</Float>
+            <Float Name="YOrientation">0.000000</Float>
+            <Float Name="YPosition">2.741112</Float>
+            <Float Name="ZOrientation">0.000000</Float>
+            <Float Name="ZPosition">0.000000</Float>
+        </Struct>
+    </List>
+    <List Name="WaypointList">
+        <Struct Id="5">
+            <Byte Name="Appearance">3</Byte>
+            <CExoLocString Name="Description">
+                <DWord Name="StringRef">4294967295</DWord>
+            </CExoLocString>
+            <Byte Name="HasMapNote">0</Byte>
+            <CExoString Name="LinkedTo"></CExoString>
+            <CExoLocString Name="LocalizedName">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">METAL03, offset 5</CExoString>
+                </SubString>
+            </CExoLocString>
+            <CExoLocString Name="MapNote">
+                <DWord Name="StringRef">4294967295</DWord>
+            </CExoLocString>
+            <Byte Name="MapNoteEnabled">0</Byte>
+            <CExoString Name="Tag">cnr_resourcepoint</CExoString>
+            <ResRef Name="TemplateResRef">cnr_resourcep002</ResRef>
+            <Float Name="XOrientation">0.000000</Float>
+            <Float Name="XPosition">30.685146</Float>
+            <Float Name="YOrientation">1.000000</Float>
+            <Float Name="YPosition">8.767814</Float>
+            <Float Name="ZPosition">0.000010</Float>
+        </Struct>
+        <Struct Id="5">
+            <Byte Name="Appearance">3</Byte>
+            <CExoLocString Name="Description">
+                <DWord Name="StringRef">4294967295</DWord>
+            </CExoLocString>
+            <Byte Name="HasMapNote">0</Byte>
+            <CExoString Name="LinkedTo"></CExoString>
+            <CExoLocString Name="LocalizedName">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">METAL03, offset 5</CExoString>
+                </SubString>
+            </CExoLocString>
+            <CExoLocString Name="MapNote">
+                <DWord Name="StringRef">4294967295</DWord>
+            </CExoLocString>
+            <Byte Name="MapNoteEnabled">0</Byte>
+            <CExoString Name="Tag">cnr_resourcepoint</CExoString>
+            <ResRef Name="TemplateResRef">cnr_resourcep002</ResRef>
+            <Float Name="XOrientation">0.000000</Float>
+            <Float Name="XPosition">34.049706</Float>
+            <Float Name="YOrientation">1.000000</Float>
+            <Float Name="YPosition">15.746167</Float>
+            <Float Name="ZPosition">0.000010</Float>
+        </Struct>
+        <Struct Id="5">
+            <Byte Name="Appearance">3</Byte>
+            <CExoLocString Name="Description">
+                <DWord Name="StringRef">4294967295</DWord>
+            </CExoLocString>
+            <Byte Name="HasMapNote">0</Byte>
+            <CExoString Name="LinkedTo"></CExoString>
+            <CExoLocString Name="LocalizedName">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">METAL03, offset 5</CExoString>
+                </SubString>
+            </CExoLocString>
+            <CExoLocString Name="MapNote">
+                <DWord Name="StringRef">4294967295</DWord>
+            </CExoLocString>
+            <Byte Name="MapNoteEnabled">0</Byte>
+            <CExoString Name="Tag">cnr_resourcepoint</CExoString>
+            <ResRef Name="TemplateResRef">cnr_resourcep002</ResRef>
+            <Float Name="XOrientation">0.000000</Float>
+            <Float Name="XPosition">22.896801</Float>
+            <Float Name="YOrientation">1.000000</Float>
+            <Float Name="YPosition">15.310020</Float>
+            <Float Name="ZPosition">0.000010</Float>
+        </Struct>
+        <Struct Id="5">
+            <Byte Name="Appearance">3</Byte>
+            <CExoLocString Name="Description">
+                <DWord Name="StringRef">4294967295</DWord>
+            </CExoLocString>
+            <Byte Name="HasMapNote">0</Byte>
+            <CExoString Name="LinkedTo"></CExoString>
+            <CExoLocString Name="LocalizedName">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">METAL03, offset 5</CExoString>
+                </SubString>
+            </CExoLocString>
+            <CExoLocString Name="MapNote">
+                <DWord Name="StringRef">4294967295</DWord>
+            </CExoLocString>
+            <Byte Name="MapNoteEnabled">0</Byte>
+            <CExoString Name="Tag">cnr_resourcepoint</CExoString>
+            <ResRef Name="TemplateResRef">cnr_resourcep002</ResRef>
+            <Float Name="XOrientation">0.000000</Float>
+            <Float Name="XPosition">72.241722</Float>
+            <Float Name="YOrientation">1.000000</Float>
+            <Float Name="YPosition">3.634335</Float>
+            <Float Name="ZPosition">0.158751</Float>
+        </Struct>
+        <Struct Id="5">
+            <Byte Name="Appearance">3</Byte>
+            <CExoLocString Name="Description">
+                <DWord Name="StringRef">4294967295</DWord>
+            </CExoLocString>
+            <Byte Name="HasMapNote">0</Byte>
+            <CExoString Name="LinkedTo"></CExoString>
+            <CExoLocString Name="LocalizedName">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">METAL03, offset 5</CExoString>
+                </SubString>
+            </CExoLocString>
+            <CExoLocString Name="MapNote">
+                <DWord Name="StringRef">4294967295</DWord>
+            </CExoLocString>
+            <Byte Name="MapNoteEnabled">0</Byte>
+            <CExoString Name="Tag">cnr_resourcepoint</CExoString>
+            <ResRef Name="TemplateResRef">cnr_resourcep002</ResRef>
+            <Float Name="XOrientation">0.000000</Float>
+            <Float Name="XPosition">18.534630</Float>
+            <Float Name="YOrientation">1.000000</Float>
+            <Float Name="YPosition">4.861906</Float>
+            <Float Name="ZPosition">0.565662</Float>
+        </Struct>
+        <Struct Id="5">
+            <Byte Name="Appearance">1</Byte>
+            <CExoLocString Name="Description">
+                <DWord Name="StringRef">4294967295</DWord>
+            </CExoLocString>
+            <Byte Name="HasMapNote">0</Byte>
+            <CExoString Name="LinkedTo"></CExoString>
+            <CExoLocString Name="LocalizedName">
+                <DWord Name="StringRef">4294967295</DWord>
+            </CExoLocString>
+            <CExoLocString Name="MapNote">
+                <DWord Name="StringRef">4294967295</DWord>
+            </CExoLocString>
+            <Byte Name="MapNoteEnabled">0</Byte>
+            <CExoString Name="Tag">WP_RustinCaveToUD</CExoString>
+            <ResRef Name="TemplateResRef"></ResRef>
+            <Float Name="XOrientation">-1.000000</Float>
+            <Float Name="XPosition">75.490295</Float>
+            <Float Name="YOrientation">0.000002</Float>
+            <Float Name="YPosition">5.072203</Float>
+            <Float Name="ZPosition">0.000010</Float>
+        </Struct>
+    </List>
+</Gff>

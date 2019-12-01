@@ -1,0 +1,1645 @@
+<Gff Version="1" Type="GIT">
+    <Struct Name="AreaProperties" Id="100">
+        <Int Name="AmbientSndDay">72</Int>
+        <Int Name="AmbientSndDayVol">32</Int>
+        <Int Name="AmbientSndNight">72</Int>
+        <Int Name="AmbientSndNitVol">32</Int>
+        <Int Name="EnvAudio">0</Int>
+        <Int Name="MusicBattle">40</Int>
+        <Int Name="MusicDay">25</Int>
+        <Int Name="MusicDelay">90000</Int>
+        <Int Name="MusicNight">25</Int>
+    </Struct>
+    <List Name="Creature List"/>
+    <List Name="Door List">
+        <Struct Id="8">
+            <Byte Name="AnimationState">0</Byte>
+            <DWord Name="Appearance">0</DWord>
+            <Byte Name="AutoRemoveKey">0</Byte>
+            <Float Name="Bearing">0.000002</Float>
+            <Byte Name="CloseLockDC">0</Byte>
+            <CExoString Name="Comment"></CExoString>
+            <ResRef Name="Conversation"></ResRef>
+            <Short Name="CurrentHP">15</Short>
+            <CExoLocString Name="Description">
+                <DWord Name="StringRef">4294967295</DWord>
+            </CExoLocString>
+            <Byte Name="DisarmDC">15</Byte>
+            <DWord Name="Faction">1</DWord>
+            <Byte Name="Fort">16</Byte>
+            <Byte Name="GenericType">0</Byte>
+            <Short Name="HP">15</Short>
+            <Byte Name="Hardness">5</Byte>
+            <Byte Name="Interruptable">1</Byte>
+            <CExoString Name="KeyName"></CExoString>
+            <Byte Name="KeyRequired">0</Byte>
+            <CExoString Name="LinkedTo">CleavenCainsDoorOuter</CExoString>
+            <Byte Name="LinkedToFlags">1</Byte>
+            <Word Name="LoadScreenID">0</Word>
+            <CExoLocString Name="LocName">
+                <DWord Name="StringRef">5349</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Door</CExoString>
+                </SubString>
+            </CExoLocString>
+            <Byte Name="Lockable">0</Byte>
+            <Byte Name="Locked">0</Byte>
+            <ResRef Name="OnClick"></ResRef>
+            <ResRef Name="OnClosed"></ResRef>
+            <ResRef Name="OnDamaged"></ResRef>
+            <ResRef Name="OnDeath"></ResRef>
+            <ResRef Name="OnDisarm"></ResRef>
+            <ResRef Name="OnFailToOpen"></ResRef>
+            <ResRef Name="OnHeartbeat"></ResRef>
+            <ResRef Name="OnLock"></ResRef>
+            <ResRef Name="OnMeleeAttacked"></ResRef>
+            <ResRef Name="OnOpen"></ResRef>
+            <ResRef Name="OnSpellCastAt"></ResRef>
+            <ResRef Name="OnTrapTriggered"></ResRef>
+            <ResRef Name="OnUnlock"></ResRef>
+            <ResRef Name="OnUserDefined"></ResRef>
+            <Byte Name="OpenLockDC">18</Byte>
+            <Byte Name="Plot">0</Byte>
+            <Word Name="PortraitId">0</Word>
+            <Byte Name="Ref">0</Byte>
+            <CExoString Name="Tag">CleavenCainsBlacksmithDoorInner</CExoString>
+            <ResRef Name="TemplateResRef">nw_door_normal</ResRef>
+            <Byte Name="TrapDetectDC">0</Byte>
+            <Byte Name="TrapDetectable">1</Byte>
+            <Byte Name="TrapDisarmable">1</Byte>
+            <Byte Name="TrapFlag">0</Byte>
+            <Byte Name="TrapOneShot">1</Byte>
+            <Byte Name="TrapType">0</Byte>
+            <Byte Name="Will">0</Byte>
+            <Float Name="X">25.000000</Float>
+            <Float Name="Y">40.000000</Float>
+            <Float Name="Z">0.000000</Float>
+        </Struct>
+    </List>
+    <List Name="Encounter List">
+        <Struct Id="7">
+            <Byte Name="Active">1</Byte>
+            <List Name="CreatureList">
+                <Struct Id="0">
+                    <Int Name="Appearance">6</Int>
+                    <Float Name="CR">19.000000</Float>
+                    <ResRef Name="ResRef">timoasen005</ResRef>
+                    <Byte Name="SingleSpawn">0</Byte>
+                </Struct>
+            </List>
+            <Int Name="Difficulty">9</Int>
+            <Int Name="DifficultyIndex">4</Int>
+            <DWord Name="Faction">1</DWord>
+            <List Name="Geometry">
+                <Struct Id="1">
+                    <Float Name="X">16.874264</Float>
+                    <Float Name="Y">3.488579</Float>
+                    <Float Name="Z">0.025000</Float>
+                </Struct>
+                <Struct Id="1">
+                    <Float Name="X">0.602726</Float>
+                    <Float Name="Y">4.676987</Float>
+                    <Float Name="Z">0.025000</Float>
+                </Struct>
+                <Struct Id="1">
+                    <Float Name="X">0.595432</Float>
+                    <Float Name="Y">0.234070</Float>
+                    <Float Name="Z">0.025000</Float>
+                </Struct>
+                <Struct Id="1">
+                    <Float Name="X">0.000000</Float>
+                    <Float Name="Y">0.000000</Float>
+                    <Float Name="Z">0.025000</Float>
+                </Struct>
+                <Struct Id="1">
+                    <Float Name="X">-0.260593</Float>
+                    <Float Name="Y">4.972416</Float>
+                    <Float Name="Z">0.025000</Float>
+                </Struct>
+                <Struct Id="1">
+                    <Float Name="X">-26.634659</Float>
+                    <Float Name="Y">4.330154</Float>
+                    <Float Name="Z">0.025000</Float>
+                </Struct>
+                <Struct Id="1">
+                    <Float Name="X">-26.942497</Float>
+                    <Float Name="Y">-19.579626</Float>
+                    <Float Name="Z">0.025000</Float>
+                </Struct>
+                <Struct Id="1">
+                    <Float Name="X">16.629692</Float>
+                    <Float Name="Y">-19.337265</Float>
+                    <Float Name="Z">0.025000</Float>
+                </Struct>
+            </List>
+            <CExoLocString Name="LocalizedName">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Cleaven Mathan Cain</CExoString>
+                </SubString>
+            </CExoLocString>
+            <Int Name="MaxCreatures">1</Int>
+            <ResRef Name="OnEntered"></ResRef>
+            <ResRef Name="OnExhausted"></ResRef>
+            <ResRef Name="OnExit"></ResRef>
+            <ResRef Name="OnHeartbeat"></ResRef>
+            <ResRef Name="OnUserDefined"></ResRef>
+            <Byte Name="PlayerOnly">0</Byte>
+            <Int Name="RecCreatures">1</Int>
+            <Byte Name="Reset">1</Byte>
+            <Int Name="ResetTime">900</Int>
+            <Int Name="Respawns">-1</Int>
+            <Int Name="SpawnOption">0</Int>
+            <List Name="SpawnPointList">
+                <Struct Id="2">
+                    <Float Name="Orientation">1.546251</Float>
+                    <Float Name="X">35.082497</Float>
+                    <Float Name="Y">30.549652</Float>
+                    <Float Name="Z">0.000415</Float>
+                </Struct>
+            </List>
+            <CExoString Name="Tag">CleavenMathanCain</CExoString>
+            <ResRef Name="TemplateResRef">cleavenmathancai</ResRef>
+            <Float Name="XPosition">29.654289</Float>
+            <Float Name="YPosition">33.534424</Float>
+            <Float Name="ZPosition">0.000000</Float>
+        </Struct>
+    </List>
+    <List Name="List"/>
+    <List Name="Placeable List">
+        <Struct Id="9">
+            <Byte Name="AnimationState">0</Byte>
+            <DWord Name="Appearance">49</DWord>
+            <Byte Name="AutoRemoveKey">0</Byte>
+            <Float Name="Bearing">-0.000000</Float>
+            <Byte Name="BodyBag">0</Byte>
+            <Byte Name="CloseLockDC">0</Byte>
+            <ResRef Name="Conversation"></ResRef>
+            <Short Name="CurrentHP">10</Short>
+            <CExoLocString Name="Description">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Please keep your world clean. Place your unwanted items into this barrel.</CExoString>
+                </SubString>
+            </CExoLocString>
+            <Byte Name="DisarmDC">0</Byte>
+            <DWord Name="Faction">1</DWord>
+            <Byte Name="Fort">5</Byte>
+            <Short Name="HP">10</Short>
+            <Byte Name="Hardness">5</Byte>
+            <Byte Name="HasInventory">1</Byte>
+            <Byte Name="Interruptable">1</Byte>
+            <CExoString Name="KeyName"></CExoString>
+            <Byte Name="KeyRequired">0</Byte>
+            <CExoLocString Name="LocName">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Trash Barrel</CExoString>
+                </SubString>
+            </CExoLocString>
+            <Byte Name="Lockable">0</Byte>
+            <Byte Name="Locked">0</Byte>
+            <ResRef Name="OnClosed"></ResRef>
+            <ResRef Name="OnDamaged"></ResRef>
+            <ResRef Name="OnDeath"></ResRef>
+            <ResRef Name="OnDisarm"></ResRef>
+            <ResRef Name="OnHeartbeat"></ResRef>
+            <ResRef Name="OnInvDisturbed">cnr_device_od</ResRef>
+            <ResRef Name="OnLock"></ResRef>
+            <ResRef Name="OnMeleeAttacked"></ResRef>
+            <ResRef Name="OnOpen"></ResRef>
+            <ResRef Name="OnSpellCastAt"></ResRef>
+            <ResRef Name="OnTrapTriggered"></ResRef>
+            <ResRef Name="OnUnlock"></ResRef>
+            <ResRef Name="OnUsed">cnr_trashcan_ou</ResRef>
+            <ResRef Name="OnUserDefined"></ResRef>
+            <Byte Name="OpenLockDC">0</Byte>
+            <Byte Name="Plot">1</Byte>
+            <Word Name="PortraitId">407</Word>
+            <Byte Name="Ref">0</Byte>
+            <Byte Name="Static">0</Byte>
+            <CExoString Name="Tag">cnrTrashBarrel</CExoString>
+            <ResRef Name="TemplateResRef">cnrtrashbarrel</ResRef>
+            <Byte Name="TrapDetectDC">0</Byte>
+            <Byte Name="TrapDetectable">1</Byte>
+            <Byte Name="TrapDisarmable">1</Byte>
+            <Byte Name="TrapFlag">0</Byte>
+            <Byte Name="TrapOneShot">1</Byte>
+            <Byte Name="TrapType">0</Byte>
+            <Byte Name="Type">0</Byte>
+            <Byte Name="Useable">1</Byte>
+            <Byte Name="Will">0</Byte>
+            <Float Name="X">23.429985</Float>
+            <Float Name="Y">19.550465</Float>
+            <Float Name="Z">0.000010</Float>
+        </Struct>
+        <Struct Id="9">
+            <Byte Name="AnimationState">0</Byte>
+            <DWord Name="Appearance">49</DWord>
+            <Byte Name="AutoRemoveKey">0</Byte>
+            <Float Name="Bearing">-0.000000</Float>
+            <Byte Name="BodyBag">0</Byte>
+            <Byte Name="CloseLockDC">0</Byte>
+            <ResRef Name="Conversation"></ResRef>
+            <Short Name="CurrentHP">10</Short>
+            <CExoLocString Name="Description">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Please keep your world clean. Place your unwanted items into this barrel.</CExoString>
+                </SubString>
+            </CExoLocString>
+            <Byte Name="DisarmDC">0</Byte>
+            <DWord Name="Faction">1</DWord>
+            <Byte Name="Fort">5</Byte>
+            <Short Name="HP">10</Short>
+            <Byte Name="Hardness">5</Byte>
+            <Byte Name="HasInventory">1</Byte>
+            <Byte Name="Interruptable">1</Byte>
+            <CExoString Name="KeyName"></CExoString>
+            <Byte Name="KeyRequired">0</Byte>
+            <CExoLocString Name="LocName">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Trash Barrel</CExoString>
+                </SubString>
+            </CExoLocString>
+            <Byte Name="Lockable">0</Byte>
+            <Byte Name="Locked">0</Byte>
+            <ResRef Name="OnClosed"></ResRef>
+            <ResRef Name="OnDamaged"></ResRef>
+            <ResRef Name="OnDeath"></ResRef>
+            <ResRef Name="OnDisarm"></ResRef>
+            <ResRef Name="OnHeartbeat"></ResRef>
+            <ResRef Name="OnInvDisturbed">cnr_device_od</ResRef>
+            <ResRef Name="OnLock"></ResRef>
+            <ResRef Name="OnMeleeAttacked"></ResRef>
+            <ResRef Name="OnOpen"></ResRef>
+            <ResRef Name="OnSpellCastAt"></ResRef>
+            <ResRef Name="OnTrapTriggered"></ResRef>
+            <ResRef Name="OnUnlock"></ResRef>
+            <ResRef Name="OnUsed">cnr_trashcan_ou</ResRef>
+            <ResRef Name="OnUserDefined"></ResRef>
+            <Byte Name="OpenLockDC">0</Byte>
+            <Byte Name="Plot">1</Byte>
+            <Word Name="PortraitId">407</Word>
+            <Byte Name="Ref">0</Byte>
+            <Byte Name="Static">0</Byte>
+            <CExoString Name="Tag">cnrTrashBarrel</CExoString>
+            <ResRef Name="TemplateResRef">cnrtrashbarrel</ResRef>
+            <Byte Name="TrapDetectDC">0</Byte>
+            <Byte Name="TrapDetectable">1</Byte>
+            <Byte Name="TrapDisarmable">1</Byte>
+            <Byte Name="TrapFlag">0</Byte>
+            <Byte Name="TrapOneShot">1</Byte>
+            <Byte Name="TrapType">0</Byte>
+            <Byte Name="Type">0</Byte>
+            <Byte Name="Useable">1</Byte>
+            <Byte Name="Will">0</Byte>
+            <Float Name="X">33.830429</Float>
+            <Float Name="Y">19.711712</Float>
+            <Float Name="Z">0.000415</Float>
+        </Struct>
+        <Struct Id="9">
+            <Byte Name="AnimationState">0</Byte>
+            <DWord Name="Appearance">48</DWord>
+            <Byte Name="AutoRemoveKey">0</Byte>
+            <Float Name="Bearing">1.546251</Float>
+            <Byte Name="BodyBag">0</Byte>
+            <Byte Name="CloseLockDC">0</Byte>
+            <ResRef Name="Conversation">cnr_c_recipe</ResRef>
+            <Short Name="CurrentHP">10</Short>
+            <CExoLocString Name="Description">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">This anvil can be used to craft weapons.</CExoString>
+                </SubString>
+            </CExoLocString>
+            <Byte Name="DisarmDC">0</Byte>
+            <DWord Name="Faction">1</DWord>
+            <Byte Name="Fort">5</Byte>
+            <Short Name="HP">10</Short>
+            <Byte Name="Hardness">5</Byte>
+            <Byte Name="HasInventory">1</Byte>
+            <Byte Name="Interruptable">0</Byte>
+            <CExoString Name="KeyName"></CExoString>
+            <Byte Name="KeyRequired">0</Byte>
+            <CExoLocString Name="LocName">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Weapon Crafting Anvil</CExoString>
+                </SubString>
+            </CExoLocString>
+            <Byte Name="Lockable">0</Byte>
+            <Byte Name="Locked">0</Byte>
+            <ResRef Name="OnClosed"></ResRef>
+            <ResRef Name="OnDamaged"></ResRef>
+            <ResRef Name="OnDeath"></ResRef>
+            <ResRef Name="OnDisarm"></ResRef>
+            <ResRef Name="OnHeartbeat"></ResRef>
+            <ResRef Name="OnInvDisturbed">cnr_device_od</ResRef>
+            <ResRef Name="OnLock"></ResRef>
+            <ResRef Name="OnMeleeAttacked"></ResRef>
+            <ResRef Name="OnOpen"></ResRef>
+            <ResRef Name="OnSpellCastAt"></ResRef>
+            <ResRef Name="OnTrapTriggered"></ResRef>
+            <ResRef Name="OnUnlock"></ResRef>
+            <ResRef Name="OnUsed">cnr_device_ou</ResRef>
+            <ResRef Name="OnUserDefined"></ResRef>
+            <Byte Name="OpenLockDC">0</Byte>
+            <Byte Name="Plot">1</Byte>
+            <Word Name="PortraitId">406</Word>
+            <Byte Name="Ref">0</Byte>
+            <Byte Name="Static">0</Byte>
+            <CExoString Name="Tag">cnrAnvilPublic</CExoString>
+            <ResRef Name="TemplateResRef">cnranvilpublic</ResRef>
+            <Byte Name="TrapDetectDC">0</Byte>
+            <Byte Name="TrapDetectable">1</Byte>
+            <Byte Name="TrapDisarmable">1</Byte>
+            <Byte Name="TrapFlag">0</Byte>
+            <Byte Name="TrapOneShot">1</Byte>
+            <Byte Name="TrapType">0</Byte>
+            <Byte Name="Type">0</Byte>
+            <Byte Name="Useable">1</Byte>
+            <Byte Name="Will">0</Byte>
+            <Float Name="X">28.930014</Float>
+            <Float Name="Y">27.320156</Float>
+            <Float Name="Z">0.017661</Float>
+        </Struct>
+        <Struct Id="9">
+            <Byte Name="AnimationState">0</Byte>
+            <DWord Name="Appearance">57</DWord>
+            <Byte Name="AutoRemoveKey">0</Byte>
+            <Float Name="Bearing">-0.000000</Float>
+            <Byte Name="BodyBag">0</Byte>
+            <Byte Name="CloseLockDC">0</Byte>
+            <ResRef Name="Conversation"></ResRef>
+            <Short Name="CurrentHP">10</Short>
+            <CExoLocString Name="Description">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">This is an ATS anvil knockoff implemented with CNR.</CExoString>
+                </SubString>
+            </CExoLocString>
+            <Byte Name="DisarmDC">0</Byte>
+            <DWord Name="Faction">1</DWord>
+            <Byte Name="Fort">5</Byte>
+            <Short Name="HP">10</Short>
+            <Byte Name="Hardness">5</Byte>
+            <Byte Name="HasInventory">1</Byte>
+            <Byte Name="Interruptable">1</Byte>
+            <CExoString Name="KeyName"></CExoString>
+            <Byte Name="KeyRequired">0</Byte>
+            <CExoLocString Name="LocName">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Ingot Recycler</CExoString>
+                </SubString>
+            </CExoLocString>
+            <Byte Name="Lockable">0</Byte>
+            <Byte Name="Locked">0</Byte>
+            <ResRef Name="OnClosed"></ResRef>
+            <ResRef Name="OnDamaged"></ResRef>
+            <ResRef Name="OnDeath"></ResRef>
+            <ResRef Name="OnDisarm"></ResRef>
+            <ResRef Name="OnHeartbeat"></ResRef>
+            <ResRef Name="OnInvDisturbed">cnr_device_od</ResRef>
+            <ResRef Name="OnLock"></ResRef>
+            <ResRef Name="OnMeleeAttacked"></ResRef>
+            <ResRef Name="OnOpen"></ResRef>
+            <ResRef Name="OnSpellCastAt"></ResRef>
+            <ResRef Name="OnTrapTriggered"></ResRef>
+            <ResRef Name="OnUnlock"></ResRef>
+            <ResRef Name="OnUsed">cnr_silent_ou</ResRef>
+            <ResRef Name="OnUserDefined"></ResRef>
+            <Byte Name="OpenLockDC">0</Byte>
+            <Byte Name="Plot">1</Byte>
+            <Word Name="PortraitId">415</Word>
+            <Byte Name="Ref">0</Byte>
+            <Byte Name="Static">0</Byte>
+            <CExoString Name="Tag">cnrIngotRecycler</CExoString>
+            <ResRef Name="TemplateResRef">cnringotrecycler</ResRef>
+            <Byte Name="TrapDetectDC">0</Byte>
+            <Byte Name="TrapDetectable">1</Byte>
+            <Byte Name="TrapDisarmable">1</Byte>
+            <Byte Name="TrapFlag">0</Byte>
+            <Byte Name="TrapOneShot">1</Byte>
+            <Byte Name="TrapType">0</Byte>
+            <Byte Name="Type">0</Byte>
+            <Byte Name="Useable">1</Byte>
+            <Byte Name="Will">0</Byte>
+            <Float Name="X">14.630166</Float>
+            <Float Name="Y">16.014414</Float>
+            <Float Name="Z">0.000415</Float>
+        </Struct>
+        <Struct Id="9">
+            <Byte Name="AnimationState">0</Byte>
+            <DWord Name="Appearance">57</DWord>
+            <Byte Name="AutoRemoveKey">0</Byte>
+            <Float Name="Bearing">-0.000000</Float>
+            <Byte Name="BodyBag">0</Byte>
+            <Byte Name="CloseLockDC">0</Byte>
+            <ResRef Name="Conversation"></ResRef>
+            <Short Name="CurrentHP">10</Short>
+            <CExoLocString Name="Description">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">This is an ATS anvil knockoff implemented with CNR.</CExoString>
+                </SubString>
+            </CExoLocString>
+            <Byte Name="DisarmDC">0</Byte>
+            <DWord Name="Faction">1</DWord>
+            <Byte Name="Fort">5</Byte>
+            <Short Name="HP">10</Short>
+            <Byte Name="Hardness">5</Byte>
+            <Byte Name="HasInventory">1</Byte>
+            <Byte Name="Interruptable">1</Byte>
+            <CExoString Name="KeyName"></CExoString>
+            <Byte Name="KeyRequired">0</Byte>
+            <CExoLocString Name="LocName">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Ingot Recycler</CExoString>
+                </SubString>
+            </CExoLocString>
+            <Byte Name="Lockable">0</Byte>
+            <Byte Name="Locked">0</Byte>
+            <ResRef Name="OnClosed"></ResRef>
+            <ResRef Name="OnDamaged"></ResRef>
+            <ResRef Name="OnDeath"></ResRef>
+            <ResRef Name="OnDisarm"></ResRef>
+            <ResRef Name="OnHeartbeat"></ResRef>
+            <ResRef Name="OnInvDisturbed">cnr_device_od</ResRef>
+            <ResRef Name="OnLock"></ResRef>
+            <ResRef Name="OnMeleeAttacked"></ResRef>
+            <ResRef Name="OnOpen"></ResRef>
+            <ResRef Name="OnSpellCastAt"></ResRef>
+            <ResRef Name="OnTrapTriggered"></ResRef>
+            <ResRef Name="OnUnlock"></ResRef>
+            <ResRef Name="OnUsed">cnr_silent_ou</ResRef>
+            <ResRef Name="OnUserDefined"></ResRef>
+            <Byte Name="OpenLockDC">0</Byte>
+            <Byte Name="Plot">1</Byte>
+            <Word Name="PortraitId">415</Word>
+            <Byte Name="Ref">0</Byte>
+            <Byte Name="Static">0</Byte>
+            <CExoString Name="Tag">cnrIngotRecycler</CExoString>
+            <ResRef Name="TemplateResRef">cnringotrecycler</ResRef>
+            <Byte Name="TrapDetectDC">0</Byte>
+            <Byte Name="TrapDetectable">1</Byte>
+            <Byte Name="TrapDisarmable">1</Byte>
+            <Byte Name="TrapFlag">0</Byte>
+            <Byte Name="TrapOneShot">1</Byte>
+            <Byte Name="TrapType">0</Byte>
+            <Byte Name="Type">0</Byte>
+            <Byte Name="Useable">1</Byte>
+            <Byte Name="Will">0</Byte>
+            <Float Name="X">34.935081</Float>
+            <Float Name="Y">16.008865</Float>
+            <Float Name="Z">0.000415</Float>
+        </Struct>
+        <Struct Id="9">
+            <Byte Name="AnimationState">0</Byte>
+            <DWord Name="Appearance">63</DWord>
+            <Byte Name="AutoRemoveKey">0</Byte>
+            <Float Name="Bearing">-1.546251</Float>
+            <Byte Name="BodyBag">0</Byte>
+            <Byte Name="CloseLockDC">0</Byte>
+            <ResRef Name="Conversation">cnr_c_recipe</ResRef>
+            <Short Name="CurrentHP">10</Short>
+            <CExoLocString Name="Description">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">This forge can be used to smelt nuggets into ingots.</CExoString>
+                </SubString>
+            </CExoLocString>
+            <Byte Name="DisarmDC">0</Byte>
+            <DWord Name="Faction">1</DWord>
+            <Byte Name="Fort">5</Byte>
+            <Short Name="HP">10</Short>
+            <Byte Name="Hardness">5</Byte>
+            <Byte Name="HasInventory">1</Byte>
+            <Byte Name="Interruptable">0</Byte>
+            <CExoString Name="KeyName"></CExoString>
+            <Byte Name="KeyRequired">0</Byte>
+            <CExoLocString Name="LocName">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Public Forge</CExoString>
+                </SubString>
+            </CExoLocString>
+            <Byte Name="Lockable">0</Byte>
+            <Byte Name="Locked">0</Byte>
+            <ResRef Name="OnClosed"></ResRef>
+            <ResRef Name="OnDamaged"></ResRef>
+            <ResRef Name="OnDeath"></ResRef>
+            <ResRef Name="OnDisarm"></ResRef>
+            <ResRef Name="OnHeartbeat"></ResRef>
+            <ResRef Name="OnInvDisturbed">cnr_device_od</ResRef>
+            <ResRef Name="OnLock"></ResRef>
+            <ResRef Name="OnMeleeAttacked"></ResRef>
+            <ResRef Name="OnOpen"></ResRef>
+            <ResRef Name="OnSpellCastAt"></ResRef>
+            <ResRef Name="OnTrapTriggered"></ResRef>
+            <ResRef Name="OnUnlock"></ResRef>
+            <ResRef Name="OnUsed">cnr_device_ou</ResRef>
+            <ResRef Name="OnUserDefined"></ResRef>
+            <Byte Name="OpenLockDC">0</Byte>
+            <Byte Name="Plot">1</Byte>
+            <Word Name="PortraitId">421</Word>
+            <Byte Name="Ref">0</Byte>
+            <Byte Name="Static">0</Byte>
+            <CExoString Name="Tag">cnrForgePublic</CExoString>
+            <ResRef Name="TemplateResRef">cnrforgepublic</ResRef>
+            <Byte Name="TrapDetectDC">0</Byte>
+            <Byte Name="TrapDetectable">1</Byte>
+            <Byte Name="TrapDisarmable">1</Byte>
+            <Byte Name="TrapFlag">0</Byte>
+            <Byte Name="TrapOneShot">1</Byte>
+            <Byte Name="TrapType">0</Byte>
+            <Byte Name="Type">0</Byte>
+            <Byte Name="Useable">1</Byte>
+            <Byte Name="Will">0</Byte>
+            <Float Name="X">29.577150</Float>
+            <Float Name="Y">16.000946</Float>
+            <Float Name="Z">0.000010</Float>
+        </Struct>
+        <Struct Id="9">
+            <Byte Name="AnimationState">0</Byte>
+            <DWord Name="Appearance">48</DWord>
+            <Byte Name="AutoRemoveKey">0</Byte>
+            <Float Name="Bearing">-1.570794</Float>
+            <Byte Name="BodyBag">0</Byte>
+            <Byte Name="CloseLockDC">0</Byte>
+            <ResRef Name="Conversation">cnr_c_recipe</ResRef>
+            <Short Name="CurrentHP">10</Short>
+            <CExoLocString Name="Description">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">This anvil can be used to craft armor.</CExoString>
+                </SubString>
+            </CExoLocString>
+            <Byte Name="DisarmDC">0</Byte>
+            <DWord Name="Faction">1</DWord>
+            <Byte Name="Fort">5</Byte>
+            <Short Name="HP">10</Short>
+            <Byte Name="Hardness">5</Byte>
+            <Byte Name="HasInventory">1</Byte>
+            <Byte Name="Interruptable">0</Byte>
+            <CExoString Name="KeyName"></CExoString>
+            <Byte Name="KeyRequired">0</Byte>
+            <CExoLocString Name="LocName">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Armor Crafting Anvil</CExoString>
+                </SubString>
+            </CExoLocString>
+            <Byte Name="Lockable">0</Byte>
+            <Byte Name="Locked">0</Byte>
+            <ResRef Name="OnClosed"></ResRef>
+            <ResRef Name="OnDamaged"></ResRef>
+            <ResRef Name="OnDeath"></ResRef>
+            <ResRef Name="OnDisarm"></ResRef>
+            <ResRef Name="OnHeartbeat"></ResRef>
+            <ResRef Name="OnInvDisturbed">cnr_device_od</ResRef>
+            <ResRef Name="OnLock"></ResRef>
+            <ResRef Name="OnMeleeAttacked"></ResRef>
+            <ResRef Name="OnOpen"></ResRef>
+            <ResRef Name="OnSpellCastAt"></ResRef>
+            <ResRef Name="OnTrapTriggered"></ResRef>
+            <ResRef Name="OnUnlock"></ResRef>
+            <ResRef Name="OnUsed">cnr_device_ou</ResRef>
+            <ResRef Name="OnUserDefined"></ResRef>
+            <Byte Name="OpenLockDC">0</Byte>
+            <Byte Name="Plot">1</Byte>
+            <Word Name="PortraitId">406</Word>
+            <Byte Name="Ref">0</Byte>
+            <Byte Name="Static">0</Byte>
+            <CExoString Name="Tag">cnrAnvilArmor</CExoString>
+            <ResRef Name="TemplateResRef">cnranvilarmor</ResRef>
+            <Byte Name="TrapDetectDC">0</Byte>
+            <Byte Name="TrapDetectable">1</Byte>
+            <Byte Name="TrapDisarmable">1</Byte>
+            <Byte Name="TrapFlag">0</Byte>
+            <Byte Name="TrapOneShot">1</Byte>
+            <Byte Name="TrapType">0</Byte>
+            <Byte Name="Type">0</Byte>
+            <Byte Name="Useable">1</Byte>
+            <Byte Name="Will">0</Byte>
+            <Float Name="X">21.288204</Float>
+            <Float Name="Y">27.281054</Float>
+            <Float Name="Z">0.021146</Float>
+        </Struct>
+        <Struct Id="9">
+            <Byte Name="AnimationState">0</Byte>
+            <DWord Name="Appearance">63</DWord>
+            <Byte Name="AutoRemoveKey">0</Byte>
+            <Float Name="Bearing">-1.546251</Float>
+            <Byte Name="BodyBag">0</Byte>
+            <Byte Name="CloseLockDC">0</Byte>
+            <ResRef Name="Conversation">cnr_c_recipe</ResRef>
+            <Short Name="CurrentHP">10</Short>
+            <CExoLocString Name="Description">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">This forge can be used to smelt nuggets into ingots.</CExoString>
+                </SubString>
+            </CExoLocString>
+            <Byte Name="DisarmDC">0</Byte>
+            <DWord Name="Faction">1</DWord>
+            <Byte Name="Fort">5</Byte>
+            <Short Name="HP">10</Short>
+            <Byte Name="Hardness">5</Byte>
+            <Byte Name="HasInventory">1</Byte>
+            <Byte Name="Interruptable">0</Byte>
+            <CExoString Name="KeyName"></CExoString>
+            <Byte Name="KeyRequired">0</Byte>
+            <CExoLocString Name="LocName">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Public Forge</CExoString>
+                </SubString>
+            </CExoLocString>
+            <Byte Name="Lockable">0</Byte>
+            <Byte Name="Locked">0</Byte>
+            <ResRef Name="OnClosed"></ResRef>
+            <ResRef Name="OnDamaged"></ResRef>
+            <ResRef Name="OnDeath"></ResRef>
+            <ResRef Name="OnDisarm"></ResRef>
+            <ResRef Name="OnHeartbeat"></ResRef>
+            <ResRef Name="OnInvDisturbed">cnr_device_od</ResRef>
+            <ResRef Name="OnLock"></ResRef>
+            <ResRef Name="OnMeleeAttacked"></ResRef>
+            <ResRef Name="OnOpen"></ResRef>
+            <ResRef Name="OnSpellCastAt"></ResRef>
+            <ResRef Name="OnTrapTriggered"></ResRef>
+            <ResRef Name="OnUnlock"></ResRef>
+            <ResRef Name="OnUsed">cnr_device_ou</ResRef>
+            <ResRef Name="OnUserDefined"></ResRef>
+            <Byte Name="OpenLockDC">0</Byte>
+            <Byte Name="Plot">1</Byte>
+            <Word Name="PortraitId">421</Word>
+            <Byte Name="Ref">0</Byte>
+            <Byte Name="Static">0</Byte>
+            <CExoString Name="Tag">cnrForgePublic</CExoString>
+            <ResRef Name="TemplateResRef">cnrforgepublic</ResRef>
+            <Byte Name="TrapDetectDC">0</Byte>
+            <Byte Name="TrapDetectable">1</Byte>
+            <Byte Name="TrapDisarmable">1</Byte>
+            <Byte Name="TrapFlag">0</Byte>
+            <Byte Name="TrapOneShot">1</Byte>
+            <Byte Name="TrapType">0</Byte>
+            <Byte Name="Type">0</Byte>
+            <Byte Name="Useable">1</Byte>
+            <Byte Name="Will">0</Byte>
+            <Float Name="X">20.731327</Float>
+            <Float Name="Y">15.873672</Float>
+            <Float Name="Z">0.000010</Float>
+        </Struct>
+        <Struct Id="9">
+            <Byte Name="AnimationState">0</Byte>
+            <DWord Name="Appearance">63</DWord>
+            <Byte Name="AutoRemoveKey">0</Byte>
+            <Float Name="Bearing">-3.141579</Float>
+            <Byte Name="BodyBag">0</Byte>
+            <Byte Name="CloseLockDC">0</Byte>
+            <ResRef Name="Conversation">cnr_c_recipe</ResRef>
+            <Short Name="CurrentHP">10</Short>
+            <CExoLocString Name="Description">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">This forge can be used to smelt nuggets into ingots.</CExoString>
+                </SubString>
+            </CExoLocString>
+            <Byte Name="DisarmDC">0</Byte>
+            <DWord Name="Faction">1</DWord>
+            <Byte Name="Fort">5</Byte>
+            <Short Name="HP">10</Short>
+            <Byte Name="Hardness">5</Byte>
+            <Byte Name="HasInventory">1</Byte>
+            <Byte Name="Interruptable">0</Byte>
+            <CExoString Name="KeyName"></CExoString>
+            <Byte Name="KeyRequired">0</Byte>
+            <CExoLocString Name="LocName">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Public Forge</CExoString>
+                </SubString>
+            </CExoLocString>
+            <Byte Name="Lockable">0</Byte>
+            <Byte Name="Locked">0</Byte>
+            <ResRef Name="OnClosed"></ResRef>
+            <ResRef Name="OnDamaged"></ResRef>
+            <ResRef Name="OnDeath"></ResRef>
+            <ResRef Name="OnDisarm"></ResRef>
+            <ResRef Name="OnHeartbeat"></ResRef>
+            <ResRef Name="OnInvDisturbed">cnr_device_od</ResRef>
+            <ResRef Name="OnLock"></ResRef>
+            <ResRef Name="OnMeleeAttacked"></ResRef>
+            <ResRef Name="OnOpen"></ResRef>
+            <ResRef Name="OnSpellCastAt"></ResRef>
+            <ResRef Name="OnTrapTriggered"></ResRef>
+            <ResRef Name="OnUnlock"></ResRef>
+            <ResRef Name="OnUsed">cnr_device_ou</ResRef>
+            <ResRef Name="OnUserDefined"></ResRef>
+            <Byte Name="OpenLockDC">0</Byte>
+            <Byte Name="Plot">1</Byte>
+            <Word Name="PortraitId">421</Word>
+            <Byte Name="Ref">0</Byte>
+            <Byte Name="Static">0</Byte>
+            <CExoString Name="Tag">cnrForgePublic</CExoString>
+            <ResRef Name="TemplateResRef">cnrforgepublic</ResRef>
+            <Byte Name="TrapDetectDC">0</Byte>
+            <Byte Name="TrapDetectable">1</Byte>
+            <Byte Name="TrapDisarmable">1</Byte>
+            <Byte Name="TrapFlag">0</Byte>
+            <Byte Name="TrapOneShot">1</Byte>
+            <Byte Name="TrapType">0</Byte>
+            <Byte Name="Type">0</Byte>
+            <Byte Name="Useable">1</Byte>
+            <Byte Name="Will">0</Byte>
+            <Float Name="X">5.363456</Float>
+            <Float Name="Y">20.767908</Float>
+            <Float Name="Z">0.000415</Float>
+        </Struct>
+    </List>
+    <List Name="SoundList">
+        <Struct Id="6">
+            <Byte Name="Active">1</Byte>
+            <Byte Name="Continuous">0</Byte>
+            <Float Name="Elevation">1.500000</Float>
+            <DWord Name="GeneratedType">0</DWord>
+            <DWord Name="Hours">0</DWord>
+            <DWord Name="Interval">0</DWord>
+            <DWord Name="IntervalVrtn">0</DWord>
+            <CExoLocString Name="LocName">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Fire Bowl</CExoString>
+                </SubString>
+            </CExoLocString>
+            <Byte Name="Looping">1</Byte>
+            <Float Name="MaxDistance">10.000000</Float>
+            <Float Name="MinDistance">1.000000</Float>
+            <Float Name="PitchVariation">0.000000</Float>
+            <Byte Name="Positional">1</Byte>
+            <Byte Name="Priority">3</Byte>
+            <Byte Name="Random">0</Byte>
+            <Byte Name="RandomPosition">0</Byte>
+            <Float Name="RandomRangeX">0.000000</Float>
+            <Float Name="RandomRangeY">0.000000</Float>
+            <List Name="Sounds">
+                <Struct Id="0">
+                    <ResRef Name="Sound">al_cv_firebowl1</ResRef>
+                </Struct>
+            </List>
+            <CExoString Name="Tag">FireBowl</CExoString>
+            <ResRef Name="TemplateResRef">firebowl</ResRef>
+            <Byte Name="Times">3</Byte>
+            <Byte Name="Volume">127</Byte>
+            <Byte Name="VolumeVrtn">0</Byte>
+            <Float Name="XPosition">14.504529</Float>
+            <Float Name="YPosition">15.853251</Float>
+            <Float Name="ZPosition">1.500000</Float>
+        </Struct>
+        <Struct Id="6">
+            <Byte Name="Active">1</Byte>
+            <Byte Name="Continuous">0</Byte>
+            <Float Name="Elevation">1.500000</Float>
+            <DWord Name="GeneratedType">0</DWord>
+            <DWord Name="Hours">0</DWord>
+            <DWord Name="Interval">0</DWord>
+            <DWord Name="IntervalVrtn">0</DWord>
+            <CExoLocString Name="LocName">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Fire Bowl</CExoString>
+                </SubString>
+            </CExoLocString>
+            <Byte Name="Looping">1</Byte>
+            <Float Name="MaxDistance">10.000000</Float>
+            <Float Name="MinDistance">1.000000</Float>
+            <Float Name="PitchVariation">0.000000</Float>
+            <Byte Name="Positional">1</Byte>
+            <Byte Name="Priority">3</Byte>
+            <Byte Name="Random">0</Byte>
+            <Byte Name="RandomPosition">0</Byte>
+            <Float Name="RandomRangeX">0.000000</Float>
+            <Float Name="RandomRangeY">0.000000</Float>
+            <List Name="Sounds">
+                <Struct Id="0">
+                    <ResRef Name="Sound">al_cv_firebowl1</ResRef>
+                </Struct>
+            </List>
+            <CExoString Name="Tag">FireBowl</CExoString>
+            <ResRef Name="TemplateResRef">firebowl</ResRef>
+            <Byte Name="Times">3</Byte>
+            <Byte Name="Volume">127</Byte>
+            <Byte Name="VolumeVrtn">0</Byte>
+            <Float Name="XPosition">34.955692</Float>
+            <Float Name="YPosition">15.809706</Float>
+            <Float Name="ZPosition">1.500000</Float>
+        </Struct>
+        <Struct Id="6">
+            <Byte Name="Active">1</Byte>
+            <Byte Name="Continuous">0</Byte>
+            <Float Name="Elevation">1.500000</Float>
+            <DWord Name="GeneratedType">0</DWord>
+            <DWord Name="Hours">0</DWord>
+            <DWord Name="Interval">0</DWord>
+            <DWord Name="IntervalVrtn">0</DWord>
+            <CExoLocString Name="LocName">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Fireplace</CExoString>
+                </SubString>
+            </CExoLocString>
+            <Byte Name="Looping">1</Byte>
+            <Float Name="MaxDistance">10.000000</Float>
+            <Float Name="MinDistance">1.000000</Float>
+            <Float Name="PitchVariation">0.000000</Float>
+            <Byte Name="Positional">1</Byte>
+            <Byte Name="Priority">3</Byte>
+            <Byte Name="Random">0</Byte>
+            <Byte Name="RandomPosition">0</Byte>
+            <Float Name="RandomRangeX">0.000000</Float>
+            <Float Name="RandomRangeY">0.000000</Float>
+            <List Name="Sounds">
+                <Struct Id="0">
+                    <ResRef Name="Sound">al_cv_fireplace1</ResRef>
+                </Struct>
+            </List>
+            <CExoString Name="Tag">Fireplace</CExoString>
+            <ResRef Name="TemplateResRef">fireplace</ResRef>
+            <Byte Name="Times">3</Byte>
+            <Byte Name="Volume">127</Byte>
+            <Byte Name="VolumeVrtn">0</Byte>
+            <Float Name="XPosition">24.964056</Float>
+            <Float Name="YPosition">12.656754</Float>
+            <Float Name="ZPosition">1.500010</Float>
+        </Struct>
+    </List>
+    <List Name="StoreList">
+        <Struct Id="11">
+            <Int Name="BM_MarkDown">1</Int>
+            <Byte Name="BlackMarket">1</Byte>
+            <CExoLocString Name="LocName">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Master Crafting Blacksmith Merchant</CExoString>
+                </SubString>
+            </CExoLocString>
+            <Int Name="MarkDown">1</Int>
+            <Int Name="MarkUp">300</Int>
+            <ResRef Name="OnOpenStore"></ResRef>
+            <ResRef Name="ResRef">ats_store_msmith</ResRef>
+            <List Name="StoreList">
+                <Struct Id="0"/>
+                <Struct Id="4">
+                    <List Name="ItemList">
+                        <Struct Id="0">
+                            <DWord Name="AddCost">0</DWord>
+                            <Int Name="BaseItem">37</Int>
+                            <Byte Name="Charges">0</Byte>
+                            <DWord Name="Cost">2</DWord>
+                            <CExoLocString Name="DescIdentified">
+                                <DWord Name="StringRef">4294967295</DWord>
+                                <SubString>
+                                    <Int Name="StringID">0</Int>
+                                    <CExoString Name="String">This hammer is designed for use at a smithing anvil.</CExoString>
+                                </SubString>
+                            </CExoLocString>
+                            <CExoLocString Name="Description">
+                                <DWord Name="StringRef">4294967295</DWord>
+                                <SubString>
+                                    <Int Name="StringID">0</Int>
+                                    <CExoString Name="String">This hammer is designed for use at a smithing anvil.</CExoString>
+                                </SubString>
+                            </CExoLocString>
+                            <Byte Name="Identified">1</Byte>
+                            <Byte Name="Infinite">1</Byte>
+                            <CExoLocString Name="LocalizedName">
+                                <DWord Name="StringRef">4294967295</DWord>
+                                <SubString>
+                                    <Int Name="StringID">0</Int>
+                                    <CExoString Name="String">Smith's Hammer</CExoString>
+                                </SubString>
+                            </CExoLocString>
+                            <Byte Name="ModelPart1">11</Byte>
+                            <Byte Name="ModelPart2">11</Byte>
+                            <Byte Name="ModelPart3">22</Byte>
+                            <Byte Name="Plot">0</Byte>
+                            <List Name="PropertiesList"/>
+                            <Word Name="Repos_PosX">0</Word>
+                            <Word Name="Repos_Posy">0</Word>
+                            <Word Name="StackSize">1</Word>
+                            <Byte Name="Stolen">0</Byte>
+                            <CExoString Name="Tag">cnrSmithsHammer</CExoString>
+                            <ResRef Name="TemplateResRef">cnrsmithshammer</ResRef>
+                            <Float Name="XOrientation">0.000000</Float>
+                            <Float Name="XPosition">-1.000000</Float>
+                            <Float Name="YOrientation">1.000000</Float>
+                            <Float Name="YPosition">-1.000000</Float>
+                            <Float Name="ZPosition">-1.000000</Float>
+                        </Struct>
+                        <Struct Id="1">
+                            <DWord Name="AddCost">0</DWord>
+                            <Int Name="BaseItem">2</Int>
+                            <Byte Name="Charges">0</Byte>
+                            <DWord Name="Cost">20</DWord>
+                            <CExoLocString Name="DescIdentified">
+                                <DWord Name="StringRef">4294967295</DWord>
+                                <SubString>
+                                    <Int Name="StringID">0</Int>
+                                    <CExoString Name="String">This tool is designed to break rock.</CExoString>
+                                </SubString>
+                            </CExoLocString>
+                            <CExoLocString Name="Description">
+                                <DWord Name="StringRef">4294967295</DWord>
+                                <SubString>
+                                    <Int Name="StringID">0</Int>
+                                    <CExoString Name="String">This tool is designed to break rock.</CExoString>
+                                </SubString>
+                            </CExoLocString>
+                            <Byte Name="Identified">1</Byte>
+                            <Byte Name="Infinite">1</Byte>
+                            <CExoLocString Name="LocalizedName">
+                                <DWord Name="StringRef">4294967295</DWord>
+                                <SubString>
+                                    <Int Name="StringID">0</Int>
+                                    <CExoString Name="String">Miner's Pickaxe</CExoString>
+                                </SubString>
+                            </CExoLocString>
+                            <Byte Name="ModelPart1">62</Byte>
+                            <Byte Name="ModelPart2">23</Byte>
+                            <Byte Name="ModelPart3">32</Byte>
+                            <Byte Name="Plot">0</Byte>
+                            <List Name="PropertiesList"/>
+                            <Word Name="Repos_PosX">1</Word>
+                            <Word Name="Repos_Posy">0</Word>
+                            <Word Name="StackSize">1</Word>
+                            <Byte Name="Stolen">0</Byte>
+                            <CExoString Name="Tag">cnrMinersPickaxe</CExoString>
+                            <ResRef Name="TemplateResRef">cnrminerspickaxe</ResRef>
+                            <Float Name="XOrientation">0.000000</Float>
+                            <Float Name="XPosition">-1.000000</Float>
+                            <Float Name="YOrientation">1.000000</Float>
+                            <Float Name="YPosition">-1.000000</Float>
+                            <Float Name="ZPosition">-1.000000</Float>
+                        </Struct>
+                    </List>
+                </Struct>
+                <Struct Id="2"/>
+                <Struct Id="3"/>
+                <Struct Id="1">
+                    <List Name="ItemList">
+                        <Struct Id="0">
+                            <DWord Name="AddCost">0</DWord>
+                            <Int Name="BaseItem">74</Int>
+                            <Byte Name="Charges">0</Byte>
+                            <DWord Name="Cost">1</DWord>
+                            <CExoLocString Name="DescIdentified">
+                                <DWord Name="StringRef">4294967295</DWord>
+                                <SubString>
+                                    <Int Name="StringID">0</Int>
+                                    <CExoString Name="String">The Basics of Mining
+----------------------------------
+
+1. Ore types - There are 10 common ore types found in Algeron. These are Copper, Tin, Iron, Gold, Platinum, Adamantium, Cobalt, Silver, Titanium and Mithril. Bronze is made by combining Copper and Tin.
+
+In addition to ore, miners may also mine clay and sand. 
+
+2. Mining Equipment - To mine ore, one must use a pickaxe. Pickaxes require the martial weapon feat, so certain non combat classes will have difficulty mining. A shovel is required to mine clay and sand.
+
+Pickaxes and Shovels are subject to damage while mining and will eventually break. it is advised to acquire a backup pickaxe and shovel prior to attempting mining.
+
+3. Misc. Infomation - Ocassionally, one might get lucky and chip off a second nugget of ore or find a rare gem or other  item. 
+
+4. Related Skills - Smelting, Weapon Crafting, Armor Crafting and Tinkering all use ore, sand and clay byproducts. Please read their respective books for more information about them. </CExoString>
+                                </SubString>
+                            </CExoLocString>
+                            <CExoLocString Name="Description">
+                                <DWord Name="StringRef">4294967295</DWord>
+                                <SubString>
+                                    <Int Name="StringID">0</Int>
+                                    <CExoString Name="String">The Basics of Mining
+----------------------------------
+
+1. Ore types - There are 10 common ore types found in Algeron. These are Copper, Tin, Iron, Gold, Platinum, Adamantium, Cobalt, Silver, Titanium and Mithril. Bronze is made by combining Copper and Tin.
+
+In addition to ore, miners may also mine clay and sand. 
+
+2. Mining Equipment - To mine ore, one must use a pickaxe. Pickaxes require the martial weapon feat, so certain non combat classes will have difficulty mining. A shovel is required to mine clay and sand.
+
+Pickaxes and Shovels are subject to damage while mining and will eventually break. it is advised to acquire a backup pickaxe and shovel prior to attempting mining.
+
+3. Misc. Infomation - Ocassionally, one might get lucky and chip off a second nugget of ore or find a rare gem or other  item. 
+
+4. Related Skills - Smelting, Weapon Crafting, Armor Crafting and Tinkering all use ore, sand and clay byproducts. Please read their respective books for more information about them. </CExoString>
+                                </SubString>
+                            </CExoLocString>
+                            <Byte Name="Identified">1</Byte>
+                            <Byte Name="Infinite">1</Byte>
+                            <CExoLocString Name="LocalizedName">
+                                <DWord Name="StringRef">4294967295</DWord>
+                                <SubString>
+                                    <Int Name="StringID">0</Int>
+                                    <CExoString Name="String">Basics of Mining</CExoString>
+                                </SubString>
+                            </CExoLocString>
+                            <Byte Name="ModelPart1">1</Byte>
+                            <Byte Name="Plot">0</Byte>
+                            <List Name="PropertiesList"/>
+                            <Word Name="Repos_PosX">0</Word>
+                            <Word Name="Repos_Posy">0</Word>
+                            <Word Name="StackSize">1</Word>
+                            <Byte Name="Stolen">0</Byte>
+                            <CExoString Name="Tag">cnrBookMining</CExoString>
+                            <ResRef Name="TemplateResRef">cnrbookmining</ResRef>
+                            <Float Name="XOrientation">0.000000</Float>
+                            <Float Name="XPosition">-1.000000</Float>
+                            <Float Name="YOrientation">1.000000</Float>
+                            <Float Name="YPosition">-1.000000</Float>
+                            <Float Name="ZPosition">-1.000000</Float>
+                        </Struct>
+                        <Struct Id="1">
+                            <DWord Name="AddCost">0</DWord>
+                            <Int Name="BaseItem">74</Int>
+                            <Byte Name="Charges">0</Byte>
+                            <DWord Name="Cost">1</DWord>
+                            <CExoLocString Name="DescIdentified">
+                                <DWord Name="StringRef">4294967295</DWord>
+                                <SubString>
+                                    <Int Name="StringID">0</Int>
+                                    <CExoString Name="String">The Basics of Smelting
+----------------------------------
+
+1. Ore types - There are 10 common ore types found in Algeron. These are Copper, Tin, Iron, Gold, Platinum, Adamantium, Cobalt, Silver, Titanium and Mithril. All may be smelted. Bronze is made by combining Copper and Tin.
+
+2. Smelting Equipment - To smelt ore, one must use a smelting tongs. Ore nuggets are inserted into a smelting forge and melted into ingots. 
+
+3. Related Skills - Weapon Crafting and Armor Crafting. Please read their respective books for more information about them. </CExoString>
+                                </SubString>
+                            </CExoLocString>
+                            <CExoLocString Name="Description">
+                                <DWord Name="StringRef">4294967295</DWord>
+                                <SubString>
+                                    <Int Name="StringID">0</Int>
+                                    <CExoString Name="String">The Basics of Smelting
+----------------------------------
+
+1. Ore types - There are 10 common ore types found in Algeron. These are Copper, Tin, Iron, Gold, Platinum, Adamantium, Cobalt, Silver, Titanium and Mithril. All may be smelted. Bronze is made by combining Copper and Tin.
+
+2. Smelting Equipment - To smelt ore, one must use a smelting tongs. Ore nuggets are inserted into a smelting forge and melted into ingots. 
+
+3. Related Skills - Weapon Crafting and Armor Crafting. Please read their respective books for more information about them. </CExoString>
+                                </SubString>
+                            </CExoLocString>
+                            <Byte Name="Identified">1</Byte>
+                            <Byte Name="Infinite">1</Byte>
+                            <CExoLocString Name="LocalizedName">
+                                <DWord Name="StringRef">4294967295</DWord>
+                                <SubString>
+                                    <Int Name="StringID">0</Int>
+                                    <CExoString Name="String">Basics of Smelting</CExoString>
+                                </SubString>
+                            </CExoLocString>
+                            <Byte Name="ModelPart1">10</Byte>
+                            <Byte Name="Plot">0</Byte>
+                            <List Name="PropertiesList"/>
+                            <Word Name="Repos_PosX">2</Word>
+                            <Word Name="Repos_Posy">0</Word>
+                            <Word Name="StackSize">1</Word>
+                            <Byte Name="Stolen">0</Byte>
+                            <CExoString Name="Tag">cnrBookSmelting</CExoString>
+                            <ResRef Name="TemplateResRef">cnrbooksmelting</ResRef>
+                            <Float Name="XOrientation">0.000000</Float>
+                            <Float Name="XPosition">-1.000000</Float>
+                            <Float Name="YOrientation">1.000000</Float>
+                            <Float Name="YPosition">-1.000000</Float>
+                            <Float Name="ZPosition">-1.000000</Float>
+                        </Struct>
+                        <Struct Id="2">
+                            <DWord Name="AddCost">0</DWord>
+                            <Int Name="BaseItem">74</Int>
+                            <Byte Name="Charges">0</Byte>
+                            <DWord Name="Cost">1</DWord>
+                            <CExoLocString Name="DescIdentified">
+                                <DWord Name="StringRef">4294967295</DWord>
+                                <SubString>
+                                    <Int Name="StringID">0</Int>
+                                    <CExoString Name="String">The Basics of Armor Crafting
+--------------------------------------------------
+
+1. Armor types - There are 7 basic armor types that a crafter can make. These range from a chain shirt to full plate armor.
+ 
+2. Armor Materials - Armor can be crafted from Bronze, Iron, Platinum, Adamantium, Cobalt and Mithril. Armor may also be adorned with gold. Adorned armor has a higher AC than regular armor. 
+
+3. Armor Components - Armor requires ingots and a pattern.  
+
+4. Crafting Armor - To craft a set of armor, one must equip a smiths hammer, posess the required raw materials and use an armor crafting anvil. 
+
+5. Misc. Information - Armor may be smelted. Smelted armor generally yields two less ingots than were originally required. 
+
+6. Related Skills - Smelting, Tailoring, and Enchanting. Please read their respective books for more information about them. </CExoString>
+                                </SubString>
+                            </CExoLocString>
+                            <CExoLocString Name="Description">
+                                <DWord Name="StringRef">4294967295</DWord>
+                                <SubString>
+                                    <Int Name="StringID">0</Int>
+                                    <CExoString Name="String">The Basics of Armor Crafting
+--------------------------------------------------
+
+1. Armor types - There are 7 basic armor types that a crafter can make. These range from a chain shirt to full plate armor.
+ 
+2. Armor Materials - Armor can be crafted from Bronze, Iron, Platinum, Adamantium, Cobalt and Mithril. Armor may also be adorned with gold. Adorned armor has a higher AC than regular armor. 
+
+3. Armor Components - Armor requires ingots and a pattern.  
+
+4. Crafting Armor - To craft a set of armor, one must equip a smiths hammer, posess the required raw materials and use an armor crafting anvil. 
+
+5. Misc. Information - Armor may be smelted. Smelted armor generally yields two less ingots than were originally required. 
+
+6. Related Skills - Smelting, Tailoring, and Enchanting. Please read their respective books for more information about them. </CExoString>
+                                </SubString>
+                            </CExoLocString>
+                            <Byte Name="Identified">1</Byte>
+                            <Byte Name="Infinite">1</Byte>
+                            <CExoLocString Name="LocalizedName">
+                                <DWord Name="StringRef">4294967295</DWord>
+                                <SubString>
+                                    <Int Name="StringID">0</Int>
+                                    <CExoString Name="String">Basics of Armor Crafting</CExoString>
+                                </SubString>
+                            </CExoLocString>
+                            <Byte Name="ModelPart1">10</Byte>
+                            <Byte Name="Plot">0</Byte>
+                            <List Name="PropertiesList"/>
+                            <Word Name="Repos_PosX">4</Word>
+                            <Word Name="Repos_Posy">0</Word>
+                            <Word Name="StackSize">1</Word>
+                            <Byte Name="Stolen">0</Byte>
+                            <CExoString Name="Tag">cnrBookArmor</CExoString>
+                            <ResRef Name="TemplateResRef">cnrbookarmor</ResRef>
+                            <Float Name="XOrientation">0.000000</Float>
+                            <Float Name="XPosition">-1.000000</Float>
+                            <Float Name="YOrientation">1.000000</Float>
+                            <Float Name="YPosition">-1.000000</Float>
+                            <Float Name="ZPosition">-1.000000</Float>
+                        </Struct>
+                        <Struct Id="3">
+                            <DWord Name="AddCost">0</DWord>
+                            <Int Name="BaseItem">74</Int>
+                            <Byte Name="Charges">0</Byte>
+                            <DWord Name="Cost">1</DWord>
+                            <CExoLocString Name="DescIdentified">
+                                <DWord Name="StringRef">4294967295</DWord>
+                                <SubString>
+                                    <Int Name="StringID">0</Int>
+                                    <CExoString Name="String">The Basics of Weapon Crafting
+--------------------------------------------------
+
+1. Weapon types - There are 21 basic weapon types that a crafter can make. These range from a simple Dagger to a Greatsword.
+ 
+2. Weapon Materials - Weapons can be crafted from Copper, Bronze and Iron. Weapons may also be coated with Silver and Titanium. Silver coated weapons are more effective against undead foes, while Titanium coated weapons do more damage.
+
+3. Weapon Components - Weapons generally require ingots and a casting mold. Casting molds come in small, medium or large sizes. Some weapons also require wood shafts. 
+
+4. Crafting Weapons - To craft a weapon, one must equip a smiths hammer, posses the required raw materials and use a weapon crafting anvil. 
+
+5. Misc. Information - Weapons that require 2 or more ingots to craft may be smelted. Smelted weapons generally yield one less ingot than what was originally required. 
+
+6. Related Skills - Smelting, Tinkering, Wood Crafting and Enchanting. Please read their respective books for more information about them. </CExoString>
+                                </SubString>
+                            </CExoLocString>
+                            <CExoLocString Name="Description">
+                                <DWord Name="StringRef">4294967295</DWord>
+                                <SubString>
+                                    <Int Name="StringID">0</Int>
+                                    <CExoString Name="String">The Basics of Weapon Crafting
+--------------------------------------------------
+
+1. Weapon types - There are 21 basic weapon types that a crafter can make. These range from a simple Dagger to a Greatsword.
+ 
+2. Weapon Materials - Weapons can be crafted from Copper, Bronze and Iron. Weapons may also be coated with Silver and Titanium. Silver coated weapons are more effective against undead foes, while Titanium coated weapons do more damage.
+
+3. Weapon Components - Weapons generally require ingots and a casting mold. Casting molds come in small, medium or large sizes. Some weapons also require wood shafts. 
+
+4. Crafting Weapons - To craft a weapon, one must equip a smiths hammer, posses the required raw materials and use a weapon crafting anvil. 
+
+5. Misc. Information - Weapons that require 2 or more ingots to craft may be smelted. Smelted weapons generally yield one less ingot than what was originally required. 
+
+6. Related Skills - Smelting, Tinkering, Wood Crafting and Enchanting. Please read their respective books for more information about them. </CExoString>
+                                </SubString>
+                            </CExoLocString>
+                            <Byte Name="Identified">1</Byte>
+                            <Byte Name="Infinite">1</Byte>
+                            <CExoLocString Name="LocalizedName">
+                                <DWord Name="StringRef">4294967295</DWord>
+                                <SubString>
+                                    <Int Name="StringID">0</Int>
+                                    <CExoString Name="String">Basics of Weapon Crafting</CExoString>
+                                </SubString>
+                            </CExoLocString>
+                            <Byte Name="ModelPart1">10</Byte>
+                            <Byte Name="Plot">0</Byte>
+                            <List Name="PropertiesList"/>
+                            <Word Name="Repos_PosX">6</Word>
+                            <Word Name="Repos_Posy">0</Word>
+                            <Word Name="StackSize">1</Word>
+                            <Byte Name="Stolen">0</Byte>
+                            <CExoString Name="Tag">cnrBookWeapons</CExoString>
+                            <ResRef Name="TemplateResRef">cnrbookweapons</ResRef>
+                            <Float Name="XOrientation">0.000000</Float>
+                            <Float Name="XPosition">-1.000000</Float>
+                            <Float Name="YOrientation">1.000000</Float>
+                            <Float Name="YPosition">-1.000000</Float>
+                            <Float Name="ZPosition">-1.000000</Float>
+                        </Struct>
+                        <Struct Id="4">
+                            <DWord Name="AddCost">0</DWord>
+                            <Int Name="BaseItem">34</Int>
+                            <Byte Name="Charges">0</Byte>
+                            <DWord Name="Cost">0</DWord>
+                            <CExoLocString Name="DescIdentified">
+                                <DWord Name="StringRef">4294967295</DWord>
+                                <SubString>
+                                    <Int Name="StringID">0</Int>
+                                    <CExoString Name="String">Sometimes you just need to dig.</CExoString>
+                                </SubString>
+                            </CExoLocString>
+                            <CExoLocString Name="Description">
+                                <DWord Name="StringRef">4294967295</DWord>
+                                <SubString>
+                                    <Int Name="StringID">0</Int>
+                                    <CExoString Name="String">Sometimes you just need to dig.</CExoString>
+                                </SubString>
+                            </CExoLocString>
+                            <Byte Name="Identified">1</Byte>
+                            <Byte Name="Infinite">1</Byte>
+                            <CExoLocString Name="LocalizedName">
+                                <DWord Name="StringRef">4294967295</DWord>
+                                <SubString>
+                                    <Int Name="StringID">0</Int>
+                                    <CExoString Name="String">Shovel</CExoString>
+                                </SubString>
+                            </CExoLocString>
+                            <Byte Name="ModelPart1">5</Byte>
+                            <Byte Name="Plot">0</Byte>
+                            <List Name="PropertiesList"/>
+                            <Word Name="Repos_PosX">8</Word>
+                            <Word Name="Repos_Posy">0</Word>
+                            <Word Name="StackSize">1</Word>
+                            <Byte Name="Stolen">0</Byte>
+                            <CExoString Name="Tag">cnrShovel</CExoString>
+                            <ResRef Name="TemplateResRef">cnrshovel</ResRef>
+                            <Float Name="XOrientation">0.000000</Float>
+                            <Float Name="XPosition">-1.000000</Float>
+                            <Float Name="YOrientation">1.000000</Float>
+                            <Float Name="YPosition">-1.000000</Float>
+                            <Float Name="ZPosition">-1.000000</Float>
+                        </Struct>
+                        <Struct Id="5">
+                            <DWord Name="AddCost">9</DWord>
+                            <Int Name="BaseItem">29</Int>
+                            <Byte Name="Charges">0</Byte>
+                            <DWord Name="Cost">9</DWord>
+                            <CExoLocString Name="DescIdentified">
+                                <DWord Name="StringRef">4294967295</DWord>
+                            </CExoLocString>
+                            <CExoLocString Name="Description">
+                                <DWord Name="StringRef">4294967295</DWord>
+                            </CExoLocString>
+                            <Byte Name="Identified">1</Byte>
+                            <Byte Name="Infinite">1</Byte>
+                            <CExoLocString Name="LocalizedName">
+                                <DWord Name="StringRef">4294967295</DWord>
+                                <SubString>
+                                    <Int Name="StringID">0</Int>
+                                    <CExoString Name="String">Pattern for Banded Mail</CExoString>
+                                </SubString>
+                            </CExoLocString>
+                            <Byte Name="ModelPart1">46</Byte>
+                            <Byte Name="Plot">0</Byte>
+                            <List Name="PropertiesList"/>
+                            <Word Name="Repos_PosX">0</Word>
+                            <Word Name="Repos_Posy">2</Word>
+                            <Word Name="StackSize">1</Word>
+                            <Byte Name="Stolen">0</Byte>
+                            <CExoString Name="Tag">cnrPatBandedMail</CExoString>
+                            <ResRef Name="TemplateResRef">cnrpatbandedmail</ResRef>
+                            <Float Name="XOrientation">0.000000</Float>
+                            <Float Name="XPosition">-1.000000</Float>
+                            <Float Name="YOrientation">1.000000</Float>
+                            <Float Name="YPosition">-1.000000</Float>
+                            <Float Name="ZPosition">-1.000000</Float>
+                        </Struct>
+                        <Struct Id="6">
+                            <DWord Name="AddCost">11</DWord>
+                            <Int Name="BaseItem">29</Int>
+                            <Byte Name="Charges">0</Byte>
+                            <DWord Name="Cost">11</DWord>
+                            <CExoLocString Name="DescIdentified">
+                                <DWord Name="StringRef">4294967295</DWord>
+                            </CExoLocString>
+                            <CExoLocString Name="Description">
+                                <DWord Name="StringRef">4294967295</DWord>
+                            </CExoLocString>
+                            <Byte Name="Identified">1</Byte>
+                            <Byte Name="Infinite">1</Byte>
+                            <CExoLocString Name="LocalizedName">
+                                <DWord Name="StringRef">4294967295</DWord>
+                                <SubString>
+                                    <Int Name="StringID">0</Int>
+                                    <CExoString Name="String">Pattern for Chain Mail</CExoString>
+                                </SubString>
+                            </CExoLocString>
+                            <Byte Name="ModelPart1">46</Byte>
+                            <Byte Name="Plot">0</Byte>
+                            <List Name="PropertiesList"/>
+                            <Word Name="Repos_PosX">2</Word>
+                            <Word Name="Repos_Posy">2</Word>
+                            <Word Name="StackSize">1</Word>
+                            <Byte Name="Stolen">0</Byte>
+                            <CExoString Name="Tag">cnrPatChainMail</CExoString>
+                            <ResRef Name="TemplateResRef">cnrpatchainmail</ResRef>
+                            <Float Name="XOrientation">0.000000</Float>
+                            <Float Name="XPosition">-1.000000</Float>
+                            <Float Name="YOrientation">1.000000</Float>
+                            <Float Name="YPosition">-1.000000</Float>
+                            <Float Name="ZPosition">-1.000000</Float>
+                        </Struct>
+                        <Struct Id="7">
+                            <DWord Name="AddCost">8</DWord>
+                            <Int Name="BaseItem">29</Int>
+                            <Byte Name="Charges">0</Byte>
+                            <DWord Name="Cost">8</DWord>
+                            <CExoLocString Name="DescIdentified">
+                                <DWord Name="StringRef">4294967295</DWord>
+                            </CExoLocString>
+                            <CExoLocString Name="Description">
+                                <DWord Name="StringRef">4294967295</DWord>
+                            </CExoLocString>
+                            <Byte Name="Identified">1</Byte>
+                            <Byte Name="Infinite">1</Byte>
+                            <CExoLocString Name="LocalizedName">
+                                <DWord Name="StringRef">4294967295</DWord>
+                                <SubString>
+                                    <Int Name="StringID">0</Int>
+                                    <CExoString Name="String">Pattern for Chain Shirt</CExoString>
+                                </SubString>
+                            </CExoLocString>
+                            <Byte Name="ModelPart1">46</Byte>
+                            <Byte Name="Plot">0</Byte>
+                            <List Name="PropertiesList"/>
+                            <Word Name="Repos_PosX">4</Word>
+                            <Word Name="Repos_Posy">2</Word>
+                            <Word Name="StackSize">1</Word>
+                            <Byte Name="Stolen">0</Byte>
+                            <CExoString Name="Tag">cnrPatChainShirt</CExoString>
+                            <ResRef Name="TemplateResRef">cnrpatchainshirt</ResRef>
+                            <Float Name="XOrientation">0.000000</Float>
+                            <Float Name="XPosition">-1.000000</Float>
+                            <Float Name="YOrientation">1.000000</Float>
+                            <Float Name="YPosition">-1.000000</Float>
+                            <Float Name="ZPosition">-1.000000</Float>
+                        </Struct>
+                        <Struct Id="8">
+                            <DWord Name="AddCost">9</DWord>
+                            <Int Name="BaseItem">29</Int>
+                            <Byte Name="Charges">0</Byte>
+                            <DWord Name="Cost">9</DWord>
+                            <CExoLocString Name="DescIdentified">
+                                <DWord Name="StringRef">4294967295</DWord>
+                            </CExoLocString>
+                            <CExoLocString Name="Description">
+                                <DWord Name="StringRef">4294967295</DWord>
+                            </CExoLocString>
+                            <Byte Name="Identified">1</Byte>
+                            <Byte Name="Infinite">1</Byte>
+                            <CExoLocString Name="LocalizedName">
+                                <DWord Name="StringRef">4294967295</DWord>
+                                <SubString>
+                                    <Int Name="StringID">0</Int>
+                                    <CExoString Name="String">Pattern for Scale Mail</CExoString>
+                                </SubString>
+                            </CExoLocString>
+                            <Byte Name="ModelPart1">46</Byte>
+                            <Byte Name="Plot">0</Byte>
+                            <List Name="PropertiesList"/>
+                            <Word Name="Repos_PosX">6</Word>
+                            <Word Name="Repos_Posy">2</Word>
+                            <Word Name="StackSize">1</Word>
+                            <Byte Name="Stolen">0</Byte>
+                            <CExoString Name="Tag">cnrPatScaleMail</CExoString>
+                            <ResRef Name="TemplateResRef">cnrpatscalemail</ResRef>
+                            <Float Name="XOrientation">0.000000</Float>
+                            <Float Name="XPosition">-1.000000</Float>
+                            <Float Name="YOrientation">1.000000</Float>
+                            <Float Name="YPosition">-1.000000</Float>
+                            <Float Name="ZPosition">-1.000000</Float>
+                        </Struct>
+                        <Struct Id="9">
+                            <DWord Name="AddCost">12</DWord>
+                            <Int Name="BaseItem">29</Int>
+                            <Byte Name="Charges">0</Byte>
+                            <DWord Name="Cost">12</DWord>
+                            <CExoLocString Name="DescIdentified">
+                                <DWord Name="StringRef">4294967295</DWord>
+                            </CExoLocString>
+                            <CExoLocString Name="Description">
+                                <DWord Name="StringRef">4294967295</DWord>
+                            </CExoLocString>
+                            <Byte Name="Identified">1</Byte>
+                            <Byte Name="Infinite">1</Byte>
+                            <CExoLocString Name="LocalizedName">
+                                <DWord Name="StringRef">4294967295</DWord>
+                                <SubString>
+                                    <Int Name="StringID">0</Int>
+                                    <CExoString Name="String">Pattern for Splint Mail</CExoString>
+                                </SubString>
+                            </CExoLocString>
+                            <Byte Name="ModelPart1">46</Byte>
+                            <Byte Name="Plot">0</Byte>
+                            <List Name="PropertiesList"/>
+                            <Word Name="Repos_PosX">8</Word>
+                            <Word Name="Repos_Posy">3</Word>
+                            <Word Name="StackSize">1</Word>
+                            <Byte Name="Stolen">0</Byte>
+                            <CExoString Name="Tag">cnrPatSplintMail</CExoString>
+                            <ResRef Name="TemplateResRef">cnrpatsplintmail</ResRef>
+                            <Float Name="XOrientation">0.000000</Float>
+                            <Float Name="XPosition">-1.000000</Float>
+                            <Float Name="YOrientation">1.000000</Float>
+                            <Float Name="YPosition">-1.000000</Float>
+                            <Float Name="ZPosition">-1.000000</Float>
+                        </Struct>
+                    </List>
+                </Struct>
+            </List>
+            <CExoString Name="Tag">STORE_MathanCain</CExoString>
+            <Float Name="XOrientation">0.000027</Float>
+            <Float Name="XPosition">27.809315</Float>
+            <Float Name="YOrientation">-1.000000</Float>
+            <Float Name="YPosition">33.869682</Float>
+            <Float Name="ZPosition">0.000010</Float>
+        </Struct>
+    </List>
+    <List Name="TriggerList"/>
+    <List Name="WaypointList">
+        <Struct Id="5">
+            <Byte Name="Appearance">1</Byte>
+            <CExoLocString Name="Description">
+                <DWord Name="StringRef">4294967295</DWord>
+            </CExoLocString>
+            <Byte Name="HasMapNote">0</Byte>
+            <CExoString Name="LinkedTo"></CExoString>
+            <CExoLocString Name="LocalizedName">
+                <DWord Name="StringRef">14817</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Waypoint</CExoString>
+                </SubString>
+            </CExoLocString>
+            <CExoLocString Name="MapNote">
+                <DWord Name="StringRef">4294967295</DWord>
+            </CExoLocString>
+            <Byte Name="MapNoteEnabled">1</Byte>
+            <CExoString Name="Tag">WP_MathanCain_01</CExoString>
+            <ResRef Name="TemplateResRef">nw_waypoint001</ResRef>
+            <Float Name="XOrientation">0.000027</Float>
+            <Float Name="XPosition">30.210196</Float>
+            <Float Name="YOrientation">-1.000000</Float>
+            <Float Name="YPosition">31.818558</Float>
+            <Float Name="ZPosition">0.000415</Float>
+        </Struct>
+        <Struct Id="5">
+            <Byte Name="Appearance">1</Byte>
+            <CExoLocString Name="Description">
+                <DWord Name="StringRef">4294967295</DWord>
+            </CExoLocString>
+            <Byte Name="HasMapNote">0</Byte>
+            <CExoString Name="LinkedTo"></CExoString>
+            <CExoLocString Name="LocalizedName">
+                <DWord Name="StringRef">14817</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Waypoint</CExoString>
+                </SubString>
+            </CExoLocString>
+            <CExoLocString Name="MapNote">
+                <DWord Name="StringRef">4294967295</DWord>
+            </CExoLocString>
+            <Byte Name="MapNoteEnabled">1</Byte>
+            <CExoString Name="Tag">WP_MathanCain_02</CExoString>
+            <ResRef Name="TemplateResRef">nw_waypoint001</ResRef>
+            <Float Name="XOrientation">0.000027</Float>
+            <Float Name="XPosition">21.415615</Float>
+            <Float Name="YOrientation">-1.000000</Float>
+            <Float Name="YPosition">31.837004</Float>
+            <Float Name="ZPosition">0.000010</Float>
+        </Struct>
+        <Struct Id="5">
+            <Byte Name="Appearance">4</Byte>
+            <CExoLocString Name="Description">
+                <DWord Name="StringRef">4294967295</DWord>
+            </CExoLocString>
+            <Byte Name="HasMapNote">0</Byte>
+            <CExoString Name="LinkedTo"></CExoString>
+            <CExoLocString Name="LocalizedName">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">ANVIL WEAPON</CExoString>
+                </SubString>
+            </CExoLocString>
+            <CExoLocString Name="MapNote">
+                <DWord Name="StringRef">4294967295</DWord>
+            </CExoLocString>
+            <Byte Name="MapNoteEnabled">0</Byte>
+            <CExoString Name="Tag">cnr_placeablepoint</CExoString>
+            <ResRef Name="TemplateResRef">cnr_placeable001</ResRef>
+            <Float Name="XOrientation">1.000000</Float>
+            <Float Name="XPosition">28.820127</Float>
+            <Float Name="YOrientation">0.000002</Float>
+            <Float Name="YPosition">22.569715</Float>
+            <Float Name="ZPosition">0.000000</Float>
+        </Struct>
+        <Struct Id="5">
+            <Byte Name="Appearance">4</Byte>
+            <CExoLocString Name="Description">
+                <DWord Name="StringRef">4294967295</DWord>
+            </CExoLocString>
+            <Byte Name="HasMapNote">0</Byte>
+            <CExoString Name="LinkedTo"></CExoString>
+            <CExoLocString Name="LocalizedName">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">ANVIL ARMOR</CExoString>
+                </SubString>
+            </CExoLocString>
+            <CExoLocString Name="MapNote">
+                <DWord Name="StringRef">4294967295</DWord>
+            </CExoLocString>
+            <Byte Name="MapNoteEnabled">0</Byte>
+            <CExoString Name="Tag">cnr_placeablepoint</CExoString>
+            <ResRef Name="TemplateResRef">cnr_placeable002</ResRef>
+            <Float Name="XOrientation">-1.000000</Float>
+            <Float Name="XPosition">21.184635</Float>
+            <Float Name="YOrientation">0.000002</Float>
+            <Float Name="YPosition">22.800192</Float>
+            <Float Name="ZPosition">0.019484</Float>
+        </Struct>
+        <Struct Id="5">
+            <Byte Name="Appearance">4</Byte>
+            <CExoLocString Name="Description">
+                <DWord Name="StringRef">4294967295</DWord>
+            </CExoLocString>
+            <Byte Name="HasMapNote">0</Byte>
+            <CExoString Name="LinkedTo"></CExoString>
+            <CExoLocString Name="LocalizedName">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">TRASH</CExoString>
+                </SubString>
+            </CExoLocString>
+            <CExoLocString Name="MapNote">
+                <DWord Name="StringRef">4294967295</DWord>
+            </CExoLocString>
+            <Byte Name="MapNoteEnabled">0</Byte>
+            <CExoString Name="Tag">cnr_placeablepoint</CExoString>
+            <ResRef Name="TemplateResRef">cnr_placeable003</ResRef>
+            <Float Name="XOrientation">-0.000017</Float>
+            <Float Name="XPosition">12.674992</Float>
+            <Float Name="YOrientation">-1.000000</Float>
+            <Float Name="YPosition">19.480471</Float>
+            <Float Name="ZPosition">0.000415</Float>
+        </Struct>
+    </List>
+</Gff>

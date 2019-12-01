@@ -1,0 +1,684 @@
+<Gff Version="1" Type="UTP">
+    <Byte Name="AnimationState">0</Byte>
+    <DWord Name="Appearance">139</DWord>
+    <Byte Name="AutoRemoveKey">0</Byte>
+    <Byte Name="BodyBag">0</Byte>
+    <Byte Name="CloseLockDC">0</Byte>
+    <CExoString Name="Comment">Merchants Shingle - 2</CExoString>
+    <ResRef Name="Conversation"></ResRef>
+    <Short Name="CurrentHP">15</Short>
+    <CExoLocString Name="Description">
+        <DWord Name="StringRef">14562</DWord>
+        <SubString>
+            <Int Name="StringID">0</Int>
+            <CExoString Name="String">November 7th 2003
+-Spells changed: Aid, Protection from Spells, Divine Power/Strength/Favor, Camoflague, Invisibility Sphere, Wounding Whisper
+-Dice rolling results is now &lt; ÿ &gt;green&lt;ÿÿÿ&gt;
+-XP loss due to PvP death has been revised
+-The chairs in Cleaven Council Chambers were all mysteriously destroyed...
+
+November 3rd,2003
+-New stuff: explore
+
+November 1st, 2003
+-More spell updates: 
+   flame arrow will cause one spell resist only
+   creeping doom has no more spell resist
+   aid no longer stacks
+   restorations will not remove AC decrease modifier
+-All party-orientated spells should work even without parties now
+-Disabled automated XP reward
+
+October 27th,2003
+-Mary &amp; Nadie got demoted. No more timestop !
+
+October 22nd,2003
+-Added BBS for Axfell , Cleaven &amp; Shilar
+
+October 19th,2003
+- DM HQ
+
+October 15th, 2003 - MikkoR
+- Disarm should not work to petrified creatures anymore
+- Some underdark/sunlight area fixes
+- Rulebook update
+- Other things I have forgot during the week I have made the update
+
+October 7th, 2003 - MikkoR
+- Fixed Owl's insight empower
+- Fixed NPC's
+- Hopefully fixed drow item equipment destroying
+- Fixed one typo in gong message
+- Did 100 other things, that I don't remember after 5 days
+- Everyone loves PIES! ;)
+
+September 28th, 2003 - MikkoR
+- Added Jails to forts
+- Added some underdark areas
+- Fixed some spells
+- Added doorbells outside outer gates.. no more *Knocks on ___ gate* shouts!
+- Blocked these 18 new areas.. actually 17
+
+September 21st, 2003
+- Added 18 new areas
+
+September 19th, 2003 - Vico
+- Added more corn.
+- CNR Made food now gives you 3 times your level in hitpoints when you rest, and will increase your con and str for 8 hours.
+- Raised price of rations to 9 gold, and give 5 to new players.
+- Added rest message.  This is just to let you know that you can rest, so you don't have to test it by hitting 'r' and accidently resting wherever.
+
+September 18th, 2003 - Vico
+- Lots more plants in the farmlands.
+- Greater Sanctuary Now lasts 9 seconds flat (sorry but you can still use it for a getaway anyway).
+
+
+September 17th, 2003 - Vico
+- More xp system tweaks
+- Fixed up conversations to reflect known history.
+- Fixed Old Grey Renders CR, it was 14, it is really 24 - look out! :)
+- Added more fighter gear.
+
+September 14th, 2003 - Vico
+- Slight tweak to xp system.
+- Fixed recieving XP for subraces.
+- Give the history book to all players when they join! yay! 
+
+September 12th, 2003 - Vico
+- More experience system changes.. you should now see
+more experience points in general.
+
+September 11th, 2003 - Vico
+- Changed experience system.  You now have to rest to get your combat experience!  Don't be surprised if you get no experience while fighting, it is all saved in the database (where it won't be lost) and given to you on rest. The way experience is gained is also dramatically different, based on the risk you take during battle.
+- Changed rest interval from 6 hours to 8. 
+
+August 30th, 2003 - MikkoR
+- Added some SoU stuff to forts and ranzington
+- Lowered ranz fee a bit
+- Cleaven gate plot
+- Adjusted area lightnings
+
+August 23rd, 2003
+- changed the layout of the outer gates areas a bit. this should help to prevent cheesy tactics.
+- the second guard for the outer gates returned to duty
+- increased lock DC for outer and inner gates
+
+August 22nd, 2003
+- changed scalping script, should work now
+- Ingot of Glass now requires 1 bag of sand instead of 2
+
+August 21st, 2003
+- this mod is now sou-only
+- firebrand is fixed, and behaves as the book "Magic of Faerun" says: targeting is the same as before, and the fire-arrows fly towards hostile enemies, each fire arrow explodes in a 5m radius area, damaging every creature standing near. the damage does not stack, spell resistance and reflex saves are working.
+- added divine favor to non-stacking spells, means that divine favor, divine strength and divine power now won't stack
+- greater sanctuary now lasts 1 round/level instead of 1 turn/level
+- the target of bigby's forceful hand now is undetectable and invulnerable  for the duration of the spell to simulate the "pushing back" the spell should do.
+- fixed PvP recognition of summons (in theory)
+- the gorgons in the mino caves are sou-gorgons now, beware ;)
+- subrace bonus-stuff now should really be fixed after death
+- drow equipment now won't break on the surface during the night
+- added subrace selection area
+- people with true seeing should now be immune to phantasmal killer
+- did a full rebuild on the module
+- please use the Feedback forum to report problems with these updates
+
+August 18th, 2003
+- changed encounter layout of drow newbie area
+- fixed Wooden Quarterstaff recipe
+- fixed Aura of Vitality to work without parties
+- fixed Divine Power spell
+- fixed rest-digging
+- fixed subraces losing their effects on leaving fugue
+- restoration spells shouldn't restore subrace effects anymore
+- the mumbling when failing to dig sand/clay/gems is no longer broadcasted to everyone around
+- Inn NPC dialogs should be private now to combat cluttered chat windows
+- fixed various doors/gates to be non-bashable anymore (includes Che'el del Orbben gate and lots of Shilar gates/doors)
+- fixed remove fear to work on neutral objects too. if the functions the script calls are broken, we cannot fix it.
+- divine power &amp; divine strength won't stack now. in fact, the spell will "fail" if the other of the two is in effect.
+- fixed a new underdark creature to not kill everyone on sight :)
+--------------------------------------
+
+August 17th, 2003
+
+Many of you have probably noticed our attempt to automate giving experience to role players.  I've upped the amount a fair bit.  We hope this system works out.. those caught abusing it will be punished!
+
+August 16th, 2003
+
+Fixed resting.
+
+August 14th, 2003
+- changed mining/digging/gemmining chances again
+Mining: 1% / STR + 2% / STR Modifier score
+Clay/Sand: 1% / CON  + 2% / CON Modifier score
+Gems: 1% / DEX + 2% / DEX Modifier score
+Here is a short table of chances:
+10 - 10%
+12 - 14%
+14 - 18%
+16 - 22%
+18 - 26%
+20 - 30%
+- changed the way anphillia is configured, in preparation of a public release
+- creating a campfire should now change the area lighting
+- added two underdark areas for higher level chars
+- all crafted helmets are now identified right away
+- changed Ear of the Druid. You now have to be level 11 or higher to use it, and it won't reveal stealthy PCs or invisible PCs anymore. Plus, it will take 30 seconds before you get the information.
+- time should be persistent now. that means we won't start at month 0 every crash. if that works out, that opens up new possibilities *fingers crossed*
+--------------------------------------
+
+August 13th, 2003
+- changed mining/digging/gemmining chances
+Mining: 5% / STR modifier chance
+Clay/Sand: 5% / CON modifier chance
+Gems: 5% / DEX modifier chance
+- Mining should now stop on success to prevent clicking the rock, going away 5 mins, then return and pick up tons of ore.
+- moved bush-spawnpoints in loriette west - they hopefully don't float anymore
+- redid all holy/unholy weapons again.
+
+August 11th, 2003 - MikkoR
+- Added Gemcrushers (now they work) to forts, you can make dust from cut gems
+- Now should be last cnr placeable in Shilar (Clay)
+- Added one more Npc
+
+August 10th, 2003 - MikkoR
+- REALLY added holy water to fort merchants
+- Modified holy/unholy weapons to be better against others too, not only against different alignment
+- Added some cnr stuff to shilar.. now it should be ready
+- Added some npc's
+
+August 8th, 2003 - MikkoR
+- Told the 3rd halfling to go back hiding in Shilar
+- Removed some items from shilar merchants
+- Adding holy water to cnr enchanter merchants
+- Added MUSHROOMS \o/
+- Made new drow recruit area darker and minor modifications (Changed impossible fungai encounter to normal) :)
+
+August 7th, 2003 - MikkoR
+- Broke the promise to not update ever again before SoU :)
+- Added some recruit places to underdark
+- Added goldmine to underdark... usable only by surfacers \o/
+- Modified rulebooks and sign to contain address to our new forums... http://www.anphillia.com/phpBB2 \o/
+- Told 2 halflings to stop hiding most of the time. Shilar people should now have general merchant all the time ;)
+- Added NPC to Shilar house and gave him some tradeskill items to sell
+- Added doors to Shilar Abbey
+- Made some minor area changes
+
+August 7th, 2003 - MikkoR
+- Fixed SERIOUS bug in perception script O.o
+
+August 6th, 2003 - MikkoR
+- Added more stuff and items to Shilar
+--&gt; Abbey interior
+'---&gt; Healer
+'---&gt; General merchant
+'---&gt; Shilar armors, helmet, shield
+--&gt; House interior
+'---&gt; Some cnr stuff
+--&gt; Mine
+'---&gt; Copper, Tin, Iron (Although not so easy to get)
+--&gt; CNR materials
+--&gt; Sounds! \o/
+--&gt; Rule sign
+- Fixed Flame Strike:
+--&gt;Before did maxium of 75% real damage
+--&gt;25% of that got reflex save applied twice
+- Added some log outputs, you might see some sort of statistics in the future
+- Added area xp code.. I hope this prevents xp farming in mino maze! :P
+- Animals should not attack if druid is near
+- Druid should be able to listen to forest, so he knows if someone is there.
+--&gt; Some areas are more important now if want to be stealthy
+- Fixed ranger tracking ability
+- Fixed Insane mage portal... and made it more Insane ;)
+- Made things (inks, enchanting oil, leather pouch) more expensive in drow city
+- Added lots of bugs
+- Used 2 days to make this update (-10 hours of sleep)
+
+August 4th, 2003
+- fixed the drow mines encounter triggers
+- added scalping knife to drow general store
+- fixed a problem with a platinum spot in underdark
+- call lightning only works in the open from now on
+- fixed Word of Faith (now resembles PHB Word of Chaos):
+12 HD or more: Deafned
+Less than 12 HD: Stunned, deafned
+Less than 8 HD: Confused, stunned, deafned
+Less than 4 HD: Killed, confused, stunned, deafned
+- possibly fixed Firebrand Reflex throw
+- changed the planar binding spell durations:
+Lesser Planar Binding: 1 hour/level
+Planar Binding: 1 turn / 2 levels
+Greater Planar Binding: 1 round / level
+- changed Animate Dead
+Lvl 1-7: Tyrantfog Zombie
+Lvl 8-14: Skeleton Warrior
+Lvl 15+: Skeleton Chieftain
+This goes along the PHB description of 2 HD/Level can be summoned.
+- fixed auto-locking of Shilar Gate
+- added some detail to Shilar Island
+- added place for "lost corpses" for Shilar
+
+July 31st, 2003 - 1
+- removed music from both inns
+- changed alcohol scripts to be less chat-window-flooding ;)
+- fixed a bug in the elemental-trial announcement... forgot to set his talkvolume to shout ;)
+- began elementary work on yet another faction (due to popular demand)
+- did a full build of the module (was about time again *g*)
+
+July 31st, 2003 - MikkoR
+- Increased CNR Magic arrow damages and made them a bit better
+- Fixed ranzington area (floating grapes and lamp posts)
+- Summon kills should count as PvP kills now
+- Added somethign nasty... druids, shouldn't displease nature and clerics shouldn't displease the gods.. or something bad might happen ^_^
+- For DM's, there are now commoner npc's in Creature -&gt; Npc -&gt; [Race], named [Race], Male/Female
+- And I think I remembered every change this time... I had them on paper ;)
+
+July 26th, 2003
+- fixed scalping, you should now be able to scalp again
+- for some reason, the reflex throw for firebrand doesn't work, so this spell is banned for now, sorcerers that have taken that spell can get a re-level to select another spell.
+- upped difficulty of elemental trial a bit again, am still not content with current difficulty.
+- the guardian will now announce when someone starts or finishes a trial via shout.
+
+July 25th, 2003 - 1
+- traps are banned. i deactivated the CnR Trap Crafting scripts. This is needed for the PvP changes mentioned below
+- PvP Changes: When dying from a players hand, your XP-Loss is 1/4 of what you would lose from a monster. This should help PvP getting more fun again for those that don't like XP-Losses much :) - respawning / burning / scalping are handled seperately. If you respawn after PvP Death, you lose full XP, burning/scalping see below.
+- Due to lower PvP Death Penalty, i toned down monster XP a bit again.
+
+July 25th, 2003
+- changed access to Rustin Road cave - there is now an underdark entrance in the cave, plus it's surface access is outside the axfell main gates. added one underdark area in the process (located under loriette east, access from rustin cave).
+- changed burning/scalping. you can now EITHER scalp OR burn a corpse. both actions will lead to a forced respawn for the victim (lvl * lvl * 5 + 50 xp loss for burning, lvl * lvl * 3 + 30 for scalping). Scalps have a more important role recently (cnr ingredient) plus i changed the reward for them if you return them to your captain (80gp and 20xp per level of the scalped creature).
+- added experimental code that should give spellcasters kill-credit. if this works out as planned, i am planning on lowering PvP Death penalty. But currently, we have no secure way to check if a death was caused by pvp or not.
+- fixed logging exploit while bleeding - really nice that some people reported it, really bad that most didn't
+
+July 24th, 2003
+- fixed stacking of divine power
+- fixed magic circle against alignment to work without parties
+- added new areas
+- removed one guard from outer gates (one remaining)
+- made outer gates pickable (high DC)
+- added recipes and items for holy/unholy weapons (56 total). There is now a holy/unholy version for every melee weapon available.
+- elemental trial now makes more sense to do (a lot more, believe me *g*)
+- probably forgot tons of stuff you reported - sorry :(
+
+July 23rd, 2003
+- fixed the new underdark areas to remember your position
+- fixed exits of underdark to destroy underdark items
+- changed some challenge ratings of monsters (mino maze won't give uber-xp for level 13+ anymore)
+- fixed some missing encounters
+- changed some encounters
+
+July 20th, 2003
+- There was a shift in alliances. Drow and Axfell are now allies. That means that players won't automatically dislike eachother now. NPC guards will still react hostile though, so beware them (same for drow mines)
+
+July 19th, 2003
+- fixed some underdark lighting problems
+- began changing something (SECRET!)
+- changed missile storm again, details in rulebook
+
+July 18th, 2003 - 2 - MikkoR
+- Nerfed Missile storms (Less damage, don't kill spell mantle everytime, 1 spell resist, 5 missiles/creature max)
+- Added Reflex save to Firebrand (like it should be)
+- Fixed Firebrand and Missile storms hitting invisible/hiding creatures
+- Fixed underdark Lightning
+
+July 18th, 2003 - MikkoR
+- Added some (5) Underdark areas
+- Added 2 Underdark entrances
+- Fixed some encounters
+- Added staves to fort merchants \o/
+- Fixed clerical shadow summoning (Needed animal empathy before) :)
+- Got bored in making areas
+- Forgot tons of things what I was ment to do
+
+July 16th, 2003
+- fixed "Scare" scribing recipe
+- fixed a bug in creature loot (you were not supposed to get these awesome weapons from the bandit chief).
+- changed death penalty for levels 6-10. it is Lvl * 100 now. 
+
+July 15th, 2003 - 2
+- reverted to old Subrace stuff. The ECL changes were practically insane. i miscalculated the changes in theory, and experience showed that they were just too hard. we're back to the old system now
+
+July 15th, 2003 - 1
+- "fixed" XP calculation for Subraces. Until now, we used a custom calculation (ECL (effective character level) modifer &gt; +1 -&gt; you get two third of XP), but now we go according to the books. Subraces get their ECL added to their current level when calculating XP. (drow/duergar = +2, svirfneblin = +3).
+- added ECL to XP Loss calculations too (except for burning, which is a special case for everything), which basically means Subraces with ECL lose a lot more when dying. Note: "Safe-Levels" are NOT affected by ECL.
+- changed the XP calculation a bit along the way. Level difference between you and the monster has a bigger impact again. (calculated xp gets reduced by 1/level difference, nothing too big, but you should at least see a difference between level 1 and 4 again)
+- added example xp gain/loss calculations at the end of the rulebook
+- made most undroppables (emote wand, rulebook, anph information book , the horns etc...) have -80% weight reduction.
+- tweaked some boss monsters again (weapons, feats, spell selection...)
+- changed all encounters that had animals in them (grrrrr). every animal that you encounter should be skinnable now (given CnR knows that animal)
+- fixed Oat Bread Recipe
+- fixed Dwarf's Head Ale Recipe
+
+July 15th, 2003
+- fixed CnR Alchemy Cure Potions recipes
+- changed way of remembering HP a bit. it used your public cd-key plus char name for identification, i changed cd-key bit to your login-name. hopefully that function is a bit faster
+- changed nodrop code. Until now, dropping containers with nodrop items inside would delete all items in that container including the nodrop
+- removed "flour" from elemental bag recipes
+- added lesser scribing inks to both forts
+- Woodcutter NPCs should no longer attack ravens and cast timestop while doing so ;)
+
+July 14th, 2003
+- completely rewritten mining... you get a 10% + 5%/STR Modifier Chance to chip off a nugget... that should help ;)
+- fixed Cleaven/Axfell Leather Armor
+- fixed Mage Armor scribing recipe
+
+July 14th, 2003
+- small change to alcohol script; "should" work properly now
+- made another theoretical fix for Power Attack Mining
+- added Cleaven Miner and Axfell Slave to the Copper Mines of the respective fort. Talk to him and he will mine for you - useful for classes that can't wield martial weapons - only available for copper though.
+- changed some monster skills (discipline, concentration etc...).
+
+July 13th, 2003 - 2
+- redid all underdark encounters and added some creature types
+
+July 13th, 2003 - 1
+- made a theoretical fix for Spellmining/Power Attack/Improved Power Attack mining
+- should've improved performance of the database-synching script
+- alcohol script should work for elves too now
+
+July 13th, 2003
+- changed alcohol script again. now it should work properly
+- probably fixed Healing Circle
+- added another Chest to Camps labeled "CnR Resources Chest". This is for CnR resources only to prevent chests being filled to top with resources and items. Please put items in the community chest and cnr resources into the cnr chest.
+
+July 12th, 2003
+- fixed some underdark stuff
+- back to non-quest version of the mod - Llor is defeated, the tower is gone, but the danger is all but gone.
+
+July 10th, 2003 - 1
+- tweaked alcohol a bit and assigned correct properties to cnr alcohol
+- added some seats to council chambers
+- added the "rule" about parties to rulebook.
+
+July 10th, 2003
+- disabled racial restrictions for faction joins
+- added some fun to alcohol -&gt; try making contests :)
+- Spell changes:
+ .) bless - friendly/neutral creatures affected
+ .) prayer - friendly/neutral creatures affected
+ .) mass haste - friendly/neutral creatures affected
+ .) mass heal - friendly/neutral creatures affected
+ .) bard song - friendly/neutral creatures affected
+ .) turn undead - every undead (including own summons) gets turned
+ .) invisibility sphere - everyone inside becomes invisible, regardless of friendly/hostile/neutral/monster/npc/pc
+
+July 9th, 2003
+- fixed a minor bug in bleeding script (0 hp bug)
+- changed rulebook (now is the same as in yesterday's update that was taken down again)
+
+July 7th, 2003
+- fixed a minor bug leaving corpses
+- took out some writes to the log (won't help lag much, but every millisecond overhead is one too much)
+- fixed a small bug in treasure generation for monsters
+- changed some more scripts a bit to increase performance (i hope)
+- found some lag-producer in creature death-script. if the creature was killed by a summon, the script would produce quite some lag. to what extent is unknown, but the fix should help performance at least a bit.
+- further streamlined heartbeat script.
+- changed bleeding script (took out of heartbeat). if you log off while bleeding, you will be killed at logging on again. this improves performance PLUS fixes exploit of logging while bleeding to wait for a cleric to arrive to heal.
+
+July 5th, 2003
+- added Axfell Inn
+- removed Axfell Inn -&gt; Cleaven Inn Basement shortcut ;)
+
+July 4th, 2003
+- changed heartbeat script again to improve performance
+
+July 3rd, 2003
+- fixed a bug with disappearing bags (that bug must have been in for a LONG time but never showed until now)
+- fixed dream location for the teams
+- emote-wand not longer auto-replaced on every join, should you miss the collapse function from yours, drop it once, you should get the new one then
+- included equipped-slots in item-searcher
+
+July 2nd, 2003
+- fixed a little Bug in the on-join trigger sending you directly to your wake-up instead of respective dream area
+- fixed a bug in the faction counter (Dream Sphere Conversation)
+- added "No Solo-ing" rule to rulebook, i.e. changed existing Solo-ing rule
+
+July 1st, 2003
+- fixed Faction Standings for NPCs
+- fixed despawner to not despawn important Creatures (fugue sphere, farm animals etc...)
+- made Anphillia much more customizable (great for us)
+
+June 30th, 2003 - 2
+- Tweaked despawner to be more aggressive.
+- Added more caccoons to the spider lairs.
+- Added persistent player locations.  It will now save the
+last area you entered every 3 minutes or so so that you
+can return there using the 'Wake up in the field' portal.
+You can click on the statue to see where you will wakeup.
+In theory you should always wake up at the start of a new
+area (where you entered it) so it should be pretty safe.
+
+June 30th, 2003 -Vico
+- Added monster despawner
+- Added database caching system
+- Made CNR skinnables deteriorate a bit faster
+- Changed underdark a bit.
+- Fixed nodrop of certain creature items (armor).
+- improved monster despawner code (blame eyesolated if it's messed up *g*)
+- made emote wand a plot item to fix "unlimited selling" exploit
+- added magical properties to "elemental stones" - yay ;)
+- upgraded to CnR 3.04
+- made CnR crafted food edible
+- made CnR Animals drop cookable (HCR) meat
+
+June 28th, 2003 -MikkoR
+- Fixed Faerie Fire (again)
+- Added some resources to underdark
+- Added some drow items
+- Added Hickory to Headlands.. sorry, it was ment to be there, my bad
+- Moved some resources a bit
+- Removed trap from Krust door, so you could pay the owners of that door a visit more often ;)
+- Modified emotewand dicerolling, so you can't cheat anymore, with typing the roll
+- Last.. but not least... Added CNR 3.03, with all the neat things! \o/
+- Probably something else too, which I don't remember now.
+
+June 27th, 2003 -MikkoR
+- Fixed Faerie Fire
+- Tweaked Underdark encounters
+- Modified death script to allow special item to bypass experience loss
+- Added Wand of AFK
+
+June 27th, 2003
+- added another entrance/exit to Webby Cavern - Queen's Lair
+
+June 25th, 2003 - 2
+
+- Took the like/dislike out of the heartbeat.
+- Fixed experience script (woops!)
+
+June 25th, 2003
+- Changed around a lot (almost all) of the encounters to make them more random.
+- Merchants buying items do not put them back up for sale!  This is to keep the stores clean.  If you have something to share, use the community chest.
+- We're on a new system!  Lag seems to be gone! yay! finally!
+- Edged up experience points for monsters a little bit (more for lower levels especially).
+
+June 22nd, 2003 - 4
+- streamlined Heartbeat script  A LOT. if that doesn't help performance, i don't know what will.
+- took out fatigue again to help streamline the heartbeat script.
+- with high enough animal empathy skill, you should be able to summon bears/panthers again.
+
+June 22nd, 2003 - 3
+- connected the new areas to the rest of the world. we now have a pretty expansive underdark featuring some new monsters and other surprises ;)
+- added new NPCs to both forts (woodcraft merchants)
+
+June 22nd, 2003 - 2
+- Cloudcity encounters done, it is pretty complete now
+- Removed spell behaviour changes, because of player feedback
+- Added something to crypts.. not big
+
+- MikkoR
+
+June 22nd, 2003
+- added woodcrafting equipment to both camp's farmlands.
+- moved iron resource out of spider queen cave to suman cave and rustin cave
+- lowered difficulty of elemental trial just a bit - don't expect to win the final encounter alone though.
+- changed some spell behaviour. spells like call lightning, storm of vengeance, flamestrike and ice storm (some others too) are no longer possible to cast in interior or underground areas. fireballing in caves "could" have some nasty side-effects.
+- PLEASE, if you find anything that you think is unbalanced, TELL us. we can only "guess" when balancing things, but without playtesting, we can't  know if it's really balanced. Write a post in the forum providing feedback. Where you died, what resource you think is placed wrong etc... please add circumstances: were you in a group? what classes? what levels? where did you die? these things help us to tell you if the difficulty is intended (i.e. not a place for you to go) or a balance-bug.
+
+June 21st, 2003
+- fixed old spell-script; improved spellcaster-AI works again (that's what caused all the Stack Underflows immediately after we updated to 1.30)
+- added some scripts to Script-Cache (1.30 feature, should improve performance)
+- moved cleaven blackbear encounter so they don't get slaughtered by the guards all the time.
+- made it so you cannot level in prestige classes on this server.
+- while at it, coded a multi-class script that puts an end to the "no multi-class" rule. Details in the rulebook.
+- reworked the XP-loss. Read Rulebook for details.
+- Level-Cap is gone again - you can achieve level 20 now. please do not powergame, especially if you really want to achieve it *eg*
+- fixed scalping of bodies of players who had logged out.
+
+June 20th, 2003
+- changed the canine encounter in axfell
+- added new source of income. your favourite general store now sells the item "Scalp Hunter's Knife". This item has "Unique Power" attacked to it. When you use it on a Death Corpse, you will aquire the scalp of the person. Someone in the fort is paying good money for scalps (level*100 gp). Happy hunting!
+- you should gain XP for killing CnR-Skinnables now
+- CnR-Skinnable corpses (Bones etc..) should decay after a certain time
+- This mod is now officially NWN 1.30 ;)
+------------------------------------------
+
+June 19th, 2003
+- changed playing of some Copper in cleaven copper mine, should be reachable now
+- small change to cnr spawn-script
+- added special signs to both farmlands
+- added more skinnable cnr encounters
+- added Beetle Hive to Suman Valley South and Rustin Road North
+- fixed Ulwynel running out of Woodcutter axes
+- added usable combat dummies and archery targets to both camps: right-click and bash them to attack.
+- lowered price for firebeetle bellies.
+--------------------------------------------
+
+June 18th, 2003
+- fixed a bug in the faction system that would make the guards go hostile to you if you killed deer or other herbavores.
+- did a major overhaul to the whole faction system. you shouldn't have an easy time making your fort NPCs angry now. Only thing left is attacking your farm animals (cows, chickens) because they are same faction as you.
+- fixed The Witch (her faction was cleaven, now is ranzington)
+- benches now respawn (thx kai)
+- i have rewritten the "Roleplaying Sign", the "Anphillia Rulebook" and the "Anphillia Information" Book. Please read them!
+- changed burning system: when burning an enemy, he loses 1/4 the XP he would lose when respawning. if you burn a member of your faction, he loses full xp and you will lose the same amount. I hope that encourages people to PvP more again.
+- fixed elemental altar entrance. praying in front of the altars should work again.
+- changed xp script. you will no longer lose xp on levelup. to prevent cheating, your level is calculated using your xp, so not leveling up will not help you gain more xp.
+- fixed Cleaven Baker store (wrong tag grrrrr)
+- your Rulebooks now get updated on server join
+- changed Alignment Restrictions. Only Lawful Good is prohibited in Axfell, only Chaotic Evil is prohibited in Cleaven.
+- added some cloth-color-variants for females (3 for both designs)
+- added Cleaven Outfit to Samin's Store (Axfell outfit already available)
+--------------------------------------
+
+June 17th, 2003
+- probably did many things, but have forgotten all :D
+--------------------------------------
+
+June 16th, 2003
+- fixed Transition from Hope North to Loriette West
+- fixed Cleaven Baker (missing conversation)
+- fixed Spider Cave - Queen's Lair Queen Encounter, should now spawn as intended
+- moved Axfell Badger Encounter to another place to prevent the guards killing them, thus generating 1000s of Skinnable Corpses ;)
+- fixed Axfell Creek Crypt (they were no-rest unintended)
+----------------------------------------
+
+June 15th, 2003
+- major changes to True Seeing Spell: True Seeing will no longer reveal hiding/sneaking rogues, as the PHB suggests.
+- got rid of that stack underflow finally (in a local test it worked)
+- fixed Mathan Cain (honestly, err.. really!)
+- added some comfort for DMs
+- moved Raven encounters around again so they really shouldn't attack chickens anymore
+------------------------------------------
+
+June 14th, 2003 - 3
+- fixed the merchants so they no longer sell ATS equipment which would be destroyed on next server-join. changed what they have too a bit.
+- added some armor and shield types for both camps
+-------------------------------------------
+
+June 14th, 2003 - 2 :)
+- FaI created even more sounds!
+- i refined the ATS-thingie a bit. some items are NOT destroyed (because some n00b 3rd party addon-creator didn't create his item-resrefs along the rules *GRRRRRRRRR*). please destroy these items (Gemsetter is a good example) manually, they won't be of use anyway.
+- fixed CNR-resource-spawning.. ALL my fault ;)
+- changed Mathan Cain waypoints a bit, i hope he won't leave his house anymore :)
+- changed raven encounters in farmlands; they should not attack cows and chickens anymore (unless you lead them to them)
+---------------------------------------------
+
+June 14th, 2003
+- fixed some minor (resource missing) bugs in creatures, dialogs etc...
+- reactivated rest- and fatigue-scripts
+- created ATS-item-destroy-script. Upon waking up, you lose all ATS-Items you have with you (if you have ATS containers, then all items inside will be destroyed too). Before waking up, you can "test" what will be destroyed using that RIP ATS stone, rearrange your inventory, test again etc... The stone and really destroying basically share the same script, so the stone speaks the truth.
+- probably did something else, but it is 3.40am, i am tired as hell and just want to sleep :)
+--------------------------------------
+
+June 13th, 2003
+- change to CNR - you will no longer gain adventuring XP (it may still show the line that says so, but you won't), you should also no longer lose XP.
+- fixed Axfell - Goblin Mine tin spawn-points (i hope)
+- added a bunch of normal clothes to Will Davis in Ranz, both for males and females. the female-only stuff REALLY looks only good on females, while the male stuff seems to be more like unisex, fits the ladies just as well.
+- added one forge (now 3) to the fort smiths.
+- made the cleaven tailor supply of sewing kits infinite (the way it should be)
+- FaI added some more sounds
+- Mikko did something too but i have no idea what :D
+--------------------------------------------
+
+June 10th, 2003
+- Tradeskills now fully incorporated (some skinnable animals are still left to do, but this could take some time). Search for the locations to practice your skills!
+- FaI changed lighting and created sounds for almost all areas (THX!)
+- Mikko fixed some bugs in the resource-spawn script
+- Tradeskill Level-Cap now at 55
+- fixed Axfell Mine entrance
+---------------------------------------------
+
+June 9th, 2003
+- Our new Tradeskill system is (partly) in. Almost all resources are available in the lands, you can start to look for them. This system works a bit different than ATS, you have XP and levels in your skills. There are 10 skills, you start level 1 in each. To make things interesting, i recoded their XP script a bit, so you can reach a maximum of 45 levels in all tradeskills combined. So choose wisely. At the moment, following skills are in:
+.) Weaponcrafting
+.) Armorcrafting
+.) Gemcrafting
+.) Tinkering
+.) Alchemy
+
+The rest of the skills will be implemented ASAP. Still, you can toy around and explore the lands for resources. thanks to mikko for placing all the resources :)
+- fatigue system is out again to save cpu-power. please don't run.
+- level-cap is back too, but you can still gain levels until you are level 12 (for now).
+- redid the encounters in Grand Forest, they could've caused major issues.
+</CExoString>
+        </SubString>
+    </CExoLocString>
+    <Byte Name="DisarmDC">15</Byte>
+    <DWord Name="Faction">1</DWord>
+    <Byte Name="Fort">16</Byte>
+    <Short Name="HP">15</Short>
+    <Byte Name="Hardness">5</Byte>
+    <Byte Name="HasInventory">0</Byte>
+    <Byte Name="Interruptable">1</Byte>
+    <CExoString Name="KeyName"></CExoString>
+    <Byte Name="KeyRequired">0</Byte>
+    <CExoLocString Name="LocName">
+        <DWord Name="StringRef">14561</DWord>
+        <SubString>
+            <Int Name="StringID">0</Int>
+            <CExoString Name="String">Updates - Mon Nov 3</CExoString>
+        </SubString>
+    </CExoLocString>
+    <Byte Name="Lockable">0</Byte>
+    <Byte Name="Locked">0</Byte>
+    <ResRef Name="OnClosed"></ResRef>
+    <ResRef Name="OnDamaged"></ResRef>
+    <ResRef Name="OnDeath"></ResRef>
+    <ResRef Name="OnDisarm"></ResRef>
+    <ResRef Name="OnHeartbeat"></ResRef>
+    <ResRef Name="OnInvDisturbed"></ResRef>
+    <ResRef Name="OnLock"></ResRef>
+    <ResRef Name="OnMeleeAttacked"></ResRef>
+    <ResRef Name="OnOpen"></ResRef>
+    <ResRef Name="OnSpellCastAt"></ResRef>
+    <ResRef Name="OnTrapTriggered"></ResRef>
+    <ResRef Name="OnUnlock"></ResRef>
+    <ResRef Name="OnUsed"></ResRef>
+    <ResRef Name="OnUserDefined"></ResRef>
+    <Byte Name="OpenLockDC">18</Byte>
+    <Byte Name="PaletteID">12</Byte>
+    <Byte Name="Plot">1</Byte>
+    <Word Name="PortraitId">497</Word>
+    <Byte Name="Ref">0</Byte>
+    <Byte Name="Static">0</Byte>
+    <CExoString Name="Tag">dreamupdate</CExoString>
+    <ResRef Name="TemplateResRef">dreamupdate</ResRef>
+    <Byte Name="TrapDetectDC">0</Byte>
+    <Byte Name="TrapDetectable">1</Byte>
+    <Byte Name="TrapDisarmable">1</Byte>
+    <Byte Name="TrapFlag">0</Byte>
+    <Byte Name="TrapOneShot">1</Byte>
+    <Byte Name="TrapType">0</Byte>
+    <Byte Name="Type">0</Byte>
+    <Byte Name="Useable">1</Byte>
+    <Byte Name="Will">0</Byte>
+</Gff>

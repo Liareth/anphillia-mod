@@ -1,0 +1,435 @@
+<Gff Version="1" Type="DLG">
+    <DWord Name="DelayEntry">0</DWord>
+    <DWord Name="DelayReply">0</DWord>
+    <ResRef Name="EndConverAbort"></ResRef>
+    <ResRef Name="EndConversation"></ResRef>
+    <List Name="EntryList">
+        <Struct Id="0">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <CExoString Name="Quest"></CExoString>
+            <List Name="RepliesList">
+                <Struct Id="0">
+                    <ResRef Name="Active">bbs_show_01</ResRef>
+                    <DWord Name="Index">13</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+                <Struct Id="1">
+                    <ResRef Name="Active">bbs_show_02</ResRef>
+                    <DWord Name="Index">12</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+                <Struct Id="2">
+                    <ResRef Name="Active">bbs_show_03</ResRef>
+                    <DWord Name="Index">11</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+                <Struct Id="3">
+                    <ResRef Name="Active">bbs_show_04</ResRef>
+                    <DWord Name="Index">10</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+                <Struct Id="4">
+                    <ResRef Name="Active">bbs_show_05</ResRef>
+                    <DWord Name="Index">9</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+                <Struct Id="5">
+                    <ResRef Name="Active">bbs_show_06</ResRef>
+                    <DWord Name="Index">8</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+                <Struct Id="6">
+                    <ResRef Name="Active">bbs_show_07</ResRef>
+                    <DWord Name="Index">7</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+                <Struct Id="7">
+                    <ResRef Name="Active">bbs_show_08</ResRef>
+                    <DWord Name="Index">6</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+                <Struct Id="8">
+                    <ResRef Name="Active">bbs_show_09</ResRef>
+                    <DWord Name="Index">5</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+                <Struct Id="9">
+                    <ResRef Name="Active">bbs_show_10</ResRef>
+                    <DWord Name="Index">4</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+                <Struct Id="10">
+                    <ResRef Name="Active">bbs_show_back</ResRef>
+                    <DWord Name="Index">3</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+                <Struct Id="11">
+                    <ResRef Name="Active">bbs_show_next</ResRef>
+                    <DWord Name="Index">2</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+                <Struct Id="12">
+                    <ResRef Name="Active">bbs_have_notice</ResRef>
+                    <DWord Name="Index">1</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+                <Struct Id="13">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">0</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+            </List>
+            <ResRef Name="Script"></ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoString Name="Speaker"></CExoString>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Posts: &lt;StartAction&gt;&lt;CUSTOM3671&gt;&lt;/Start&gt;          Page: &lt;StartAction&gt;&lt;CUSTOM3672&gt;&lt;/Start&gt; of &lt;StartAction&gt;&lt;CUSTOM3673&gt;&lt;/Start&gt;&lt;CUSTOM3674&gt;&lt;StartAction&gt;&lt;CUSTOM3675&gt;&lt;/Start&gt;&lt;CUSTOM3676&gt;&lt;StartAction&gt;&lt;CUSTOM3677&gt;&lt;/Start&gt;&lt;CUSTOM3678&gt;</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+    </List>
+    <DWord Name="NumWords">43</DWord>
+    <List Name="ReplyList">
+        <Struct Id="0">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <List Name="EntriesList"/>
+            <CExoString Name="Quest"></CExoString>
+            <ResRef Name="Script"></ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">[Leave]</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+        <Struct Id="1">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <List Name="EntriesList">
+                <Struct Id="0">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">0</DWord>
+                    <Byte Name="IsChild">1</Byte>
+                    <CExoString Name="LinkComment"></CExoString>
+                </Struct>
+            </List>
+            <CExoString Name="Quest"></CExoString>
+            <ResRef Name="Script">bbs_post_notice</ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">[Post Message]</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+        <Struct Id="2">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <List Name="EntriesList">
+                <Struct Id="0">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">0</DWord>
+                    <Byte Name="IsChild">1</Byte>
+                    <CExoString Name="LinkComment"></CExoString>
+                </Struct>
+            </List>
+            <CExoString Name="Quest"></CExoString>
+            <ResRef Name="Script">bbs_page_next</ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">[Next Page]</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+        <Struct Id="3">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <List Name="EntriesList">
+                <Struct Id="0">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">0</DWord>
+                    <Byte Name="IsChild">1</Byte>
+                    <CExoString Name="LinkComment"></CExoString>
+                </Struct>
+            </List>
+            <CExoString Name="Quest"></CExoString>
+            <ResRef Name="Script">bbs_page_back</ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">[Previous Page]</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+        <Struct Id="4">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <List Name="EntriesList">
+                <Struct Id="0">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">0</DWord>
+                    <Byte Name="IsChild">1</Byte>
+                    <CExoString Name="LinkComment"></CExoString>
+                </Struct>
+            </List>
+            <CExoString Name="Quest"></CExoString>
+            <ResRef Name="Script">bbs_select_10</ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">&lt;CUSTOM3689&gt; &lt;StartHighlight&gt;by&lt;/Start&gt; &lt;CUSTOM3699&gt;</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+        <Struct Id="5">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <List Name="EntriesList">
+                <Struct Id="0">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">0</DWord>
+                    <Byte Name="IsChild">1</Byte>
+                    <CExoString Name="LinkComment"></CExoString>
+                </Struct>
+            </List>
+            <CExoString Name="Quest"></CExoString>
+            <ResRef Name="Script">bbs_select_09</ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">&lt;CUSTOM3688&gt; &lt;StartHighlight&gt;by&lt;/Start&gt; &lt;CUSTOM3698&gt;</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+        <Struct Id="6">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <List Name="EntriesList">
+                <Struct Id="0">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">0</DWord>
+                    <Byte Name="IsChild">1</Byte>
+                    <CExoString Name="LinkComment"></CExoString>
+                </Struct>
+            </List>
+            <CExoString Name="Quest"></CExoString>
+            <ResRef Name="Script">bbs_select_08</ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">&lt;CUSTOM3687&gt; &lt;StartHighlight&gt;by&lt;/Start&gt; &lt;CUSTOM3697&gt;</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+        <Struct Id="7">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <List Name="EntriesList">
+                <Struct Id="0">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">0</DWord>
+                    <Byte Name="IsChild">1</Byte>
+                    <CExoString Name="LinkComment"></CExoString>
+                </Struct>
+            </List>
+            <CExoString Name="Quest"></CExoString>
+            <ResRef Name="Script">bbs_select_07</ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">&lt;CUSTOM3686&gt; &lt;StartHighlight&gt;by&lt;/Start&gt; &lt;CUSTOM3696&gt;</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+        <Struct Id="8">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <List Name="EntriesList">
+                <Struct Id="0">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">0</DWord>
+                    <Byte Name="IsChild">1</Byte>
+                    <CExoString Name="LinkComment"></CExoString>
+                </Struct>
+            </List>
+            <CExoString Name="Quest"></CExoString>
+            <ResRef Name="Script">bbs_select_06</ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">&lt;CUSTOM3685&gt; &lt;StartHighlight&gt;by&lt;/Start&gt; &lt;CUSTOM3695&gt;</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+        <Struct Id="9">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <List Name="EntriesList">
+                <Struct Id="0">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">0</DWord>
+                    <Byte Name="IsChild">1</Byte>
+                    <CExoString Name="LinkComment"></CExoString>
+                </Struct>
+            </List>
+            <CExoString Name="Quest"></CExoString>
+            <ResRef Name="Script">bbs_select_05</ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">&lt;CUSTOM3684&gt; &lt;StartHighlight&gt;by&lt;/Start&gt; &lt;CUSTOM3694&gt;</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+        <Struct Id="10">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <List Name="EntriesList">
+                <Struct Id="0">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">0</DWord>
+                    <Byte Name="IsChild">1</Byte>
+                    <CExoString Name="LinkComment"></CExoString>
+                </Struct>
+            </List>
+            <CExoString Name="Quest"></CExoString>
+            <ResRef Name="Script">bbs_select_04</ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">&lt;CUSTOM3683&gt; &lt;StartHighlight&gt;by&lt;/Start&gt; &lt;CUSTOM3693&gt;</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+        <Struct Id="11">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <List Name="EntriesList">
+                <Struct Id="0">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">0</DWord>
+                    <Byte Name="IsChild">1</Byte>
+                    <CExoString Name="LinkComment"></CExoString>
+                </Struct>
+            </List>
+            <CExoString Name="Quest"></CExoString>
+            <ResRef Name="Script">bbs_select_03</ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">&lt;CUSTOM3682&gt; &lt;StartHighlight&gt;by&lt;/Start&gt; &lt;CUSTOM3692&gt;</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+        <Struct Id="12">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <List Name="EntriesList">
+                <Struct Id="0">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">0</DWord>
+                    <Byte Name="IsChild">1</Byte>
+                    <CExoString Name="LinkComment"></CExoString>
+                </Struct>
+            </List>
+            <CExoString Name="Quest"></CExoString>
+            <ResRef Name="Script">bbs_select_02</ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">&lt;CUSTOM3681&gt; &lt;StartHighlight&gt;by&lt;/Start&gt; &lt;CUSTOM3691&gt;</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+        <Struct Id="13">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <List Name="EntriesList">
+                <Struct Id="0">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">0</DWord>
+                    <Byte Name="IsChild">1</Byte>
+                    <CExoString Name="LinkComment"></CExoString>
+                </Struct>
+            </List>
+            <CExoString Name="Quest"></CExoString>
+            <ResRef Name="Script">bbs_select_01</ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">&lt;CUSTOM3680&gt; &lt;StartHighlight&gt;by&lt;/Start&gt; &lt;CUSTOM3690&gt;</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+    </List>
+    <List Name="StartingList">
+        <Struct Id="0">
+            <ResRef Name="Active"></ResRef>
+            <DWord Name="Index">0</DWord>
+        </Struct>
+    </List>
+</Gff>

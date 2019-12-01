@@ -1,0 +1,28 @@
+<Gff Version="1" Type="UTW">
+    <Byte Name="Appearance">3</Byte>
+    <CExoString Name="Comment">This is the default waypoint you may place to set a patrol path for a creature or NPC.
+1. Create the creature and either use its current Tag or fill in a new one.
+2. Place or make sure the WalkWayPoints() is within the body of the On Spawn script for the creature.
+3. Place a series of waypoints along the route you wish the creature to walk.
+4. Select all of the newly created waypoints and right click. Choose the Create Set option.
+5. The waypoint set will have a set name of "WP_" + NPC Tag. Thus if an NPC with the Tag "Guard" will have a waypoint set called "WP_Guard". Note that Tags are case sensitive.</CExoString>
+    <CExoLocString Name="Description">
+        <DWord Name="StringRef">4294967295</DWord>
+    </CExoLocString>
+    <Byte Name="HasMapNote">0</Byte>
+    <CExoString Name="LinkedTo"></CExoString>
+    <CExoLocString Name="LocalizedName">
+        <DWord Name="StringRef">14817</DWord>
+        <SubString>
+            <Int Name="StringID">0</Int>
+            <CExoString Name="String">Safe to Save Marker</CExoString>
+        </SubString>
+    </CExoLocString>
+    <CExoLocString Name="MapNote">
+        <DWord Name="StringRef">4294967295</DWord>
+    </CExoLocString>
+    <Byte Name="MapNoteEnabled">1</Byte>
+    <Byte Name="PaletteID">5</Byte>
+    <CExoString Name="Tag">SafeToSaveMarker</CExoString>
+    <ResRef Name="TemplateResRef">waypoint002</ResRef>
+</Gff>

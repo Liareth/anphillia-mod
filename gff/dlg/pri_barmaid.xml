@@ -1,0 +1,149 @@
+<Gff Version="1" Type="DLG">
+    <DWord Name="DelayEntry">0</DWord>
+    <DWord Name="DelayReply">0</DWord>
+    <ResRef Name="EndConverAbort"></ResRef>
+    <ResRef Name="EndConversation"></ResRef>
+    <List Name="EntryList">
+        <Struct Id="0">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <CExoString Name="Quest"></CExoString>
+            <List Name="RepliesList">
+                <Struct Id="0">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">3</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+                <Struct Id="1">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">2</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+                <Struct Id="2">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">1</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+                <Struct Id="3">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">0</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+            </List>
+            <ResRef Name="Script"></ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoString Name="Speaker"></CExoString>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">What can I do for you?</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+        <Struct Id="1">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <CExoString Name="Quest"></CExoString>
+            <List Name="RepliesList"/>
+            <ResRef Name="Script"></ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoString Name="Speaker"></CExoString>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Look,  I'm busy. We've got lots of customers here and they're all hungry. I don't have time to talk.</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+    </List>
+    <DWord Name="NumWords">39</DWord>
+    <Byte Name="PreventZoomIn">0</Byte>
+    <List Name="ReplyList">
+        <Struct Id="0">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <List Name="EntriesList"/>
+            <CExoString Name="Quest"></CExoString>
+            <ResRef Name="Script"></ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Nothing, thank you.</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+        <Struct Id="1">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <List Name="EntriesList"/>
+            <CExoString Name="Quest"></CExoString>
+            <ResRef Name="Script"></ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Order a drink.</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+        <Struct Id="2">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <List Name="EntriesList"/>
+            <CExoString Name="Quest"></CExoString>
+            <ResRef Name="Script"></ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Order some food.</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+        <Struct Id="3">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <List Name="EntriesList">
+                <Struct Id="0">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">1</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+            </List>
+            <CExoString Name="Quest"></CExoString>
+            <ResRef Name="Script"></ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Tell me about yourself, Flo.</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+    </List>
+    <List Name="StartingList">
+        <Struct Id="0">
+            <ResRef Name="Active"></ResRef>
+            <DWord Name="Index">0</DWord>
+        </Struct>
+    </List>
+</Gff>

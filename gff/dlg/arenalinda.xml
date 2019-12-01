@@ -1,0 +1,83 @@
+<Gff Version="1" Type="DLG">
+    <DWord Name="DelayEntry">0</DWord>
+    <DWord Name="DelayReply">0</DWord>
+    <ResRef Name="EndConverAbort"></ResRef>
+    <ResRef Name="EndConversation"></ResRef>
+    <List Name="EntryList">
+        <Struct Id="0">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <CExoString Name="Quest"></CExoString>
+            <List Name="RepliesList">
+                <Struct Id="0">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">0</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+            </List>
+            <ResRef Name="Script"></ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoString Name="Speaker"></CExoString>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Hello to you. It is a good day for battle is it not? I am Linda Fyne how may I help you?</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+        <Struct Id="1">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <CExoString Name="Quest"></CExoString>
+            <List Name="RepliesList"/>
+            <ResRef Name="Script"></ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoString Name="Speaker"></CExoString>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">I worship the gods and goddesses of war and battle. I so enjoy watching the fights in the arena and wish the battles to go on. So I stay here and help those who need aid so that the battles will go on forever.</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+    </List>
+    <DWord Name="NumWords">75</DWord>
+    <Byte Name="PreventZoomIn">0</Byte>
+    <List Name="ReplyList">
+        <Struct Id="0">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <List Name="EntriesList">
+                <Struct Id="0">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">1</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+            </List>
+            <CExoString Name="Quest"></CExoString>
+            <ResRef Name="Script"></ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Hi Linda, what is it that you do here?</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+    </List>
+    <List Name="StartingList">
+        <Struct Id="0">
+            <ResRef Name="Active"></ResRef>
+            <DWord Name="Index">0</DWord>
+        </Struct>
+    </List>
+</Gff>

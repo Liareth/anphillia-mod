@@ -1,0 +1,992 @@
+<Gff Version="1" Type="DLG">
+    <DWord Name="DelayEntry">0</DWord>
+    <DWord Name="DelayReply">0</DWord>
+    <ResRef Name="EndConverAbort">sei_subrconv</ResRef>
+    <ResRef Name="EndConversation">sei_endsubrdial</ResRef>
+    <List Name="EntryList">
+        <Struct Id="0">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <CExoString Name="Quest"></CExoString>
+            <List Name="RepliesList">
+                <Struct Id="0">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">0</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+            </List>
+            <ResRef Name="Script"></ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoString Name="Speaker"></CExoString>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Thank you for selecting your subrace. To prevent this dialog in the future, please contact your DM to set your subrace field to the correct value.</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+        <Struct Id="1">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <CExoString Name="Quest"></CExoString>
+            <List Name="RepliesList">
+                <Struct Id="0">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">1</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+            </List>
+            <ResRef Name="Script"></ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoString Name="Speaker"></CExoString>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Your subrace field was not recognized. Please, finish this dialog completely to correctly initialize your subrace.</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+        <Struct Id="2">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <CExoString Name="Quest"></CExoString>
+            <List Name="RepliesList">
+                <Struct Id="0">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">8</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+                <Struct Id="1">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">7</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+                <Struct Id="2">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">6</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+                <Struct Id="3">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">5</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+                <Struct Id="4">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">4</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+                <Struct Id="5">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">3</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+                <Struct Id="6">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">2</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+            </List>
+            <ResRef Name="Script"></ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoString Name="Speaker"></CExoString>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">We were unable to determine your base race. Please select the race that applies to you.</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+        <Struct Id="3">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <CExoString Name="Quest"></CExoString>
+            <List Name="RepliesList">
+                <Struct Id="0">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">9</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+            </List>
+            <ResRef Name="Script"></ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoString Name="Speaker"></CExoString>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Since you are a human, the following subraces are available to you. Please select the one that applies to you.</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+        <Struct Id="4">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <CExoString Name="Quest"></CExoString>
+            <List Name="RepliesList">
+                <Struct Id="0">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">12</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+                <Struct Id="1">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">11</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+                <Struct Id="2">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">10</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+            </List>
+            <ResRef Name="Script"></ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoString Name="Speaker"></CExoString>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Since you are a halfling, the following subraces are available to you. Please select the one that applies to you.</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+        <Struct Id="5">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <CExoString Name="Quest"></CExoString>
+            <List Name="RepliesList">
+                <Struct Id="0">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">13</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+            </List>
+            <ResRef Name="Script"></ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoString Name="Speaker"></CExoString>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Since you are a half-orc, the following subraces are available to you. Please select the one that applies to you.</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+        <Struct Id="6">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <CExoString Name="Quest"></CExoString>
+            <List Name="RepliesList">
+                <Struct Id="0">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">15</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+                <Struct Id="1">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">14</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+            </List>
+            <ResRef Name="Script"></ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoString Name="Speaker"></CExoString>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Since you are a half-elf, the following subraces are available to you. Please select the one that applies to you.</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+        <Struct Id="7">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <CExoString Name="Quest"></CExoString>
+            <List Name="RepliesList">
+                <Struct Id="0">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">17</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+                <Struct Id="1">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">16</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+            </List>
+            <ResRef Name="Script"></ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoString Name="Speaker"></CExoString>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Since you are a gnome, the following subraces are available to you. Please select the one that applies to you.</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+        <Struct Id="8">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <CExoString Name="Quest"></CExoString>
+            <List Name="RepliesList">
+                <Struct Id="0">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">22</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+                <Struct Id="1">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">21</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+                <Struct Id="2">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">20</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+                <Struct Id="3">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">19</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+                <Struct Id="4">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">18</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+            </List>
+            <ResRef Name="Script"></ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoString Name="Speaker"></CExoString>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Since you are an elf, the following subraces are available to you. Please select the one that applies to you.</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+        <Struct Id="9">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <CExoString Name="Quest"></CExoString>
+            <List Name="RepliesList">
+                <Struct Id="0">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">25</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+                <Struct Id="1">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">24</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+                <Struct Id="2">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">23</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+            </List>
+            <ResRef Name="Script"></ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoString Name="Speaker"></CExoString>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Since you are a dwarf, the following subraces are available to you. Please select the one that applies to you.</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+    </List>
+    <DWord Name="NumWords">241</DWord>
+    <List Name="ReplyList">
+        <Struct Id="0">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <List Name="EntriesList"/>
+            <CExoString Name="Quest"></CExoString>
+            <ResRef Name="Script"></ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String"></CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+        <Struct Id="1">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <List Name="EntriesList">
+                <Struct Id="0">
+                    <ResRef Name="Active">sei_ta_isdw</ResRef>
+                    <DWord Name="Index">9</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+                <Struct Id="1">
+                    <ResRef Name="Active">sei_ta_isel</ResRef>
+                    <DWord Name="Index">8</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+                <Struct Id="2">
+                    <ResRef Name="Active">sei_ta_isgn</ResRef>
+                    <DWord Name="Index">7</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+                <Struct Id="3">
+                    <ResRef Name="Active">sei_ta_ishe</ResRef>
+                    <DWord Name="Index">6</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+                <Struct Id="4">
+                    <ResRef Name="Active">sei_ta_isho</ResRef>
+                    <DWord Name="Index">5</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+                <Struct Id="5">
+                    <ResRef Name="Active">sei_ta_isha</ResRef>
+                    <DWord Name="Index">4</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+                <Struct Id="6">
+                    <ResRef Name="Active">sei_ta_ishu</ResRef>
+                    <DWord Name="Index">3</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+                <Struct Id="7">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">2</DWord>
+                    <Byte Name="IsChild">0</Byte>
+                </Struct>
+            </List>
+            <CExoString Name="Quest"></CExoString>
+            <ResRef Name="Script"></ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String"></CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+        <Struct Id="2">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <List Name="EntriesList">
+                <Struct Id="0">
+                    <ResRef Name="Active">sei_ta_ishu</ResRef>
+                    <DWord Name="Index">3</DWord>
+                    <Byte Name="IsChild">1</Byte>
+                    <CExoString Name="LinkComment"></CExoString>
+                </Struct>
+            </List>
+            <CExoString Name="Quest"></CExoString>
+            <ResRef Name="Script"></ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Human</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+        <Struct Id="3">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <List Name="EntriesList">
+                <Struct Id="0">
+                    <ResRef Name="Active">sei_ta_isho</ResRef>
+                    <DWord Name="Index">5</DWord>
+                    <Byte Name="IsChild">1</Byte>
+                    <CExoString Name="LinkComment"></CExoString>
+                </Struct>
+            </List>
+            <CExoString Name="Quest"></CExoString>
+            <ResRef Name="Script"></ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Half-orc</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+        <Struct Id="4">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <List Name="EntriesList">
+                <Struct Id="0">
+                    <ResRef Name="Active">sei_ta_isha</ResRef>
+                    <DWord Name="Index">4</DWord>
+                    <Byte Name="IsChild">1</Byte>
+                    <CExoString Name="LinkComment"></CExoString>
+                </Struct>
+            </List>
+            <CExoString Name="Quest"></CExoString>
+            <ResRef Name="Script"></ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Halfling</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+        <Struct Id="5">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <List Name="EntriesList">
+                <Struct Id="0">
+                    <ResRef Name="Active">sei_ta_ishe</ResRef>
+                    <DWord Name="Index">6</DWord>
+                    <Byte Name="IsChild">1</Byte>
+                    <CExoString Name="LinkComment"></CExoString>
+                </Struct>
+            </List>
+            <CExoString Name="Quest"></CExoString>
+            <ResRef Name="Script"></ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Half-elf</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+        <Struct Id="6">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <List Name="EntriesList">
+                <Struct Id="0">
+                    <ResRef Name="Active">sei_ta_isgn</ResRef>
+                    <DWord Name="Index">7</DWord>
+                    <Byte Name="IsChild">1</Byte>
+                    <CExoString Name="LinkComment"></CExoString>
+                </Struct>
+            </List>
+            <CExoString Name="Quest"></CExoString>
+            <ResRef Name="Script"></ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Gnome</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+        <Struct Id="7">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <List Name="EntriesList">
+                <Struct Id="0">
+                    <ResRef Name="Active">sei_ta_isel</ResRef>
+                    <DWord Name="Index">8</DWord>
+                    <Byte Name="IsChild">1</Byte>
+                    <CExoString Name="LinkComment"></CExoString>
+                </Struct>
+            </List>
+            <CExoString Name="Quest"></CExoString>
+            <ResRef Name="Script"></ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Elf</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+        <Struct Id="8">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <List Name="EntriesList">
+                <Struct Id="0">
+                    <ResRef Name="Active">sei_ta_isdw</ResRef>
+                    <DWord Name="Index">9</DWord>
+                    <Byte Name="IsChild">1</Byte>
+                    <CExoString Name="LinkComment"></CExoString>
+                </Struct>
+            </List>
+            <CExoString Name="Quest"></CExoString>
+            <ResRef Name="Script"></ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Dwarf</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+        <Struct Id="9">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <List Name="EntriesList">
+                <Struct Id="0">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">0</DWord>
+                    <Byte Name="IsChild">1</Byte>
+                    <CExoString Name="LinkComment"></CExoString>
+                </Struct>
+            </List>
+            <CExoString Name="Quest"></CExoString>
+            <ResRef Name="Script">sei_at_setsubr17</ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Standard human</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+        <Struct Id="10">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <List Name="EntriesList">
+                <Struct Id="0">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">0</DWord>
+                    <Byte Name="IsChild">1</Byte>
+                    <CExoString Name="LinkComment"></CExoString>
+                </Struct>
+            </List>
+            <CExoString Name="Quest"></CExoString>
+            <ResRef Name="Script">sei_at_setsubr16</ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Strongheart halfling</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+        <Struct Id="11">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <List Name="EntriesList">
+                <Struct Id="0">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">0</DWord>
+                    <Byte Name="IsChild">1</Byte>
+                    <CExoString Name="LinkComment"></CExoString>
+                </Struct>
+            </List>
+            <CExoString Name="Quest"></CExoString>
+            <ResRef Name="Script">sei_at_setsubr15</ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Lightfoot halfling</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+        <Struct Id="12">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <List Name="EntriesList">
+                <Struct Id="0">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">0</DWord>
+                    <Byte Name="IsChild">1</Byte>
+                    <CExoString Name="LinkComment"></CExoString>
+                </Struct>
+            </List>
+            <CExoString Name="Quest"></CExoString>
+            <ResRef Name="Script">sei_at_setsubr14</ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Ghostwise halfling</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+        <Struct Id="13">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <List Name="EntriesList">
+                <Struct Id="0">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">0</DWord>
+                    <Byte Name="IsChild">1</Byte>
+                    <CExoString Name="LinkComment"></CExoString>
+                </Struct>
+            </List>
+            <CExoString Name="Quest"></CExoString>
+            <ResRef Name="Script">sei_at_setsubr13</ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Standard half-orc</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+        <Struct Id="14">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <List Name="EntriesList">
+                <Struct Id="0">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">0</DWord>
+                    <Byte Name="IsChild">1</Byte>
+                    <CExoString Name="LinkComment"></CExoString>
+                </Struct>
+            </List>
+            <CExoString Name="Quest"></CExoString>
+            <ResRef Name="Script">sei_at_setsubr18</ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Half-drow</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+        <Struct Id="15">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <List Name="EntriesList">
+                <Struct Id="0">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">0</DWord>
+                    <Byte Name="IsChild">1</Byte>
+                    <CExoString Name="LinkComment"></CExoString>
+                </Struct>
+            </List>
+            <CExoString Name="Quest"></CExoString>
+            <ResRef Name="Script">sei_at_setsubr12</ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Standard half-elf</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+        <Struct Id="16">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <List Name="EntriesList">
+                <Struct Id="0">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">0</DWord>
+                    <Byte Name="IsChild">1</Byte>
+                    <CExoString Name="LinkComment"></CExoString>
+                </Struct>
+            </List>
+            <CExoString Name="Quest"></CExoString>
+            <ResRef Name="Script">sei_at_setsubr11</ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Rock gnome</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+        <Struct Id="17">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <List Name="EntriesList">
+                <Struct Id="0">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">0</DWord>
+                    <Byte Name="IsChild">1</Byte>
+                    <CExoString Name="LinkComment"></CExoString>
+                </Struct>
+            </List>
+            <CExoString Name="Quest"></CExoString>
+            <ResRef Name="Script">sei_at_setsubr10</ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Deep gnome (svirfneblin)</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+        <Struct Id="18">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <List Name="EntriesList">
+                <Struct Id="0">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">0</DWord>
+                    <Byte Name="IsChild">1</Byte>
+                    <CExoString Name="LinkComment"></CExoString>
+                </Struct>
+            </List>
+            <CExoString Name="Quest"></CExoString>
+            <ResRef Name="Script">sei_at_setsubr09</ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Wood elf</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+        <Struct Id="19">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <List Name="EntriesList">
+                <Struct Id="0">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">0</DWord>
+                    <Byte Name="IsChild">1</Byte>
+                    <CExoString Name="LinkComment"></CExoString>
+                </Struct>
+            </List>
+            <CExoString Name="Quest"></CExoString>
+            <ResRef Name="Script">sei_at_setsubr08</ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Wild elf</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+        <Struct Id="20">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <List Name="EntriesList">
+                <Struct Id="0">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">0</DWord>
+                    <Byte Name="IsChild">1</Byte>
+                    <CExoString Name="LinkComment"></CExoString>
+                </Struct>
+            </List>
+            <CExoString Name="Quest"></CExoString>
+            <ResRef Name="Script">sei_at_setsubr07</ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Sun elf</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+        <Struct Id="21">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <List Name="EntriesList">
+                <Struct Id="0">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">0</DWord>
+                    <Byte Name="IsChild">1</Byte>
+                    <CExoString Name="LinkComment"></CExoString>
+                </Struct>
+            </List>
+            <CExoString Name="Quest"></CExoString>
+            <ResRef Name="Script">sei_at_setsubr06</ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Moon elf</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+        <Struct Id="22">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <List Name="EntriesList">
+                <Struct Id="0">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">0</DWord>
+                    <Byte Name="IsChild">1</Byte>
+                    <CExoString Name="LinkComment"></CExoString>
+                </Struct>
+            </List>
+            <CExoString Name="Quest"></CExoString>
+            <ResRef Name="Script">sei_at_setsubr05</ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Dark elf (drow)</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+        <Struct Id="23">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <List Name="EntriesList">
+                <Struct Id="0">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">0</DWord>
+                    <Byte Name="IsChild">1</Byte>
+                    <CExoString Name="LinkComment"></CExoString>
+                </Struct>
+            </List>
+            <CExoString Name="Quest"></CExoString>
+            <ResRef Name="Script">sei_at_setsubr04</ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Shield dwarf</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+        <Struct Id="24">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <List Name="EntriesList">
+                <Struct Id="0">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">0</DWord>
+                    <Byte Name="IsChild">1</Byte>
+                    <CExoString Name="LinkComment"></CExoString>
+                </Struct>
+            </List>
+            <CExoString Name="Quest"></CExoString>
+            <ResRef Name="Script">sei_at_setsubr03</ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Gray dwarf (duergar)</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+        <Struct Id="25">
+            <Byte Name="AnimLoop">1</Byte>
+            <DWord Name="Animation">0</DWord>
+            <CExoString Name="Comment"></CExoString>
+            <DWord Name="Delay">4294967295</DWord>
+            <List Name="EntriesList">
+                <Struct Id="0">
+                    <ResRef Name="Active"></ResRef>
+                    <DWord Name="Index">0</DWord>
+                    <Byte Name="IsChild">1</Byte>
+                    <CExoString Name="LinkComment"></CExoString>
+                </Struct>
+            </List>
+            <CExoString Name="Quest"></CExoString>
+            <ResRef Name="Script">sei_at_setsubr02</ResRef>
+            <ResRef Name="Sound"></ResRef>
+            <CExoLocString Name="Text">
+                <DWord Name="StringRef">4294967295</DWord>
+                <SubString>
+                    <Int Name="StringID">0</Int>
+                    <CExoString Name="String">Gold dwarf</CExoString>
+                </SubString>
+            </CExoLocString>
+        </Struct>
+    </List>
+    <List Name="StartingList">
+        <Struct Id="0">
+            <ResRef Name="Active"></ResRef>
+            <DWord Name="Index">1</DWord>
+        </Struct>
+        <Struct Id="1">
+            <ResRef Name="Active"></ResRef>
+            <DWord Name="Index">0</DWord>
+        </Struct>
+    </List>
+</Gff>
